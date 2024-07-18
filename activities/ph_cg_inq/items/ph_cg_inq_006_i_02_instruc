@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_inq_006_i_02_instruc",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_inq_006_i_02_instruc"
+    },
+    "question": {
+        "en": "How important was each of the following reasons for feeding the child solid food for the first time:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

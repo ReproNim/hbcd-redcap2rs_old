@@ -1,0 +1,33 @@
+{
+    "id": "sed_cg_via_location",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_via_location"
+    },
+    "question": {
+        "en": "Remote or on-site?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Remote"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "On-site"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,100 @@
+{
+    "id": "sed_cg_hce_018_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_018_i_02"
+    },
+    "question": {
+        "en": "Did the renovation or repairs include any of the following? (select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Paint removal"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Interior painting or wood staining"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Exterior painting or wood staining"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Wall paper removed or applied"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Installation of new carpeting (wall to wall)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Installation of new vinyl flooring"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Installation of new laminate wood flooring (like Pergo TrafficMaster)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Replacement or installation of waterproof wallboard (purple color)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Replacement of other wallboard"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Room addition wall creation or wall removal"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

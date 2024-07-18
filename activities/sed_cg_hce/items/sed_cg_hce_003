@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_hce_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_003"
+    },
+    "question": {
+        "en": "When was the home or dwelling built?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "2001 to present"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1981 to 2000"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1961 to 1980"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1941 to 1960"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "1940 or before"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

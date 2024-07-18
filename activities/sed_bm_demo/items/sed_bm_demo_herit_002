@@ -1,6 +1,9 @@
 {
     "id": "sed_bm_demo_herit_002",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Race and Ethnicity"
+    },
     "prefLabel": {
         "en": "sed_bm_demo_herit_002"
     },

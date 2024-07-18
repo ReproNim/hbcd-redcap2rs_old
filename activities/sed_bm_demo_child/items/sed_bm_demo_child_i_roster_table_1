@@ -1,0 +1,22 @@
+{
+    "id": "sed_bm_demo_child_i_roster_table_1",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please complete a row in the table below for each person\u00a0who lives in the child's household at least two nights a week. Please start with yourself if you are the primary caregiver and living in this houshold. Continue to list from the youngest person to the oldest for up to 16 people."
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_table_1"
+    },
+    "question": {
+        "en": "Person 1Years of age{sed_bm_demo_child_i_roster_004_i_01}Months of age{sed_bm_demo_child_i_roster_004_i_02}Gender{sed_bm_demo_child_i_roster_004_i_03}{sed_bm_demo_child_i_roster_004_i_03_i_01}Relationship to YOU{sed_bm_demo_child_i_roster_004_i_04}Relationship to Child{sed_bm_demo_child_i_roster_004_i_05}Average\u00a0 days per month this person cares for the child?{sed_bm_demo_child_i_roster_004_i_06}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

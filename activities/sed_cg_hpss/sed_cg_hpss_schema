@@ -1,0 +1,177 @@
+{
+    "id": "sed_cg_hpss_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_hpss"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_hpss_lang",
+            "items/sed_cg_hpss_dtt",
+            "items/sed_cg_hpss_timestamp_start",
+            "items/sed_cg_hpss_location",
+            "items/sed_cg_hpss_001",
+            "items/sed_cg_hpss_002",
+            "items/sed_cg_hpss_003",
+            "items/sed_cg_hpss_004",
+            "items/sed_cg_hpss_005",
+            "items/sed_cg_hpss_006",
+            "items/sed_cg_hpss_007",
+            "items/sed_cg_hpss_008",
+            "items/sed_cg_hpss_009",
+            "items/sed_cg_hpss_010",
+            "items/sed_cg_hpss_011",
+            "items/sed_cg_hpss_012",
+            "items/sed_cg_hpss_013",
+            "items/sed_cg_hpss_014",
+            "items/sed_cg_hpss_015",
+            "items/sed_cg_hpss_016",
+            "items/sed_cg_hpss_017",
+            "items/sed_cg_hpss_018",
+            "items/sed_cg_hpss_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_hpss_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_location"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_001"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_002"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_003"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_004"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_005"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_006"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_007"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_008"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_009"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_010"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_011"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_012"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_013"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_014"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_015"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_016"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_017"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_hpss_018"
+            },
+            {
+                "isAbout": "items/sed_cg_hpss_complete",
+                "isVis": true,
+                "variableName": "sed_cg_hpss_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

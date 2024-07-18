@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_hce_030_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_030_i_01"
+    },
+    "question": {
+        "en": "How often on average are air fresheners sprayed in the child's home or dwelling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "At least once per day"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-6 times per week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1-2 times per week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1-3 times per month"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Rarely or Never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

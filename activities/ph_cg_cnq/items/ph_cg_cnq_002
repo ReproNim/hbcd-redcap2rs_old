@@ -1,0 +1,88 @@
+{
+    "id": "ph_cg_cnq_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_002"
+    },
+    "question": {
+        "en": "What other beverages does your child drink?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Soda/Pop"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Kool-Aid"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "100% Juice"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Drinks in boxes/pouches"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Juice drinks (punch cocktail)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Sweet tea"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Gatorade"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Energy drinks"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None of these"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

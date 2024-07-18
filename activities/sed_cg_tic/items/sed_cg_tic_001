@@ -1,0 +1,45 @@
+{
+    "id": "sed_cg_tic_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_tic_001"
+    },
+    "question": {
+        "en": "The next few questions ask about the people who have provided care and support for CHILD at different times during CHILD's life. Since CHILD was born, has there been a time when someone other than you was primarily responsible for providing CHILD with care and support?  \n[NOTE: This might include times the child was in the care of someone else, or times that you could not care for CHILD for 2 weeks or more, or when things in your life kept you from having time for being CHILD's caregiver. Do NOT include very short periods like a weekend away or a vacation, or periods of time like when you were working -- or had an appointment - so CHILD had daycare, a nanny, or a babysitter."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

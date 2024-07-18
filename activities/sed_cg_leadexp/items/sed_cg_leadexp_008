@@ -1,0 +1,45 @@
+{
+    "id": "sed_cg_leadexp_008",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_leadexp_008"
+    },
+    "question": {
+        "en": "Do you have pottery or ceramics made in other countries or lead crystal or pewter that are used for cooking, storing or serving food or drink?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

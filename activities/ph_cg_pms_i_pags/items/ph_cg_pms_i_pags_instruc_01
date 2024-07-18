@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_pms_i_pags_instruc_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_pms_i_pags_instruc_01"
+    },
+    "question": {
+        "en": "Please respond to each question or statement by marking one box per row."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

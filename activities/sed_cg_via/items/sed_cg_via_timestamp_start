@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_via_timestamp_start",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_via_timestamp_start"
+    },
+    "question": {
+        "en": "Start time (server)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

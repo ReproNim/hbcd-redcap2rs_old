@@ -1,0 +1,82 @@
+{
+    "id": "sed_cg_hce_010",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_010"
+    },
+    "question": {
+        "en": "Which fuels are used for heating this home or dwelling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gas: from underground pipes serving the neighborhood"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Gas: bottled tank or liquid petroleum"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Electricity"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Fuel oil kerosene etc."
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Coal or coke"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Wood"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Solar energy"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other fuel"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "sed_cg_home_ec_009",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_home_ec_009"
+    },
+    "question": {
+        "en": "How often do you or another adult in your home take your child shopping (like going to the grocery store)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hardly ever"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Once a month"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once a week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Twice a week or more"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

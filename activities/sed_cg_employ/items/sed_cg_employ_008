@@ -1,0 +1,159 @@
+{
+    "id": "sed_cg_employ_008",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_008"
+    },
+    "question": {
+        "en": "In what kind of business or industry do you currently work? Please provide select the category that best represents the business or industry. If you have more than one job, describe the job at which you worked the most hours in the past week."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "<span title=\"Growing crops raising animals harvesting timber and harvesting fish and other animals from farms ranches or the animals' natural habitats.\">Agriculture Forestry Fishing and Hunting</span>"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Extracting naturally occurring mineral solids such as coal and ore; liquid minerals such as crude petroleum; and gases such as natural gas; and beneficiating (for example crushing screening washing and flotation) and other preparation at the mine site or as part of mining activity.\">Mining Quarrying and Oil and Gas Extraction</span>"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Generating transmitting and/or distributing electricity gas steam and water and removing sewage through a permanent infrastructure of lines mains and pipe.\">Utilities</span>"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Erecting buildings and other structures (including additions); heavy construction other than buildings; and alterations reconstruction installation and maintenance and repairs.\">Construction</span>"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Mechanical physical or chemical transformation of materials substances or components into new products.\">Manufacturing</span>"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Selling or arranging for the purchase or sale of goods for resale capital or durable non-consumer goods and raw and intermediate materials and supplies used in production; and providing services incidental to the sale of the merchandise.\">Wholesale Trade</span>"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Retailing merchandise generally in small quantities to the general public and providing services incidental to the sale of the merchandise.\">Retail Trade</span>"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Providing transportation of passengers and cargo warehousing and storing goods scenic and sightseeing transportation and supporting these activities.\">Transportation and Warehousing</span>"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Distributing information and cultural products providing the means to transmit or distribute these products as data or communications and processing data.\">Information</span>"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Involves the creation liquidation or change in ownership of financial assets (financial transactions) and/or facilitating financial transactions.\">Finance and Insurance</span>"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Renting leasing or otherwise allowing the use of tangible or intangible assets (except copyrighted works) and providing related services.\">Real Estate and Rental and Leasing</span>"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Performing professional scientific and technical services for the operations of other organizations.\">Professional Scientific and Technical Services</span>"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "<span title=\"The holding of securities of companies and enterprises for the purpose of owning controlling interest or influencing their management decisions or administering overseeing and managing other establishments of the same company or enterprise and normally undertaking the strategic or organizational planning and decision-making role of the company or enterprise.\">Management of Companies and Enterprises</span>"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Performing routine support activities for the day-to-day operations of other organizations.\">Administrative and Support and Waste Management and Remediation Services</span>"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Providing instruction and training in a wide variety of subjects.\">Educational Services</span>"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Providing health care and social assistance for individuals.\">Health Care and Social Assistance</span>"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Operating or providing services to meet varied cultural entertainment and recreational interests of their patrons.\">Arts Entertainment and Recreation</span>"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Providing customers with lodging and/or preparing meals snacks and beverages for immediate consumption.\">Accommodation and Food Services</span>"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Providing services not elsewhere specified including repairs religious activities grantmaking advocacy laundry personal care death care and other personal services.\">Other Services (except Public Administration)</span>"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Administration management and oversight of public programs by Federal State and local governments.\">Public Administration (except Armed Forces)</span>"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "<span title=\"Service in the U.S. Armed Forces including Active Duty National Guard and Reserves.\">Armed Forces</span>"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

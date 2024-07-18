@@ -1,0 +1,64 @@
+{
+    "id": "ph_cg_bisq_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_002"
+    },
+    "question": {
+        "en": "When your child wakes up during the night, what do you usually do? (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pick up my child and put him/her back down while still awake"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Breastfeed/nurse my child back to sleep"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Bottle feed or give a suppy cup to put my child back to sleep"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Play with my child watch TV or use/show smartphone/tablet"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "None of these"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "ph_cg_ecls_i_medhist_019_i_04",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_019_i_04"
+    },
+    "question": {
+        "en": "What was the maximum breathing support your child needed?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No oxygen or breathing support"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Oxygen through their nose or a mask"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Breathing tube (intubation)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

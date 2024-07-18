@@ -1,0 +1,22 @@
+{
+    "id": "sed_bm_demo_work_004_i_01_instr01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Work Environment"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_work_004_i_01_instr01"
+    },
+    "question": {
+        "en": "Now we are going to ask you about the job you held in your 3rd trimester for at least one month that involved at least 20 hours per week of work. If you held more than one job, answer the questions for the job that you worked at for the most time."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

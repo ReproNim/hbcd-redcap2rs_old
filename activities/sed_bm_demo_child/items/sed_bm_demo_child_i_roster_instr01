@@ -1,0 +1,22 @@
+{
+    "id": "sed_bm_demo_child_i_roster_instr01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Household Relationships"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_instr01"
+    },
+    "question": {
+        "en": "We would like to know more about your child's household. This includes the group of people who live with the child in the same home, dwelling, or place. Please include any households where your child lives for at least 2 days per week."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

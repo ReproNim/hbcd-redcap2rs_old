@@ -52,21 +52,25 @@
             {
                 "isAbout": "items/sed_bm_ehits_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_lang"
             },
             {
                 "isAbout": "items/sed_bm_ehits_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_dtt"
             },
             {
                 "isAbout": "items/sed_bm_ehits_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_timestamp_start"
             },
             {
                 "isAbout": "items/sed_bm_ehits_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_location"
             },
             {
@@ -102,36 +106,43 @@
             {
                 "isAbout": "items/sed_bm_ehits_001_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_001_i_01"
             },
             {
                 "isAbout": "items/sed_bm_ehits_002_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_002_i_01"
             },
             {
                 "isAbout": "items/sed_bm_ehits_003_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_003_i_01"
             },
             {
                 "isAbout": "items/sed_bm_ehits_004_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_004_i_01"
             },
             {
                 "isAbout": "items/sed_bm_ehits_005_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_005_i_01"
             },
             {
                 "isAbout": "items/sed_bm_ehits_score",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_score"
             },
             {
                 "isAbout": "items/sed_bm_ehits_flag01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_ehits_flag01"
             },
             {
@@ -142,6 +153,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

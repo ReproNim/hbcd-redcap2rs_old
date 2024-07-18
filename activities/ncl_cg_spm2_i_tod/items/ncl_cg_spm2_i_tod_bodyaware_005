@@ -1,0 +1,51 @@
+{
+    "id": "ncl_cg_spm2_i_tod_bodyaware_005",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_cg_spm2_i_tod_bodyaware_005"
+    },
+    "question": {
+        "en": "Moves slowly or sluggishly."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Frequently"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

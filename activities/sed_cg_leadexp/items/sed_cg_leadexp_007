@@ -1,0 +1,45 @@
+{
+    "id": "sed_cg_leadexp_007",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_leadexp_007"
+    },
+    "question": {
+        "en": "Does your child spend time with anyone that has a job or hobby where they may work with lead? (Examples: painting, remodeling, auto radiators, batteries, auto repair, soldering, making sinkers for fishing, bullets, stained glass or jewelry making, pottery, going to shooting ranges, hunting or fishing)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

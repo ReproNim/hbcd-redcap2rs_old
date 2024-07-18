@@ -1,0 +1,51 @@
+{
+    "id": "ph_cg_ecls_i_medhist_021",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_021"
+    },
+    "question": {
+        "en": "Has your child had their hearing tested within the last 12 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes a regular screening"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes a referral for hearing concerns"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

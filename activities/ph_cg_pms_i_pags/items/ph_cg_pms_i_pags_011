@@ -1,0 +1,75 @@
+{
+    "id": "ph_cg_pms_i_pags_011",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_pms_i_pags_011"
+    },
+    "question": {
+        "en": "Has anything stopped your and your child from spending time outside in the last 2 weeks?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Weather (too cold or too hot)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Safety concerns"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I don't like spending time outside"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Child doesn't like spending time outside"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

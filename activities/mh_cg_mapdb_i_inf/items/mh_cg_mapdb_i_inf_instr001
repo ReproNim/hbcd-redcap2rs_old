@@ -1,0 +1,19 @@
+{
+    "id": "mh_cg_mapdb_i_inf_instr001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_mapdb_i_inf_instr001"
+    },
+    "question": {
+        "en": "Now we are interested in learning about your baby's behavior and feelings when angry, upset or frustrated. Please answer the following questions about the past month with your baby. You may notice that more than one question asks about similar behaviors or feelings. This is because babies may express the same thing in different ways. Thank you for responding to each item to provide us with a detailed picture of how your baby manages behavior and feelings."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

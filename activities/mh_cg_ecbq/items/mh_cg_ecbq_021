@@ -1,0 +1,75 @@
+{
+    "id": "mh_cg_ecbq_021",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_ecbq_021"
+    },
+    "question": {
+        "en": "When told \"no\", how often did your child stop the \"forbidden\" activity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Less Than Half the Time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About Half the Time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "More than Half the Time"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Almost Always"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Does Not Apply"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

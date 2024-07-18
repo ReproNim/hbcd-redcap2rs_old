@@ -1,0 +1,134 @@
+{
+    "id": "ph_cg_pms_i_pags_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_pms_i_pags"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_pms_i_pags_lang",
+            "items/ph_cg_pms_i_pags_dtt",
+            "items/ph_cg_pms_i_pags_timestamp_start",
+            "items/ph_cg_pms_i_pags_location",
+            "items/ph_cg_pms_i_pags_instruc_01",
+            "items/ph_cg_pms_i_pags_001",
+            "items/ph_cg_pms_i_pags_002",
+            "items/ph_cg_pms_i_pags_003",
+            "items/ph_cg_pms_i_pags_004",
+            "items/ph_cg_pms_i_pags_005",
+            "items/ph_cg_pms_i_pags_006",
+            "items/ph_cg_pms_i_pags_007",
+            "items/ph_cg_pms_i_pags_008",
+            "items/ph_cg_pms_i_pags_009",
+            "items/ph_cg_pms_i_pags_010",
+            "items/ph_cg_pms_i_pags_011",
+            "items/ph_cg_pms_i_pags_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_dtt"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_location"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_instruc_01",
+                "isVis": true,
+                "variableName": "ph_cg_pms_i_pags_instruc_01"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_001"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_002"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_003"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_004"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_005"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_006"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_007"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_008"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_009"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_010"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_pags_011"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_pags_complete",
+                "isVis": true,
+                "variableName": "ph_cg_pms_i_pags_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

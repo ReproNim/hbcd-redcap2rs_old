@@ -1,0 +1,75 @@
+{
+    "id": "ph_cg_bisq_pb_008",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_pb_008"
+    },
+    "question": {
+        "en": "Where does your child sleep for most of the night?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Crib"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Bassinet/infant seat"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Own bed (any size)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Swing/stroller"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Caregiver's bed"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Co-sleeper (attached to parent's bed)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

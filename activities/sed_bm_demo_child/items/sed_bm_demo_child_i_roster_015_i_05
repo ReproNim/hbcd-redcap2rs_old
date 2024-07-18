@@ -1,0 +1,105 @@
+{
+    "id": "sed_bm_demo_child_i_roster_015_i_05",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_015_i_05"
+    },
+    "question": {
+        "en": "Person 12 relationship to child household 1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Parent"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Step Parent"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Adopted Parent"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Foster Parent"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Full sibling"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Half sibling"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Non-biologically related sibling"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Grandparent"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Aunt or Uncle"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Cousin"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other Relative"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Other Non-relative"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

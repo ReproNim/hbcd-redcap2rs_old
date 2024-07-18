@@ -1,0 +1,94 @@
+{
+    "id": "sed_bm_demo_child_i_herit_001_i_06",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_herit_001_i_06"
+    },
+    "question": {
+        "en": "Native Hawaiian or other Pacific Islander"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Chamorro"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Chuukese"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fijian"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Marshallese"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Palauan"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Samoan"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Tahitian"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Tongan"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe me / Other"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

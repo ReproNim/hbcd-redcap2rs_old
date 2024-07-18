@@ -1,0 +1,118 @@
+{
+    "id": "sed_cg_pedaces_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_pedaces"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_pedaces_lang",
+            "items/sed_cg_pedaces_dtt",
+            "items/sed_cg_pedaces_timestamp_start",
+            "items/sed_cg_pedaces_location",
+            "items/sed_cg_pedaces_001",
+            "items/sed_cg_pedaces_002",
+            "items/sed_cg_pedaces_003",
+            "items/sed_cg_pedaces_004",
+            "items/sed_cg_pedaces_005",
+            "items/sed_cg_pedaces_006",
+            "items/sed_cg_pedaces_007",
+            "items/sed_cg_pedaces_008",
+            "items/sed_cg_pedaces_009",
+            "items/sed_cg_pedaces_010",
+            "items/sed_cg_pedaces_011",
+            "items/sed_cg_pedaces_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_pedaces_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_pedaces_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_pedaces_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_pedaces_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_pedaces_location"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_001",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_001"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_002",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_002"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_003",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_003"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_004",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_004"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_005",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_005"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_006",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_006"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_007",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_007"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_008",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_008"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_009",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_009"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_010",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_010"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_pedaces_011"
+            },
+            {
+                "isAbout": "items/sed_cg_pedaces_complete",
+                "isVis": true,
+                "variableName": "sed_cg_pedaces_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

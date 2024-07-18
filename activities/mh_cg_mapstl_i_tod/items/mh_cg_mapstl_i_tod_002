@@ -1,0 +1,63 @@
+{
+    "id": "mh_cg_mapstl_i_tod_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_mapstl_i_tod_002"
+    },
+    "question": {
+        "en": "Become frustrated easily"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rarely (Less than once per week)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Some (1-3) days of the week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Most (4-6) days of the week"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Every day of the week"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Many times each day"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

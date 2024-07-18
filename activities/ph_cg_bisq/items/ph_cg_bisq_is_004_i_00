@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_bisq_is_004_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_is_004_i_00"
+    },
+    "question": {
+        "en": "How much time does your child spend in sleep during the NIGHT (between when your child goes to bed and wakes for the day)?  Please make a selection for both hours and minutes, even if minutes are zero \"0.\"\n\nExample: If your child sleeps for 3 hours, wakes up, then sleeps for 5 hours and 30 minutes more, your child sleeps for 8 hours and 30 minutes total. In that case, select \"Hours of total nighttime sleep: 8 and Minutes of total nighttime sleep: 30.\"\n\nHours of total nighttime sleep: {ph_cg_bisq_is_004_i_01}\nMinutes of total nighttime sleep: {ph_cg_bisq_is_004_i_02}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

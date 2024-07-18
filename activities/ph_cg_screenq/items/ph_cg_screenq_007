@@ -1,0 +1,51 @@
+{
+    "id": "ph_cg_screenq_007",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_screenq_007"
+    },
+    "question": {
+        "en": "How many hours on a typical day does the child watch TV/videos, play video or computer games, or use apps?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "3+"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2.9"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Less than 1"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

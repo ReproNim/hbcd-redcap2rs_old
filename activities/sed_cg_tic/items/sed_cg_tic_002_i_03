@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_tic_002_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_tic_002_i_03"
+    },
+    "question": {
+        "en": "During this time, who was the person primarily responsible for providing CHILD with care and support?  What is this person"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Other parent (biological step- or adoptive)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Foster parent"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Grandparent or great grandparent"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other relative (sibling aunt uncle cousin)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Non-relative (e.g. family friend)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

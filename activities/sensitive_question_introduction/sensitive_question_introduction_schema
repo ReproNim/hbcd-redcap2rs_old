@@ -1,0 +1,32 @@
+{
+    "id": "sensitive_question_introduction_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "sensitive_question_introduction"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sensitive_q_introduction",
+            "items/sensitive_question_introduction_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sensitive_q_introduction",
+                "isVis": true,
+                "variableName": "sensitive_q_introduction"
+            },
+            {
+                "isAbout": "items/sensitive_question_introduction_complete",
+                "isVis": true,
+                "variableName": "sensitive_question_introduction_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -5,7 +5,7 @@
         "en": "pex_bm_healthv2_preg_i_meds_046_dk"
     },
     "question": {
-        "en": "# meds dk/decline"
+        "en": "# meds dk/decline prescription"
     },
     "responseOptions": {
         "choices": [

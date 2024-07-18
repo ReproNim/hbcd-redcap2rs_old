@@ -25,21 +25,25 @@
             {
                 "isAbout": "items/sed_bm_strsup_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_strsup_lang"
             },
             {
                 "isAbout": "items/sed_bm_strsup_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_strsup_dtt"
             },
             {
                 "isAbout": "items/sed_bm_strsup_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_strsup_timestamp_start"
             },
             {
                 "isAbout": "items/sed_bm_strsup_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_bm_strsup_location"
             },
             {
@@ -98,6 +102,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

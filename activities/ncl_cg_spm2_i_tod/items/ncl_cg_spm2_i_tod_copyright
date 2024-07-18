@@ -1,0 +1,19 @@
+{
+    "id": "ncl_cg_spm2_i_tod_copyright",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_cg_spm2_i_tod_copyright"
+    },
+    "question": {
+        "en": "Material from the SPM-2 copyright \u00a9 2021 by Western Psychological Services. Format adapted by the University of California, San Diego for specific, limited research use for the \"The Healthy Brain and Child Development (HBCD) study,\" under license of the publisher, WPS (rights@wpspublish.com). No additional reproduction, in whole or in part, by any medium or for any purpose, may be made without the prior, written authorization of WPS. All rights reserved."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

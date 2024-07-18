@@ -1,0 +1,52 @@
+{
+    "id": "sed_cg_employ_011_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_011_i_01"
+    },
+    "question": {
+        "en": "Before coming home, do you/they.. (select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Change clothes?"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Change shoes?"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Shower?"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

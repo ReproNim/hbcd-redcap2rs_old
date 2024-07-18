@@ -1,0 +1,70 @@
+{
+    "id": "ph_cg_ecls_i_medhist_024_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_024_i_01"
+    },
+    "question": {
+        "en": "What were the reasons for the overnight stays (select all)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Asthma Bronchitis Pneumonia or Bronchiolitis"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Severe gastrointestinal illness (vomiting/throwing up and/or diarrhea)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Injury"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Surgery"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Mood or behavior problem"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "sed_cg_cabr_sf_002",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "We would like to know if you experienced any of the actions listed below fromanycurrent or former partner or partners. If it ever happened to you, please tell ushow oftenit usually happened in the past 12 months."
+    },
+    "prefLabel": {
+        "en": "sed_cg_cabr_sf_002"
+    },
+    "question": {
+        "en": "My partner(s) blamed me for causing their violent behavior"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

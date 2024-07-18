@@ -1,0 +1,48 @@
+{
+    "id": "sed_cg_cabr_sf_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "These questions ask about your experiences in adult intimate relationships. By adult intimate relationship we mean a current or former spouse, partner, or significant other for longer than one month."
+    },
+    "prefLabel": {
+        "en": "sed_cg_cabr_sf_001"
+    },
+    "question": {
+        "en": "Have you ever been in an adult intimate relationship? (Since you were 16 years of age)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "sed_cg_shs_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about your child's primary residence (the place outside of daycare where they spend the most time). If the child lives in two places at least 2 days per week, please answer the questions about the residence you are most familiar with."
+    },
+    "prefLabel": {
+        "en": "sed_cg_shs_001"
+    },
+    "question": {
+        "en": "Does the child live with anyone who smokes cigarettes?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

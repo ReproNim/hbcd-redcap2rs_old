@@ -1,0 +1,22 @@
+{
+    "id": "ph_cg_ecls_i_medhist_019_i_00",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "COVID health"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_019_i_00"
+    },
+    "question": {
+        "en": "Has your childever:"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

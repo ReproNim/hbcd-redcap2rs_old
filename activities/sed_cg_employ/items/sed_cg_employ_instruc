@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_employ_instruc",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_instruc"
+    },
+    "question": {
+        "en": "The following questions are about your occupation and employment."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

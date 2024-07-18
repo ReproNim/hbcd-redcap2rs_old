@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_hce_020_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_020_i_01"
+    },
+    "question": {
+        "en": "How many times?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "3-6"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7-11"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "12 or more"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

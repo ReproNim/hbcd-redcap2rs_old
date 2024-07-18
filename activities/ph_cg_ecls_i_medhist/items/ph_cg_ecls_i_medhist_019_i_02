@@ -1,0 +1,57 @@
+{
+    "id": "ph_cg_ecls_i_medhist_019_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_019_i_02"
+    },
+    "question": {
+        "en": "In your opinion what was the severity of COVID infection (if your child has had multiple infections, please report for the most severe)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No symptoms"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild symptoms (still able to play normally)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate symptoms (impacted their daily activities)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe symptoms (prompted medical evaluation)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

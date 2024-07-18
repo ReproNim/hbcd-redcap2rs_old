@@ -1,0 +1,64 @@
+{
+    "id": "ph_cg_cnq_001_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_001_i_02"
+    },
+    "question": {
+        "en": "What kind of cow's milk?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Raw milk"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Whole milk"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "2% milk"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1% milk"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Skim milk"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

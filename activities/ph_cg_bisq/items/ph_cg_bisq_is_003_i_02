@@ -1,0 +1,105 @@
+{
+    "id": "ph_cg_bisq_is_003_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_is_003_i_02"
+    },
+    "question": {
+        "en": "Longest stretch of sleep (minutes):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "15"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "20"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "25"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "35"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "40"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "45"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "50"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "55"
+                },
+                "value": 55
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

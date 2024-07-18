@@ -1,0 +1,66 @@
+{
+    "id": "ph_cg_ecls_i_medhist_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Since the last time we discussed your child's general health:"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_001"
+    },
+    "question": {
+        "en": "In general, would you say your child's health is"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Excellent"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very Good"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Good"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Fair"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Poor"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

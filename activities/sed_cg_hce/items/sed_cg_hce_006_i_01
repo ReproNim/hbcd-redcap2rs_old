@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_hce_006_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_006_i_01"
+    },
+    "question": {
+        "en": "What type?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Central unit/units"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Window or wall unit/units"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Portable unit/units"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Swamp / Evaporative Cooler"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

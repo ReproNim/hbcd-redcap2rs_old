@@ -1,0 +1,63 @@
+{
+    "id": "ph_cg_ecls_i_medhist_004",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_004"
+    },
+    "question": {
+        "en": "Have you taken your child to receive routine childhood immunizations (vaccines, shots)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes on the schedule recommended by my pediatrician"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes on an alternate schedule (for example did you ask to space out shots/vaccines or only do one vaccination/shot at a time)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No because we don't have access"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No because I don't believe in shots or vaccines"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No for another reason"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

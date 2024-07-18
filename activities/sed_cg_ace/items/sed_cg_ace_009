@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_ace_009",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_ace_009"
+    },
+    "question": {
+        "en": "9) Did you feel that no one in your family loved you or thought you were special?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

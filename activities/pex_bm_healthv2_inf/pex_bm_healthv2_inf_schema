@@ -23,6 +23,7 @@
             "items/pex_bm_healthv2_inf_002_i_00",
             "items/pex_bm_healthv2_inf_002",
             "items/pex_bm_healthv2_inf_002_i_dk",
+            "items/pex_bm_healthv2_inf_004_i_01",
             "items/pex_bm_healthv2_inf_004_i_00",
             "items/pex_bm_healthv2_inf_004",
             "items/pex_bm_healthv2_inf_004_i_dk",
@@ -126,16 +127,19 @@
             {
                 "isAbout": "items/pex_bm_healthv2_inf_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_inf_lang"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_inf_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_inf_dtt"
             },
             {
                 "isAbout": "items/pex_bm_healthv2_inf_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_inf_timestamp_start"
             },
             {
@@ -181,11 +185,18 @@
             {
                 "isAbout": "items/pex_bm_healthv2_inf_002_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_healthv2_inf_002_i_01"
             },
             {
+                "isAbout": "items/pex_bm_healthv2_inf_004_i_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_healthv2_inf_004_i_01"
+            },
+            {
                 "isAbout": "items/pex_bm_healthv2_inf_004_i_00",
-                "isVis": "pex_bm_healthv2_preg_i_outcome_004 == '1' OR pex_bm_healthv2_preg_i_outcome_004 == '2'",
+                "isVis": "( pex_bm_healthv2_preg_i_outcome_004 == '1' OR pex_bm_healthv2_preg_i_outcome_004 == '2') AND pex_bm_healthv2_inf_004_i_01 == '1'",
                 "variableName": "pex_bm_healthv2_inf_004_i_00"
             },
             {
@@ -749,6 +760,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

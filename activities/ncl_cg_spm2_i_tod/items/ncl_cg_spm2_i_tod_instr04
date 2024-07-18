@@ -1,0 +1,22 @@
+{
+    "id": "ncl_cg_spm2_i_tod_instr04",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Touch"
+    },
+    "prefLabel": {
+        "en": "ncl_cg_spm2_i_tod_instr04"
+    },
+    "question": {
+        "en": "Instructions: Please answer these questions based on thechild's typical behavior during the past month. Using the following rating scale, select the one answer that best describes how often the behavior happens.Never: The behavior never or almost never happens.Occasionally: The behavior happens some of the time.Frequently: The behavior happens much of the time.Always: The behavior always or almost always happens.Some questions ask whether this infant or toddler shows \"distress\" in certain situations. Distress may include behaviors (whining, crying, fussing, wincing, grimacing, looking scared or upset); movements (squirming, flailing, stiffening, flinching, pushing away, sudden blinking, spreading fingers, covering ears or eyes, pulling back hand, foot, or head); or body changes (flushing, rash, sweating, change in breathing, gagging, vomiting)."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_ace_004",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_ace_004"
+    },
+    "question": {
+        "en": "4) Did you live with anyone who had a problem with drinking or using drugs, including prescription drugs?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

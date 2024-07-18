@@ -1,0 +1,57 @@
+{
+    "id": "sed_cg_home_ec_015",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_home_ec_015"
+    },
+    "question": {
+        "en": "How much choice is your child allowed in deciding what foods they eat at breakfast and lunch?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No choice"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Little choice"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Some choice"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A great deal of choice"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

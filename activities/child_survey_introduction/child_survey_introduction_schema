@@ -1,0 +1,44 @@
+{
+    "id": "child_survey_introduction_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "child_survey_introduction"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/child_introduction_v4",
+            "items/child_introduction_v5",
+            "items/child_introduction_v6",
+            "items/child_survey_introduction_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/child_introduction_v4",
+                "isVis": "event-name == 'v04_arm_1'",
+                "variableName": "child_introduction_v4"
+            },
+            {
+                "isAbout": "items/child_introduction_v5",
+                "isVis": "event-name == 'v05_arm_1'",
+                "variableName": "child_introduction_v5"
+            },
+            {
+                "isAbout": "items/child_introduction_v6",
+                "isVis": "event-name == 'v06_arm_1'",
+                "variableName": "child_introduction_v6"
+            },
+            {
+                "isAbout": "items/child_survey_introduction_complete",
+                "isVis": true,
+                "variableName": "child_survey_introduction_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

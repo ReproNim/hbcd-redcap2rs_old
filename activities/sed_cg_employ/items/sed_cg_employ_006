@@ -1,0 +1,76 @@
+{
+    "id": "sed_cg_employ_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_006"
+    },
+    "question": {
+        "en": "Which of the following describes your work schedule in ALL jobs in the past week? (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Regular daytime schedule"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Regular evening shift"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Regular nighttime shift"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rotating shifts (one that changes regularly from days to evenings or nights)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Split shift (one consisting of two distinct periods each day)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Irregular schedule (one that changes from day to day)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

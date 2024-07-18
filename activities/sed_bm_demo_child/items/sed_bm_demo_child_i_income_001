@@ -1,0 +1,96 @@
+{
+    "id": "sed_bm_demo_child_i_income_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Income"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_income_001"
+    },
+    "question": {
+        "en": "Which of these categories best describes the TOTAL COMBINED INCOME of the CHILD'S HOUSEHOLD(S) for the past 12 months? This should include income (before taxes and deductions) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relatives (include child payments and alimony), and so on. If the child lives in more than one household, please average the household incomes."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than $10,000"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "$10,000 through $14,999"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "$15,000 through $19,999"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "$20,000 through $24,999"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "$25,000 through $34,999"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "$35,000 through $49,999"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "$50,000 through $74,999"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "$75,000 through $99,999"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "$100,000 through $199,999"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "$200,000 and greater"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

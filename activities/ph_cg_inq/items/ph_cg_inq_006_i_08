@@ -1,0 +1,63 @@
+{
+    "id": "ph_cg_inq_006_i_08",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_inq_006_i_08"
+    },
+    "question": {
+        "en": "To help the child sleep longer at night"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all important"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Not very important"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Somewhat important"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Very important"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

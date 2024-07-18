@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_home_ec_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_home_ec_003"
+    },
+    "question": {
+        "en": "About how many hours are the TVs or other screens in your home in use each day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 hour"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 hours"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-4 hours"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-7 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "8 hours or more"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

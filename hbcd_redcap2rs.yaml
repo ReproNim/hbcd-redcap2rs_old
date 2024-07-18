@@ -1,4 +1,4 @@
 protocol_description: HBCD Protocol converted from REDCap to ReproSchema
 protocol_display_name: HBCD Protocol
 protocol_name: hbcd-redcap2rs
-redcap_version: revid116
+redcap_version: revid117

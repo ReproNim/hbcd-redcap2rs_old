@@ -1,0 +1,48 @@
+{
+    "id": "ph_cg_ecls_i_medhist_020",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Medical specialty care"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_020"
+    },
+    "question": {
+        "en": "Has your child ever needed to see a medical specialist, or has your pediatrician or regular doctor ever sent your child to be seen by a specialty doctor?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

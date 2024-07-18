@@ -1,0 +1,69 @@
+{
+    "id": "sed_cg_home_ec_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_home_ec_006"
+    },
+    "question": {
+        "en": "How often does your child spend time with you or another adult in your home doing outdoor activities (like going for a walk outside, playing at a park playground)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A few times a year or less"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once a month"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Once a week"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "At least four times a week"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Once a day or more often"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

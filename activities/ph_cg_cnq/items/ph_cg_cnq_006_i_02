@@ -1,0 +1,64 @@
+{
+    "id": "ph_cg_cnq_006_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_006_i_02"
+    },
+    "question": {
+        "en": "What beverage is in the bottle when the child is sleeping?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Plain water"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Milk (including cow's milk and other milks)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Juice drinks (including Kool-Aid 100% Juice Sweet Tea and Gatorade)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Soda/Pop"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

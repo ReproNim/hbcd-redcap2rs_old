@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_ecls_i_medhist_025_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_025_i_02"
+    },
+    "question": {
+        "en": "What other surgery?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

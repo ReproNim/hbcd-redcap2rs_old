@@ -1,0 +1,66 @@
+{
+    "id": "sed_cg_home_ec_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Now we have some questions about you and your child at home."
+    },
+    "prefLabel": {
+        "en": "sed_cg_home_ec_001"
+    },
+    "question": {
+        "en": "About how many children's books does your child have?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-9"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "10-19"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "20 or more"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

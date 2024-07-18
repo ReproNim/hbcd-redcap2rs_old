@@ -1,0 +1,82 @@
+{
+    "id": "ph_cg_cnq_011_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_011_i_01"
+    },
+    "question": {
+        "en": "If yes, which foods is your child allergic to?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Seafood"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Peanuts"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Nuts"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Eggs"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Wheat"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Soy"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Milk"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

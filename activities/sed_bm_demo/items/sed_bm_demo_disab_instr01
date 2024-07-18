@@ -1,0 +1,22 @@
+{
+    "id": "sed_bm_demo_disab_instr01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Disability Status"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_disab_instr01"
+    },
+    "question": {
+        "en": "The study investigators would like to make sure the data we collect represents all groups of residents in the US.  In order to do so, we need to ask a few questions about your daily independent functioning. Please let us know if any of these statements apply to you."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

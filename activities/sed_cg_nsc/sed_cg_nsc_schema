@@ -1,0 +1,254 @@
+{
+    "id": "sed_cg_nsc_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_nsc"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_nsc_lang",
+            "items/sed_cg_nsc_dtt",
+            "items/sed_cg_nsc_timestamp_start",
+            "items/sed_cg_nsc_location",
+            "items/sed_cg_nsc_001",
+            "items/sed_cg_nsc_001_i_01",
+            "items/sed_cg_nsc_002",
+            "items/sed_cg_nsc_003",
+            "items/sed_cg_nsc_003_i_01",
+            "items/sed_cg_nsc_004",
+            "items/sed_cg_nsc_004_i_01",
+            "items/sed_cg_nsc_005",
+            "items/sed_cg_nsc_005_i_01",
+            "items/sed_cg_nsc_006",
+            "items/sed_cg_nsc_006_i_01",
+            "items/sed_cg_nsc_007",
+            "items/sed_cg_nsc_007_i_01",
+            "items/sed_cg_nsc_008",
+            "items/sed_cg_nsc_008_i_01",
+            "items/sed_cg_nsc_009",
+            "items/sed_cg_nsc_010",
+            "items/sed_cg_nsc_010_i_01",
+            "items/sed_cg_nsc_011",
+            "items/sed_cg_nsc_011_i_01",
+            "items/sed_cg_nsc_012",
+            "items/sed_cg_nsc_012_i_01",
+            "items/sed_cg_nsc_013",
+            "items/sed_cg_nsc_013_i_01",
+            "items/sed_cg_nsc_014",
+            "items/sed_cg_nsc_014_i_01",
+            "items/sed_cg_nsc_015",
+            "items/sed_cg_nsc_016",
+            "items/sed_cg_nsc_017",
+            "items/sed_cg_nsc_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_nsc_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_location"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_001"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_001_i_01",
+                "isVis": "sed_cg_nsc_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_002"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_003",
+                "isVis": "sed_cg_nsc_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_003"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_003_i_01",
+                "isVis": "sed_cg_nsc_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_003_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_004",
+                "isVis": "sed_cg_nsc_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_004"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_004_i_01",
+                "isVis": "sed_cg_nsc_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_005",
+                "isVis": "sed_cg_nsc_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_005"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_005_i_01",
+                "isVis": "sed_cg_nsc_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_006",
+                "isVis": "sed_cg_nsc_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_006"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_006_i_01",
+                "isVis": "sed_cg_nsc_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_006_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_007",
+                "isVis": "sed_cg_nsc_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_007"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_007_i_01",
+                "isVis": "sed_cg_nsc_007 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_007_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_008"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_008_i_01",
+                "isVis": "sed_cg_nsc_008 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_008_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_009"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_010",
+                "isVis": "sed_cg_nsc_009 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_010"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_010_i_01",
+                "isVis": "sed_cg_nsc_010 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_011",
+                "isVis": "sed_cg_nsc_009 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_011"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_011_i_01",
+                "isVis": "sed_cg_nsc_011 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_012",
+                "isVis": "sed_cg_nsc_009 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_012"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_012_i_01",
+                "isVis": "sed_cg_nsc_012 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_012_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_013",
+                "isVis": "sed_cg_nsc_009 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_013"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_013_i_01",
+                "isVis": "sed_cg_nsc_013 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_013_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_014",
+                "isVis": "sed_cg_nsc_009 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_014"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_014_i_01",
+                "isVis": "sed_cg_nsc_014 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_014_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_015"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_016"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_nsc_017"
+            },
+            {
+                "isAbout": "items/sed_cg_nsc_complete",
+                "isVis": true,
+                "variableName": "sed_cg_nsc_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

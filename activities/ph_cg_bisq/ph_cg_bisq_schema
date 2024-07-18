@@ -1,0 +1,252 @@
+{
+    "id": "ph_cg_bisq_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "ph_cg_bisq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_bisq_lang",
+            "items/ph_cg_bisq_dtt",
+            "items/ph_cg_bisq_timestamp_start",
+            "items/ph_cg_bisq_location",
+            "items/ph_cg_bisq_instr01",
+            "items/ph_cg_bisq_001",
+            "items/ph_cg_bisq_instr02",
+            "items/ph_cg_bisq_pb_001",
+            "items/ph_cg_bisq_pb_002",
+            "items/ph_cg_bisq_pb_003",
+            "items/ph_cg_bisq_pb_004",
+            "items/ph_cg_bisq_pb_005",
+            "items/ph_cg_bisq_pb_006",
+            "items/ph_cg_bisq_pp_001",
+            "items/ph_cg_bisq_is_001",
+            "items/ph_cg_bisq_pb_007",
+            "items/ph_cg_bisq_pb_008",
+            "items/ph_cg_bisq_is_002",
+            "items/ph_cg_bisq_002",
+            "items/ph_cg_bisq_is_003",
+            "items/ph_cg_bisq_is_003_i_00",
+            "items/ph_cg_bisq_is_003_i_01",
+            "items/ph_cg_bisq_is_003_i_02",
+            "items/ph_cg_bisq_003",
+            "items/ph_cg_bisq_is_004_i_00",
+            "items/ph_cg_bisq_is_004_i_01",
+            "items/ph_cg_bisq_is_004_i_02",
+            "items/ph_cg_bisq_pp_002",
+            "items/ph_cg_bisq_004",
+            "items/ph_cg_bisq_005_i_00",
+            "items/ph_cg_bisq_005_i_01",
+            "items/ph_cg_bisq_005_i_02",
+            "items/ph_cg_bisq_pp_003",
+            "items/ph_cg_bisq_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_bisq_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_dtt"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_location"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_instr01",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_instr01"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_instr02",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_instr02"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_002"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_004"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_005"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_006"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pp_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_is_001"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_007"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pb_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pb_008"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_is_002"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_002"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_is_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_003_i_00",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_003_i_00"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_003_i_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_is_003_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_003_i_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_is_003_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_004_i_00",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_is_004_i_00"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_004_i_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_is_004_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_is_004_i_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_is_004_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pp_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pp_002"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_004"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_005_i_00",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_005_i_00"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_005_i_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_005_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_005_i_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_005_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_pp_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_bisq_pp_003"
+            },
+            {
+                "isAbout": "items/ph_cg_bisq_complete",
+                "isVis": true,
+                "variableName": "ph_cg_bisq_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

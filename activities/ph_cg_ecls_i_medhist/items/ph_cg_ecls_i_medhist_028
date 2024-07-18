@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_ecls_i_medhist_028",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_028"
+    },
+    "question": {
+        "en": "Since we last saw you please indicate how frequently your child has been bothered by the following symptoms"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

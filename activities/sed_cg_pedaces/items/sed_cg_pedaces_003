@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_pedaces_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_pedaces_003"
+    },
+    "question": {
+        "en": "3) Has your child ever lived with a parent/caregiver who had mental health issues?(for example, depression, schizophrenia, bipolar disorder, PTSD, or an anxiety disorder)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

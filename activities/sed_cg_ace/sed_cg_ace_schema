@@ -1,0 +1,125 @@
+{
+    "id": "sed_cg_ace_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_ace"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_ace_lang",
+            "items/sed_cg_ace_dtt",
+            "items/sed_cg_ace_timestamp_start",
+            "items/sed_cg_ace_location",
+            "items/sed_cg_ace_001",
+            "items/sed_cg_ace_002",
+            "items/sed_cg_ace_003",
+            "items/sed_cg_ace_004",
+            "items/sed_cg_ace_005",
+            "items/sed_cg_ace_006",
+            "items/sed_cg_ace_007",
+            "items/sed_cg_ace_008",
+            "items/sed_cg_ace_009",
+            "items/sed_cg_ace_010",
+            "items/sed_cg_ace_012",
+            "items/sed_cg_ace_011",
+            "items/sed_cg_ace_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_ace_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_ace_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_ace_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_ace_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_ace_location"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_001",
+                "isVis": true,
+                "variableName": "sed_cg_ace_001"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_002",
+                "isVis": true,
+                "variableName": "sed_cg_ace_002"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_003",
+                "isVis": true,
+                "variableName": "sed_cg_ace_003"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_004",
+                "isVis": true,
+                "variableName": "sed_cg_ace_004"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_005",
+                "isVis": true,
+                "variableName": "sed_cg_ace_005"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_006",
+                "isVis": true,
+                "variableName": "sed_cg_ace_006"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_007",
+                "isVis": true,
+                "variableName": "sed_cg_ace_007"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_008",
+                "isVis": true,
+                "variableName": "sed_cg_ace_008"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_009",
+                "isVis": true,
+                "variableName": "sed_cg_ace_009"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_010",
+                "isVis": true,
+                "variableName": "sed_cg_ace_010"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_ace_012"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_ace_011"
+            },
+            {
+                "isAbout": "items/sed_cg_ace_complete",
+                "isVis": true,
+                "variableName": "sed_cg_ace_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

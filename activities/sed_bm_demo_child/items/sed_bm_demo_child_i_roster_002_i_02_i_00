@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_child_i_roster_002_i_02_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_002_i_02_i_00"
+    },
+    "question": {
+        "en": "Excluding the child, how many people live in the child's household? If you live with the child in a household, please make sure to include yourself.\n\nNumber of adults (18 years of age or older) {sed_bm_demo_child_i_roster_002_i_02_i_01} \nNumber of children (17 years of age or younger) {sed_bm_demo_child_i_roster_002_i_02_i_02}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

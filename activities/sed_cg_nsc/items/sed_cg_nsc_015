@@ -1,0 +1,66 @@
+{
+    "id": "sed_cg_nsc_015",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The last questions ask about your general impressions of the police inyourcommunity."
+    },
+    "prefLabel": {
+        "en": "sed_cg_nsc_015"
+    },
+    "question": {
+        "en": "I trust the police in my community:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Usually"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Almost always"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

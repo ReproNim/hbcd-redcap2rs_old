@@ -1,0 +1,720 @@
+{
+    "id": "ph_cg_inq_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_inq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_inq_lang",
+            "items/ph_cg_inq_dtt",
+            "items/ph_cg_inq_timestamp_start",
+            "items/ph_cg_inq_location",
+            "items/ph_cg_inq_001",
+            "items/ph_cg_inq_002",
+            "items/ph_cg_inq_002_i_01",
+            "items/ph_cg_inq_002_i_02",
+            "items/ph_cg_inq_003",
+            "items/ph_cg_inq_003_i_01",
+            "items/ph_cg_inq_003_i_01_i_01",
+            "items/ph_cg_inq_003_i_01_i_02",
+            "items/ph_cg_inq_003_i_01_i_03",
+            "items/ph_cg_inq_004",
+            "items/ph_cg_inq_005",
+            "items/ph_cg_inq_005_i_01",
+            "items/ph_cg_inq_005_i_02",
+            "items/ph_cg_inq_005_i_03",
+            "items/ph_cg_inq_005_i_04",
+            "items/ph_cg_inq_006",
+            "items/ph_cg_inq_006_i_01",
+            "items/ph_cg_inq_006_i_02_instruc",
+            "items/ph_cg_inq_006_i_02",
+            "items/ph_cg_inq_006_i_03",
+            "items/ph_cg_inq_006_i_04",
+            "items/ph_cg_inq_006_i_05",
+            "items/ph_cg_inq_006_i_06",
+            "items/ph_cg_inq_006_i_07",
+            "items/ph_cg_inq_006_i_08",
+            "items/ph_cg_inq_006_i_09",
+            "items/ph_cg_inq_006_i_10",
+            "items/ph_cg_inq_006_i_11",
+            "items/ph_cg_inq_006_i_12",
+            "items/ph_cg_inq_006_i_13",
+            "items/ph_cg_inq_007",
+            "items/ph_cg_inq_007_i_01",
+            "items/ph_cg_inq_007_i_01_i_01",
+            "items/ph_cg_inq_007_i_01_i_02",
+            "items/ph_cg_inq_007_i_01_i_03",
+            "items/ph_cg_inq_007_i_01_i_04",
+            "items/ph_cg_inq_007_i_02",
+            "items/ph_cg_inq_007_i_02_i_01",
+            "items/ph_cg_inq_007_i_02_i_02",
+            "items/ph_cg_inq_007_i_02_i_03",
+            "items/ph_cg_inq_007_i_03",
+            "items/ph_cg_inq_007_i_03_i_01",
+            "items/ph_cg_inq_007_i_03_i_02",
+            "items/ph_cg_inq_007_i_03_i_03",
+            "items/ph_cg_inq_007_i_04",
+            "items/ph_cg_inq_007_i_04_i_01",
+            "items/ph_cg_inq_007_i_04_i_02",
+            "items/ph_cg_inq_007_i_04_i_03",
+            "items/ph_cg_inq_007_i_05",
+            "items/ph_cg_inq_007_i_05_i_01",
+            "items/ph_cg_inq_007_i_05_i_02",
+            "items/ph_cg_inq_007_i_05_i_03",
+            "items/ph_cg_inq_007_i_06",
+            "items/ph_cg_inq_007_i_06_i_01",
+            "items/ph_cg_inq_007_i_06_i_02",
+            "items/ph_cg_inq_007_i_06_i_03",
+            "items/ph_cg_inq_007_i_07",
+            "items/ph_cg_inq_007_i_07_i_01",
+            "items/ph_cg_inq_007_i_07_i_02",
+            "items/ph_cg_inq_007_i_07_i_03",
+            "items/ph_cg_inq_007_i_08",
+            "items/ph_cg_inq_007_i_08_i_01",
+            "items/ph_cg_inq_007_i_08_i_02",
+            "items/ph_cg_inq_007_i_08_i_03",
+            "items/ph_cg_inq_007_i_09",
+            "items/ph_cg_inq_007_i_09_i_01",
+            "items/ph_cg_inq_007_i_09_i_02",
+            "items/ph_cg_inq_007_i_09_i_03",
+            "items/ph_cg_inq_007_i_10",
+            "items/ph_cg_inq_007_i_10_i_01",
+            "items/ph_cg_inq_007_i_10_i_02",
+            "items/ph_cg_inq_007_i_10_i_03",
+            "items/ph_cg_inq_007_i_11",
+            "items/ph_cg_inq_007_i_11_i_01",
+            "items/ph_cg_inq_007_i_11_i_02",
+            "items/ph_cg_inq_007_i_11_i_03",
+            "items/ph_cg_inq_007_i_12",
+            "items/ph_cg_inq_007_i_12_i_01",
+            "items/ph_cg_inq_007_i_12_i_02",
+            "items/ph_cg_inq_007_i_12_i_03",
+            "items/ph_cg_inq_007_i_13",
+            "items/ph_cg_inq_007_i_13_i_01",
+            "items/ph_cg_inq_007_i_13_i_02",
+            "items/ph_cg_inq_007_i_13_i_03",
+            "items/ph_cg_inq_007_i_14",
+            "items/ph_cg_inq_007_i_14_i_01",
+            "items/ph_cg_inq_007_i_14_i_02",
+            "items/ph_cg_inq_007_i_14_i_03",
+            "items/ph_cg_inq_007_i_15",
+            "items/ph_cg_inq_007_i_15_i_01",
+            "items/ph_cg_inq_007_i_15_i_02",
+            "items/ph_cg_inq_007_i_15_i_03",
+            "items/ph_cg_inq_007_i_16",
+            "items/ph_cg_inq_007_i_16_i_01",
+            "items/ph_cg_inq_007_i_16_i_02",
+            "items/ph_cg_inq_007_i_16_i_03",
+            "items/ph_cg_inq_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_inq_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_dtt"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_location"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_001"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_002"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_002_i_01",
+                "isVis": "ph_cg_inq_002 == '1'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_002_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_002_i_02",
+                "isVis": "ph_cg_inq_002 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_002_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_003"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_003_i_01",
+                "isVis": "ph_cg_inq_003 == '1'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_003_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_003_i_01_i_01",
+                "isVis": "ph_cg_inq_003_i_01 == '1'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_003_i_01_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_003_i_01_i_02",
+                "isVis": "ph_cg_inq_003_i_01 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_003_i_01_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_003_i_01_i_03",
+                "isVis": "ph_cg_inq_003_i_01 == '3'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_003_i_01_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_004"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_005",
+                "isVis": true,
+                "variableName": "ph_cg_inq_005"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_005_i_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_005_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_005_i_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_005_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_005_i_03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_005_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_005_i_04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_005_i_04"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_01",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_02_instruc",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "variableName": "ph_cg_inq_006_i_02_instruc"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_02",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_03",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_04",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_04"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_05",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_05"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_06",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_06"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_07",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_07"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_08",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_08"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_09",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_09"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_10",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_10"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_11",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_11"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_12",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_12"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_006_i_13",
+                "isVis": "ph_cg_inq_006 == '2'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_006_i_13"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007",
+                "isVis": true,
+                "variableName": "ph_cg_inq_007"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_01_i_01",
+                "isVis": "ph_cg_inq_007_i_01 == '1'",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_01_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_01_i_02",
+                "isVis": "ph_cg_inq_007_i_01 == '1' AND ph_cg_inq_007_i_01_i_03 == '' AND ph_cg_inq_007_i_01_i_04 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_01_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_01_i_03",
+                "isVis": "ph_cg_inq_007_i_01 == '1' AND ph_cg_inq_007_i_01_i_02 == '' AND ph_cg_inq_007_i_01_i_04 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_01_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_01_i_04",
+                "isVis": "ph_cg_inq_007_i_01 == '1' AND ph_cg_inq_007_i_01_i_02 == '' AND ph_cg_inq_007_i_01_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_01_i_04"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_02",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_02_i_01",
+                "isVis": "ph_cg_inq_007_i_02 == '1' AND ph_cg_inq_007_i_02_i_02 == '' AND ph_cg_inq_007_i_02_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_02_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_02_i_02",
+                "isVis": "ph_cg_inq_007_i_02 == '1' AND ph_cg_inq_007_i_02_i_01 == '' AND ph_cg_inq_007_i_02_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_02_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_02_i_03",
+                "isVis": "ph_cg_inq_007_i_02 == '1' AND ph_cg_inq_007_i_02_i_01 == '' AND ph_cg_inq_007_i_02_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_02_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_03",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_03_i_01",
+                "isVis": "ph_cg_inq_007_i_03 == '1' AND ph_cg_inq_007_i_03_i_02 == '' AND ph_cg_inq_007_i_03_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_03_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_03_i_02",
+                "isVis": "ph_cg_inq_007_i_03 == '1' AND ph_cg_inq_007_i_03_i_01 == '' AND ph_cg_inq_007_i_03_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_03_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_03_i_03",
+                "isVis": "ph_cg_inq_007_i_03 == '1' AND ph_cg_inq_007_i_03_i_01 == '' AND ph_cg_inq_007_i_03_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_03_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_04",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_04"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_04_i_01",
+                "isVis": "ph_cg_inq_007_i_04 == '1' AND ph_cg_inq_007_i_04_i_02 == '' AND ph_cg_inq_007_i_04_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_04_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_04_i_02",
+                "isVis": "ph_cg_inq_007_i_04 == '1' AND ph_cg_inq_007_i_04_i_01 == '' AND ph_cg_inq_007_i_04_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_04_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_04_i_03",
+                "isVis": "ph_cg_inq_007_i_04 == '1' AND ph_cg_inq_007_i_04_i_01 == '' AND ph_cg_inq_007_i_04_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_04_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_05",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_05"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_05_i_01",
+                "isVis": "ph_cg_inq_007_i_05 == '1' AND ph_cg_inq_007_i_05_i_02 == '' AND ph_cg_inq_007_i_05_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_05_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_05_i_02",
+                "isVis": "ph_cg_inq_007_i_05 == '1' AND ph_cg_inq_007_i_05_i_01 == '' AND ph_cg_inq_007_i_05_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_05_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_05_i_03",
+                "isVis": "ph_cg_inq_007_i_05 == '1' AND ph_cg_inq_007_i_05_i_01 == '' AND ph_cg_inq_007_i_05_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_05_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_06",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_06"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_06_i_01",
+                "isVis": "ph_cg_inq_007_i_06 == '1' AND ph_cg_inq_007_i_06_i_02 == '' AND ph_cg_inq_007_i_06_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_06_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_06_i_02",
+                "isVis": "ph_cg_inq_007_i_06 == '1' AND ph_cg_inq_007_i_06_i_01 == '' AND ph_cg_inq_007_i_06_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_06_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_06_i_03",
+                "isVis": "ph_cg_inq_007_i_06 == '1' AND ph_cg_inq_007_i_06_i_01 == '' AND ph_cg_inq_007_i_06_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_06_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_07",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_07"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_07_i_01",
+                "isVis": "ph_cg_inq_007_i_07 == '1' AND ph_cg_inq_007_i_07_i_02 == '' AND ph_cg_inq_007_i_07_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_07_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_07_i_02",
+                "isVis": "ph_cg_inq_007_i_07 == '1' AND ph_cg_inq_007_i_07_i_01 == '' AND ph_cg_inq_007_i_07_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_07_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_07_i_03",
+                "isVis": "ph_cg_inq_007_i_07 == '1' AND ph_cg_inq_007_i_07_i_01 == '' AND ph_cg_inq_007_i_07_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_07_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_08",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_08"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_08_i_01",
+                "isVis": "ph_cg_inq_007_i_08 == '1' AND ph_cg_inq_007_i_08_i_02 == '' AND ph_cg_inq_007_i_08_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_08_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_08_i_02",
+                "isVis": "ph_cg_inq_007_i_08 == '1' AND ph_cg_inq_007_i_08_i_01 == '' AND ph_cg_inq_007_i_08_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_08_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_08_i_03",
+                "isVis": "ph_cg_inq_007_i_08 == '1' AND ph_cg_inq_007_i_08_i_01 == '' AND ph_cg_inq_007_i_08_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_08_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_09",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_09"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_09_i_01",
+                "isVis": "ph_cg_inq_007_i_09 == '1' AND ph_cg_inq_007_i_09_i_02 == '' AND ph_cg_inq_007_i_09_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_09_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_09_i_02",
+                "isVis": "ph_cg_inq_007_i_09 == '1' AND ph_cg_inq_007_i_09_i_01 == '' AND ph_cg_inq_007_i_09_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_09_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_09_i_03",
+                "isVis": "ph_cg_inq_007_i_09 == '1' AND ph_cg_inq_007_i_09_i_01 == '' AND ph_cg_inq_007_i_09_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_09_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_10",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_10"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_10_i_01",
+                "isVis": "ph_cg_inq_007_i_10 == '1' AND ph_cg_inq_007_i_10_i_02 == '' AND ph_cg_inq_007_i_10_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_10_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_10_i_02",
+                "isVis": "ph_cg_inq_007_i_10 == '1' AND ph_cg_inq_007_i_10_i_01 == '' AND ph_cg_inq_007_i_10_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_10_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_10_i_03",
+                "isVis": "ph_cg_inq_007_i_10 == '1' AND ph_cg_inq_007_i_10_i_01 == '' AND ph_cg_inq_007_i_10_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_10_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_11",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_11"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_11_i_01",
+                "isVis": "ph_cg_inq_007_i_11 == '1' AND ph_cg_inq_007_i_11_i_02 == '' AND ph_cg_inq_007_i_11_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_11_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_11_i_02",
+                "isVis": "ph_cg_inq_007_i_11 == '1' AND ph_cg_inq_007_i_11_i_01 == '' AND ph_cg_inq_007_i_11_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_11_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_11_i_03",
+                "isVis": "ph_cg_inq_007_i_11 == '1' AND ph_cg_inq_007_i_11_i_01 == '' AND ph_cg_inq_007_i_11_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_11_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_12",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_12"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_12_i_01",
+                "isVis": "ph_cg_inq_007_i_12 == '1' AND ph_cg_inq_007_i_12_i_02 == '' AND ph_cg_inq_007_i_12_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_12_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_12_i_02",
+                "isVis": "ph_cg_inq_007_i_12 == '1' AND ph_cg_inq_007_i_12_i_01 == '' AND ph_cg_inq_007_i_12_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_12_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_12_i_03",
+                "isVis": "ph_cg_inq_007_i_12 == '1' AND ph_cg_inq_007_i_12_i_01 == '' AND ph_cg_inq_007_i_12_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_12_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_13",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_13"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_13_i_01",
+                "isVis": "ph_cg_inq_007_i_13 == '1' AND ph_cg_inq_007_i_13_i_02 == '' AND ph_cg_inq_007_i_13_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_13_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_13_i_02",
+                "isVis": "ph_cg_inq_007_i_13 == '1' AND ph_cg_inq_007_i_13_i_01 == '' AND ph_cg_inq_007_i_13_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_13_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_13_i_03",
+                "isVis": "ph_cg_inq_007_i_13 == '1' AND ph_cg_inq_007_i_13_i_01 == '' AND ph_cg_inq_007_i_13_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_13_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_14",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_14"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_14_i_01",
+                "isVis": "ph_cg_inq_007_i_14 == '1' AND ph_cg_inq_007_i_14_i_02 == '' AND ph_cg_inq_007_i_14_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_14_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_14_i_02",
+                "isVis": "ph_cg_inq_007_i_14 == '1' AND ph_cg_inq_007_i_14_i_01 == '' AND ph_cg_inq_007_i_14_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_14_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_14_i_03",
+                "isVis": "ph_cg_inq_007_i_14 == '1' AND ph_cg_inq_007_i_14_i_01 == '' AND ph_cg_inq_007_i_14_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_14_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_15",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_15"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_15_i_01",
+                "isVis": "ph_cg_inq_007_i_15 == '1' AND ph_cg_inq_007_i_15_i_02 == '' AND ph_cg_inq_007_i_15_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_15_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_15_i_02",
+                "isVis": "ph_cg_inq_007_i_15 == '1' AND ph_cg_inq_007_i_15_i_01 == '' AND ph_cg_inq_007_i_15_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_15_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_15_i_03",
+                "isVis": "ph_cg_inq_007_i_15 == '1' AND ph_cg_inq_007_i_15_i_01 == '' AND ph_cg_inq_007_i_15_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_15_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_16",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_16"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_16_i_01",
+                "isVis": "ph_cg_inq_007_i_16 == '1' AND ph_cg_inq_007_i_16_i_02 == '' AND ph_cg_inq_007_i_16_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_16_i_01"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_16_i_02",
+                "isVis": "ph_cg_inq_007_i_16 == '1' AND ph_cg_inq_007_i_16_i_01 == '' AND ph_cg_inq_007_i_16_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_16_i_02"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_007_i_16_i_03",
+                "isVis": "ph_cg_inq_007_i_16 == '1' AND ph_cg_inq_007_i_16_i_01 == '' AND ph_cg_inq_007_i_16_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "ph_cg_inq_007_i_16_i_03"
+            },
+            {
+                "isAbout": "items/ph_cg_inq_complete",
+                "isVis": true,
+                "variableName": "ph_cg_inq_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

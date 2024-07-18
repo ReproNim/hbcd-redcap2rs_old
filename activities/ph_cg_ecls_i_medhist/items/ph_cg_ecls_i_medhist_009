@@ -1,0 +1,72 @@
+{
+    "id": "ph_cg_ecls_i_medhist_009",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Dental health\n\nSince we last discussed your child's dental health:"
+    },
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_009"
+    },
+    "question": {
+        "en": "How old was your child when they got their first tooth?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "< 4 months"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "4-6 months"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "7-8 months"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "9-10 months"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "11-12 months"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "> 12 months"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

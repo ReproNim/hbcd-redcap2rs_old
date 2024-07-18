@@ -1,0 +1,70 @@
+{
+    "id": "ph_cg_cnq_009",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_009"
+    },
+    "question": {
+        "en": "Check any concerns you have with getting your child to eat well"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Picky eater"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Leaves food on the plate"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Wants the same food all the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Begs for snacks between meals"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Wants milk or juice all day long"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "None of these"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

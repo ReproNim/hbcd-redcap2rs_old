@@ -32,96 +32,115 @@
             {
                 "isAbout": "items/admin_part_fb_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_lang"
             },
             {
                 "isAbout": "items/admin_part_fb_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_dtt"
             },
             {
                 "isAbout": "items/admin_part_fb_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_timestamp_start"
             },
             {
                 "isAbout": "items/admin_part_fb_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_location"
             },
             {
                 "isAbout": "items/admin_part_fb_001",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_001"
             },
             {
                 "isAbout": "items/admin_part_fb_002",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_002"
             },
             {
                 "isAbout": "items/admin_part_fb_003_i_01",
                 "isVis": "event-name == 'v01_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_003_i_01"
             },
             {
                 "isAbout": "items/admin_part_fb_003_i_02",
                 "isVis": "event-name ! == 'v01_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_003_i_02"
             },
             {
                 "isAbout": "items/admin_part_fb_004",
                 "isVis": "event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_004"
             },
             {
                 "isAbout": "items/admin_part_fb_005",
                 "isVis": "event-name =='v02_arm_1' OR event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_005"
             },
             {
                 "isAbout": "items/admin_part_fb_006_i_01",
                 "isVis": "event-name == 'v01_arm_1' OR event-name == 'v05_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_006_i_01"
             },
             {
                 "isAbout": "items/admin_part_fb_006_i_02",
                 "isVis": "event-name =='v02_arm_1' OR event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_006_i_02"
             },
             {
                 "isAbout": "items/admin_part_fb_007",
                 "isVis": "event-name == 'v02_arm_1' OR event-name == 'v03_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_007"
             },
             {
                 "isAbout": "items/admin_part_fb_008",
                 "isVis": "event-name == 'v02_arm_1' OR event-name == 'v03_arm_1'",
+                "valueRequired": true,
                 "variableName": "admin_part_fb_008"
             },
             {
                 "isAbout": "items/admin_part_fb_009",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_009"
             },
             {
                 "isAbout": "items/admin_part_fb_010",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_010"
             },
             {
                 "isAbout": "items/admin_part_fb_011",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_011"
             },
             {
                 "isAbout": "items/admin_part_fb_012",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_012"
             },
             {
                 "isAbout": "items/admin_part_fb_013",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "admin_part_fb_013"
             },
             {
@@ -132,6 +151,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

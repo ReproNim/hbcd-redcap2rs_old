@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_pedaces_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_pedaces_006"
+    },
+    "question": {
+        "en": "6) Has your child ever lacked appropriate care by any caregiver?(for example, not being protected from unsafe situations, or not cared for when sick or injured even when the resources were available)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

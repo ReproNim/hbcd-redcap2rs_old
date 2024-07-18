@@ -1,0 +1,58 @@
+{
+    "id": "sed_cg_hce_019",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_019"
+    },
+    "question": {
+        "en": "In the past year, did you see, or were you aware of, any of the following pests inside the child's home or dwelling? (select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Cockroaches"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Rodents (mice or rats)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

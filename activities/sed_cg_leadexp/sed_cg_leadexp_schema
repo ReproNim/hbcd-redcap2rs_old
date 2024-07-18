@@ -1,0 +1,124 @@
+{
+    "id": "sed_cg_leadexp_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "sed_cg_leadexp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_leadexp_lang",
+            "items/sed_cg_leadexp_dtt",
+            "items/sed_cg_leadexp_timestamp_start",
+            "items/sed_cg_leadexp_location",
+            "items/sed_cg_leadexp_001",
+            "items/sed_cg_leadexp_002",
+            "items/sed_cg_leadexp_003",
+            "items/sed_cg_leadexp_004",
+            "items/sed_cg_leadexp_005",
+            "items/sed_cg_leadexp_006",
+            "items/sed_cg_leadexp_007",
+            "items/sed_cg_leadexp_008",
+            "items/sed_cg_leadexp_009",
+            "items/sed_cg_leadexp_010",
+            "items/sed_cg_leadexp_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_leadexp_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_location"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_001"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_002"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_003"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_004"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_005"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_006"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_007"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_008"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_009"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_leadexp_010"
+            },
+            {
+                "isAbout": "items/sed_cg_leadexp_complete",
+                "isVis": true,
+                "variableName": "sed_cg_leadexp_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

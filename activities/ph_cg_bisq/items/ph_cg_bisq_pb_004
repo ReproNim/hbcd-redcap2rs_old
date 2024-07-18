@@ -1,0 +1,51 @@
+{
+    "id": "ph_cg_bisq_pb_004",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_pb_004"
+    },
+    "question": {
+        "en": "How does your child fall asleep at bedtime?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "While being rocked"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "With an adult in the room but not being held or rocked"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "On own (without an adult in the room)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

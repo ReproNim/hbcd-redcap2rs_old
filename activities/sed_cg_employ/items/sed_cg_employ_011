@@ -1,0 +1,79 @@
+{
+    "id": "sed_cg_employ_011",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The following questions are about substances that you or any member of your child's household may be exposed to during your/their current employment."
+    },
+    "prefLabel": {
+        "en": "sed_cg_employ_011"
+    },
+    "question": {
+        "en": "Do you or any member of your child's household(s) work with any of these hazardous materials on the job? (select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Asbestos"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Batteries"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Lead"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Mercury"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Paint"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Pesticides"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

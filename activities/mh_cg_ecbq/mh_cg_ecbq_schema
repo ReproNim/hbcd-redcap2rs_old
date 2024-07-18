@@ -1,0 +1,383 @@
+{
+    "id": "mh_cg_ecbq_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "mh_cg_ecbq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_ecbq_lang",
+            "items/mh_cg_ecbq_dtt",
+            "items/mh_cg_ecbq_timestamp_start",
+            "items/mh_cg_ecbq_location",
+            "items/mh_cg_ecbq_001",
+            "items/mh_cg_ecbq_002",
+            "items/mh_cg_ecbq_003",
+            "items/mh_cg_ecbq_004",
+            "items/mh_cg_ecbq_005",
+            "items/mh_cg_ecbq_006",
+            "items/mh_cg_ecbq_007",
+            "items/mh_cg_ecbq_008",
+            "items/mh_cg_ecbq_009",
+            "items/mh_cg_ecbq_010",
+            "items/mh_cg_ecbq_011",
+            "items/mh_cg_ecbq_012",
+            "items/mh_cg_ecbq_013",
+            "items/mh_cg_ecbq_014",
+            "items/mh_cg_ecbq_015",
+            "items/mh_cg_ecbq_016",
+            "items/mh_cg_ecbq_017",
+            "items/mh_cg_ecbq_018",
+            "items/mh_cg_ecbq_019",
+            "items/mh_cg_ecbq_020",
+            "items/mh_cg_ecbq_021",
+            "items/mh_cg_ecbq_022",
+            "items/mh_cg_ecbq_023",
+            "items/mh_cg_ecbq_024",
+            "items/mh_cg_ecbq_025",
+            "items/mh_cg_ecbq_026",
+            "items/mh_cg_ecbq_027",
+            "items/mh_cg_ecbq_028",
+            "items/mh_cg_ecbq_029",
+            "items/mh_cg_ecbq_030",
+            "items/mh_cg_ecbq_031",
+            "items/mh_cg_ecbq_032",
+            "items/mh_cg_ecbq_033",
+            "items/mh_cg_ecbq_034",
+            "items/mh_cg_ecbq_035",
+            "items/mh_cg_ecbq_036",
+            "items/mh_cg_ecbq_037",
+            "items/mh_cg_ecbq_038",
+            "items/mh_cg_ecbq_039",
+            "items/mh_cg_ecbq_040",
+            "items/mh_cg_ecbq_041",
+            "items/mh_cg_ecbq_042",
+            "items/mh_cg_ecbq_043",
+            "items/mh_cg_ecbq_044",
+            "items/mh_cg_ecbq_045",
+            "items/mh_cg_ecbq_046",
+            "items/mh_cg_ecbq_047",
+            "items/mh_cg_ecbq_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_ecbq_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_location"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_001"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_002"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_003"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_004"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_005"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_006"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_007"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_008"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_009"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_010"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_011"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_012"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_013"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_014"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_015"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_016"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_017"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_018"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_019",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_019"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_020",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_020"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_021",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_021"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_022",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_022"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_023",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_023"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_024",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_024"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_025",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_025"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_026",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_026"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_027",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_027"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_028",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_028"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_029",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_029"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_030",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_030"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_031",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_031"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_032",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_032"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_033",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_033"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_034",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_034"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_035",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_035"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_036",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_036"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_037",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_037"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_038",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_038"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_039",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_039"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_040",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_040"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_041",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_041"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_042",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_042"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_043",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_043"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_044",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_044"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_045",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_045"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_046",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_046"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_047",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_ecbq_047"
+            },
+            {
+                "isAbout": "items/mh_cg_ecbq_complete",
+                "isVis": true,
+                "variableName": "mh_cg_ecbq_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

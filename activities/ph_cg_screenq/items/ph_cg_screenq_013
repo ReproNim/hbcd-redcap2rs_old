@@ -1,0 +1,45 @@
+{
+    "id": "ph_cg_screenq_013",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_screenq_013"
+    },
+    "question": {
+        "en": "How would you describemostof the shows, video games, or apps that the child watches or plays?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Entertainment for fun"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Education for learning"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

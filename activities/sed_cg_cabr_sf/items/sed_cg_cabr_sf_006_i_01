@@ -1,0 +1,69 @@
+{
+    "id": "sed_cg_cabr_sf_006_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_cabr_sf_006_i_01"
+    },
+    "question": {
+        "en": "How often did it happen in the past 12 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not in the past 12 months"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Once"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A few times"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Monthly"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Weekly"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Daily/almost daily"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,64 @@
+{
+    "id": "sed_cg_hce_028_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_028_i_03"
+    },
+    "question": {
+        "en": "What type of pesticide products are used on the pet/s? (select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Little pouches that you break open and apply behind the pet's neck"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Other sprays dusts powders or skin applications"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Flea or tick shampoos"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Flea or tick collars"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Oral Flea / Tick medicine"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

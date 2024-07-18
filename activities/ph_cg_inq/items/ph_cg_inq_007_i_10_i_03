@@ -1,0 +1,27 @@
+{
+    "id": "ph_cg_inq_007_i_10_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_inq_007_i_10_i_03"
+    },
+    "question": {
+        "en": "Vegetables less than once a week?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_pedaces_007",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_pedaces_007"
+    },
+    "question": {
+        "en": "7) Has your child ever seen or heard a parent/caregiver being screamed at, sworn at, insulted or humiliated by another adult?Orhas your child ever seen or heard a parent/caregiver being slapped, kicked, punched beaten up or hurt with a weapon?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

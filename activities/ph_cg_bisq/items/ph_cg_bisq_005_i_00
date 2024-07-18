@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_bisq_005_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_005_i_00"
+    },
+    "question": {
+        "en": "How much total time does your child spend sleeping during the DAY (between when your child wakes for the day and goes to bed at night)? \n \nExample: If your child took 2 naps and slept 1 hour each time, your child's total time spent sleeping during the day is 2 hours (Hours napping: 2; Minutes napping: 0).\n\nHours napping: {ph_cg_bisq_005_i_01}\nMinutes napping: {ph_cg_bisq_005_i_02}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

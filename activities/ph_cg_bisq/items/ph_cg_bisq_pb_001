@@ -1,0 +1,279 @@
+{
+    "id": "ph_cg_bisq_pb_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_pb_001"
+    },
+    "question": {
+        "en": "What time do you usually start your child's bedtime routine (starting getting your child ready for bed)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "5:00 PM"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "5:15 PM"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "5:30 PM"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5:45 PM"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "6:00 PM"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6:15 PM"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "6:30 PM"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "6:45 PM"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "7:00 PM"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "7:15 PM"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "7:30 PM"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "7:45 PM"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "8:00 PM"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "8:15 PM"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "8:30 PM"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "8:45 PM"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "9:00 PM"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "9:15 PM"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "9:30 PM"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "9:45 PM"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "10:00 PM"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "10:15 PM"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "10:30 PM"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "10:45 PM"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "11:00 PM"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "11:15 PM"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "11:30 PM"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "11:45 PM"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "12:00 AM"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "12:15 AM"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "12:30 AM"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "12:45 AM"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "1:00 AM"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "1:15 AM"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "1:30 AM"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "1:45 AM"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "2:00 AM"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "2:15 AM"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "2:30 AM"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "2:45 AM"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "3:00 AM"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

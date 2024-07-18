@@ -1,0 +1,107 @@
+{
+    "id": "ph_cg_pms_i_sleep_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_pms_i_sleep"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_pms_i_sleep_lang",
+            "items/ph_cg_pms_i_sleep_dtt",
+            "items/ph_cg_pms_i_sleep_timestamp_start",
+            "items/ph_cg_pms_i_sleep_location",
+            "items/ph_cg_pms_i_sleep_001",
+            "items/ph_cg_pms_i_sleep_002",
+            "items/ph_cg_pms_i_sleep_003",
+            "items/ph_cg_pms_i_sleep_004",
+            "items/ph_cg_pms_i_sleep_005",
+            "items/ph_cg_pms_i_sleep_006",
+            "items/ph_cg_pms_i_sleep_007",
+            "items/ph_cg_pms_i_sleep_008",
+            "items/ph_cg_pms_i_sleep_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_dtt"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_location"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_001"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_002"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_003"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_004"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_005"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_006"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_007"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_pms_i_sleep_008"
+            },
+            {
+                "isAbout": "items/ph_cg_pms_i_sleep_complete",
+                "isVis": true,
+                "variableName": "ph_cg_pms_i_sleep_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

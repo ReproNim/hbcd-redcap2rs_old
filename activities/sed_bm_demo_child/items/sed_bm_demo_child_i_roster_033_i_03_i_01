@@ -1,0 +1,57 @@
+{
+    "id": "sed_bm_demo_child_i_roster_033_i_03_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_033_i_03_i_01"
+    },
+    "question": {
+        "en": "Person 13 gender other  household 2"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Non-binary"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Transgender male"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Transgender female"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "None of these"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -28,21 +28,25 @@
             {
                 "isAbout": "items/pex_bm_str_i_ptsd",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_str_i_ptsd"
             },
             {
                 "isAbout": "items/pex_bm_str_i_ptsd_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_str_i_ptsd_dtt"
             },
             {
                 "isAbout": "items/pex_bm_str_i_ptsd_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_str_i_ptsd_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_str_i_ptsd_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_str_i_ptsd_location"
             },
             {
@@ -118,6 +122,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

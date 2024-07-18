@@ -1,0 +1,2114 @@
+{
+    "id": "sed_bm_demo_child_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(( sed_bm_demo_child_i_roster_001 == '777' OR sed_bm_demo_child_i_roster_001 == '999'), '', sed_bm_demo_child_i_roster_001 )",
+            "variableName": "sed_bm_demo_child_i_roster_001_i_01"
+        },
+        {
+            "jsExpression": "if(( sed_bm_demo_child_i_roster_002_i_02_i_01 == '777' OR sed_bm_demo_child_i_roster_002_i_02_i_01 == '999'), '', sed_bm_demo_child_i_roster_002_i_02_i_01 )",
+            "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_01_i_01"
+        },
+        {
+            "jsExpression": "if(( sed_bm_demo_child_i_roster_002_i_02_i_02 == '777' OR sed_bm_demo_child_i_roster_002_i_02_i_02 == '999'), '', sed_bm_demo_child_i_roster_002_i_02_i_02 )",
+            "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_02_i_01"
+        },
+        {
+            "jsExpression": "sum( sed_bm_demo_child_i_roster_002_i_02_i_01_i_01 , sed_bm_demo_child_i_roster_002_i_02_i_02 )",
+            "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_03"
+        },
+        {
+            "jsExpression": "if(( sed_bm_demo_child_i_roster_020_i_02_i_01 == '777' OR sed_bm_demo_child_i_roster_020_i_02_i_01 == '999'), '', sed_bm_demo_child_i_roster_020_i_02_i_01 )",
+            "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_01_i_01"
+        },
+        {
+            "jsExpression": "if(( sed_bm_demo_child_i_roster_020_i_02_i_02 == '777' OR sed_bm_demo_child_i_roster_020_i_02_i_01 == '999'), '', sed_bm_demo_child_i_roster_020_i_02_i_02 )",
+            "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_02_i_01"
+        },
+        {
+            "jsExpression": "sum( sed_bm_demo_child_i_roster_020_i_02_i_01_i_01 , sed_bm_demo_child_i_roster_020_i_02_i_01_i_01 )",
+            "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_03"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo_child"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_demo_child_lang",
+            "items/sed_bm_demo_child_dtt",
+            "items/sed_bm_demo_child_timestamp_start",
+            "items/sed_bm_demo_child_location",
+            "items/sed_bm_demo_child_i_herit_001",
+            "items/sed_bm_demo_child_i_herit_001_i_01",
+            "items/sed_bm_demo_child_i_herit_001_i_02",
+            "items/sed_bm_demo_child_i_herit_001_i_03",
+            "items/sed_bm_demo_child_i_herit_001_i_04",
+            "items/sed_bm_demo_child_i_herit_001_i_05",
+            "items/sed_bm_demo_child_i_herit_001_i_06",
+            "items/sed_bm_demo_child_i_herit_001_i_07",
+            "items/sed_bm_demo_child_i_herit_002",
+            "items/sed_bm_demo_child_i_relat_001",
+            "items/sed_bm_demo_child_i_relat_002",
+            "items/sed_bm_demo_child_i_relat_002_i_01",
+            "items/sed_bm_demo_child_i_relat_003",
+            "items/sed_bm_demo_child_i_relat_004",
+            "items/sed_bm_demo_child_i_relat_004_i_01",
+            "items/sed_bm_demo_child_i_relat_004_i_02",
+            "items/sed_bm_demo_child_i_relat_004_i_03",
+            "items/sed_bm_demo_child_i_roster_instr01",
+            "items/sed_bm_demo_child_i_roster_001",
+            "items/sed_bm_demo_child_i_roster_instr04",
+            "items/sed_bm_demo_child_i_roster_instr05",
+            "items/sed_bm_demo_child_i_roster_instr06",
+            "items/sed_bm_demo_child_i_roster_002",
+            "items/sed_bm_demo_child_i_roster_002_i_01",
+            "items/sed_bm_demo_child_i_roster_002_i_02_i_00",
+            "items/sed_bm_demo_child_i_roster_002_i_02_i_01",
+            "items/sed_bm_demo_child_i_roster_002_i_02_i_02",
+            "items/sed_bm_demo_child_i_roster_table_1",
+            "items/sed_bm_demo_child_i_roster_table_2",
+            "items/sed_bm_demo_child_i_roster_table_3",
+            "items/sed_bm_demo_child_i_roster_table_4",
+            "items/sed_bm_demo_child_i_roster_table_5",
+            "items/sed_bm_demo_child_i_roster_table_6",
+            "items/sed_bm_demo_child_i_roster_table_7",
+            "items/sed_bm_demo_child_i_roster_table_8",
+            "items/sed_bm_demo_child_i_roster_table_9",
+            "items/sed_bm_demo_child_i_roster_table_10",
+            "items/sed_bm_demo_child_i_roster_table_11",
+            "items/sed_bm_demo_child_i_roster_table_12",
+            "items/sed_bm_demo_child_i_roster_table_13",
+            "items/sed_bm_demo_child_i_roster_table_14",
+            "items/sed_bm_demo_child_i_roster_table_15",
+            "items/sed_bm_demo_child_i_roster_table_16",
+            "items/sed_bm_demo_child_i_roster_004_i_01",
+            "items/sed_bm_demo_child_i_roster_004_i_02",
+            "items/sed_bm_demo_child_i_roster_004_i_03",
+            "items/sed_bm_demo_child_i_roster_004_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_004_i_04",
+            "items/sed_bm_demo_child_i_roster_004_i_05",
+            "items/sed_bm_demo_child_i_roster_004_i_06",
+            "items/sed_bm_demo_child_i_roster_005_i_01",
+            "items/sed_bm_demo_child_i_roster_005_i_02",
+            "items/sed_bm_demo_child_i_roster_005_i_03",
+            "items/sed_bm_demo_child_i_roster_005_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_005_i_04",
+            "items/sed_bm_demo_child_i_roster_005_i_05",
+            "items/sed_bm_demo_child_i_roster_005_i_06",
+            "items/sed_bm_demo_child_i_roster_006_i_01",
+            "items/sed_bm_demo_child_i_roster_006_i_02",
+            "items/sed_bm_demo_child_i_roster_006_i_03",
+            "items/sed_bm_demo_child_i_roster_006_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_006_i_04",
+            "items/sed_bm_demo_child_i_roster_006_i_05",
+            "items/sed_bm_demo_child_i_roster_006_i_06",
+            "items/sed_bm_demo_child_i_roster_007_i_01",
+            "items/sed_bm_demo_child_i_roster_007_i_02",
+            "items/sed_bm_demo_child_i_roster_007_i_03",
+            "items/sed_bm_demo_child_i_roster_007_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_007_i_04",
+            "items/sed_bm_demo_child_i_roster_007_i_05",
+            "items/sed_bm_demo_child_i_roster_007_i_06",
+            "items/sed_bm_demo_child_i_roster_008_i_01",
+            "items/sed_bm_demo_child_i_roster_008_i_02",
+            "items/sed_bm_demo_child_i_roster_008_i_03",
+            "items/sed_bm_demo_child_i_roster_008_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_008_i_04",
+            "items/sed_bm_demo_child_i_roster_008_i_05",
+            "items/sed_bm_demo_child_i_roster_008_i_06",
+            "items/sed_bm_demo_child_i_roster_009_i_01",
+            "items/sed_bm_demo_child_i_roster_009_i_02",
+            "items/sed_bm_demo_child_i_roster_009_i_03",
+            "items/sed_bm_demo_child_i_roster_009_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_009_i_04",
+            "items/sed_bm_demo_child_i_roster_009_i_05",
+            "items/sed_bm_demo_child_i_roster_009_i_06",
+            "items/sed_bm_demo_child_i_roster_010_i_01",
+            "items/sed_bm_demo_child_i_roster_010_i_02",
+            "items/sed_bm_demo_child_i_roster_010_i_03",
+            "items/sed_bm_demo_child_i_roster_010_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_010_i_04",
+            "items/sed_bm_demo_child_i_roster_010_i_05",
+            "items/sed_bm_demo_child_i_roster_010_i_06",
+            "items/sed_bm_demo_child_i_roster_011_i_01",
+            "items/sed_bm_demo_child_i_roster_011_i_02",
+            "items/sed_bm_demo_child_i_roster_011_i_03",
+            "items/sed_bm_demo_child_i_roster_011_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_011_i_04",
+            "items/sed_bm_demo_child_i_roster_011_i_05",
+            "items/sed_bm_demo_child_i_roster_011_i_06",
+            "items/sed_bm_demo_child_i_roster_012_i_01",
+            "items/sed_bm_demo_child_i_roster_012_i_02",
+            "items/sed_bm_demo_child_i_roster_012_i_03",
+            "items/sed_bm_demo_child_i_roster_012_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_012_i_04",
+            "items/sed_bm_demo_child_i_roster_012_i_05",
+            "items/sed_bm_demo_child_i_roster_012_i_06",
+            "items/sed_bm_demo_child_i_roster_013_i_01",
+            "items/sed_bm_demo_child_i_roster_013_i_02",
+            "items/sed_bm_demo_child_i_roster_013_i_03",
+            "items/sed_bm_demo_child_i_roster_013_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_013_i_04",
+            "items/sed_bm_demo_child_i_roster_013_i_05",
+            "items/sed_bm_demo_child_i_roster_013_i_06",
+            "items/sed_bm_demo_child_i_roster_014_i_01",
+            "items/sed_bm_demo_child_i_roster_014_i_02",
+            "items/sed_bm_demo_child_i_roster_014_i_03",
+            "items/sed_bm_demo_child_i_roster_014_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_014_i_04",
+            "items/sed_bm_demo_child_i_roster_014_i_05",
+            "items/sed_bm_demo_child_i_roster_014_i_06",
+            "items/sed_bm_demo_child_i_roster_015_i_01",
+            "items/sed_bm_demo_child_i_roster_015_i_02",
+            "items/sed_bm_demo_child_i_roster_015_i_03",
+            "items/sed_bm_demo_child_i_roster_015_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_015_i_04",
+            "items/sed_bm_demo_child_i_roster_015_i_05",
+            "items/sed_bm_demo_child_i_roster_015_i_06",
+            "items/sed_bm_demo_child_i_roster_016_i_01",
+            "items/sed_bm_demo_child_i_roster_016_i_02",
+            "items/sed_bm_demo_child_i_roster_016_i_03",
+            "items/sed_bm_demo_child_i_roster_016_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_016_i_04",
+            "items/sed_bm_demo_child_i_roster_016_i_05",
+            "items/sed_bm_demo_child_i_roster_016_i_06",
+            "items/sed_bm_demo_child_i_roster_017_i_01",
+            "items/sed_bm_demo_child_i_roster_017_i_02",
+            "items/sed_bm_demo_child_i_roster_017_i_03",
+            "items/sed_bm_demo_child_i_roster_017_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_017_i_04",
+            "items/sed_bm_demo_child_i_roster_017_i_05",
+            "items/sed_bm_demo_child_i_roster_017_i_06",
+            "items/sed_bm_demo_child_i_roster_018_i_01",
+            "items/sed_bm_demo_child_i_roster_018_i_02",
+            "items/sed_bm_demo_child_i_roster_018_i_03",
+            "items/sed_bm_demo_child_i_roster_018_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_018_i_04",
+            "items/sed_bm_demo_child_i_roster_018_i_05",
+            "items/sed_bm_demo_child_i_roster_018_i_06",
+            "items/sed_bm_demo_child_i_roster_019_i_01",
+            "items/sed_bm_demo_child_i_roster_019_i_02",
+            "items/sed_bm_demo_child_i_roster_019_i_03",
+            "items/sed_bm_demo_child_i_roster_019_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_019_i_04",
+            "items/sed_bm_demo_child_i_roster_019_i_05",
+            "items/sed_bm_demo_child_i_roster_019_i_06",
+            "items/sed_bm_demo_child_i_roster_020",
+            "items/sed_bm_demo_child_i_roster_020_i_01",
+            "items/sed_bm_demo_child_i_roster_020_i_02_i_00",
+            "items/sed_bm_demo_child_i_roster_020_i_02_i_01",
+            "items/sed_bm_demo_child_i_roster_020_i_02_i_02",
+            "items/sed_bm_demo_child_i_roster_instr03",
+            "items/sed_bm_demo_child_i_roster_table_17",
+            "items/sed_bm_demo_child_i_roster_table_18",
+            "items/sed_bm_demo_child_i_roster_table_19",
+            "items/sed_bm_demo_child_i_roster_table_20",
+            "items/sed_bm_demo_child_i_roster_table_21",
+            "items/sed_bm_demo_child_i_roster_table_22",
+            "items/sed_bm_demo_child_i_roster_table_23",
+            "items/sed_bm_demo_child_i_roster_table_24",
+            "items/sed_bm_demo_child_i_roster_table_25",
+            "items/sed_bm_demo_child_i_roster_table_26",
+            "items/sed_bm_demo_child_i_roster_table_27",
+            "items/sed_bm_demo_child_i_roster_table_28",
+            "items/sed_bm_demo_child_i_roster_table_29",
+            "items/sed_bm_demo_child_i_roster_table_30",
+            "items/sed_bm_demo_child_i_roster_table_31",
+            "items/sed_bm_demo_child_i_roster_table_32",
+            "items/sed_bm_demo_child_i_roster_021_i_01",
+            "items/sed_bm_demo_child_i_roster_021_i_02",
+            "items/sed_bm_demo_child_i_roster_021_i_03",
+            "items/sed_bm_demo_child_i_roster_021_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_021_i_04",
+            "items/sed_bm_demo_child_i_roster_021_i_05",
+            "items/sed_bm_demo_child_i_roster_021_i_06",
+            "items/sed_bm_demo_child_i_roster_022_i_01",
+            "items/sed_bm_demo_child_i_roster_022_i_02",
+            "items/sed_bm_demo_child_i_roster_022_i_03",
+            "items/sed_bm_demo_child_i_roster_022_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_022_i_04",
+            "items/sed_bm_demo_child_i_roster_022_i_05",
+            "items/sed_bm_demo_child_i_roster_022_i_06",
+            "items/sed_bm_demo_child_i_roster_023_i_01",
+            "items/sed_bm_demo_child_i_roster_023_i_02",
+            "items/sed_bm_demo_child_i_roster_023_i_03",
+            "items/sed_bm_demo_child_i_roster_023_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_023_i_04",
+            "items/sed_bm_demo_child_i_roster_023_i_05",
+            "items/sed_bm_demo_child_i_roster_023_i_06",
+            "items/sed_bm_demo_child_i_roster_024_i_01",
+            "items/sed_bm_demo_child_i_roster_024_i_02",
+            "items/sed_bm_demo_child_i_roster_024_i_03",
+            "items/sed_bm_demo_child_i_roster_024_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_024_i_04",
+            "items/sed_bm_demo_child_i_roster_024_i_05",
+            "items/sed_bm_demo_child_i_roster_024_i_06",
+            "items/sed_bm_demo_child_i_roster_025_i_01",
+            "items/sed_bm_demo_child_i_roster_025_i_02",
+            "items/sed_bm_demo_child_i_roster_025_i_03",
+            "items/sed_bm_demo_child_i_roster_025_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_025_i_04",
+            "items/sed_bm_demo_child_i_roster_025_i_05",
+            "items/sed_bm_demo_child_i_roster_025_i_06",
+            "items/sed_bm_demo_child_i_roster_026_i_01",
+            "items/sed_bm_demo_child_i_roster_026_i_02",
+            "items/sed_bm_demo_child_i_roster_026_i_03",
+            "items/sed_bm_demo_child_i_roster_026_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_026_i_04",
+            "items/sed_bm_demo_child_i_roster_026_i_05",
+            "items/sed_bm_demo_child_i_roster_026_i_06",
+            "items/sed_bm_demo_child_i_roster_027_i_01",
+            "items/sed_bm_demo_child_i_roster_027_i_02",
+            "items/sed_bm_demo_child_i_roster_027_i_03",
+            "items/sed_bm_demo_child_i_roster_027_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_027_i_04",
+            "items/sed_bm_demo_child_i_roster_027_i_05",
+            "items/sed_bm_demo_child_i_roster_027_i_06",
+            "items/sed_bm_demo_child_i_roster_028_i_01",
+            "items/sed_bm_demo_child_i_roster_028_i_02",
+            "items/sed_bm_demo_child_i_roster_028_i_03",
+            "items/sed_bm_demo_child_i_roster_028_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_028_i_04",
+            "items/sed_bm_demo_child_i_roster_028_i_05",
+            "items/sed_bm_demo_child_i_roster_028_i_06",
+            "items/sed_bm_demo_child_i_roster_029_i_01",
+            "items/sed_bm_demo_child_i_roster_029_i_02",
+            "items/sed_bm_demo_child_i_roster_029_i_03",
+            "items/sed_bm_demo_child_i_roster_029_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_029_i_04",
+            "items/sed_bm_demo_child_i_roster_029_i_05",
+            "items/sed_bm_demo_child_i_roster_029_i_06",
+            "items/sed_bm_demo_child_i_roster_030_i_01",
+            "items/sed_bm_demo_child_i_roster_030_i_02",
+            "items/sed_bm_demo_child_i_roster_030_i_03",
+            "items/sed_bm_demo_child_i_roster_030_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_030_i_04",
+            "items/sed_bm_demo_child_i_roster_030_i_05",
+            "items/sed_bm_demo_child_i_roster_030_i_06",
+            "items/sed_bm_demo_child_i_roster_031_i_01",
+            "items/sed_bm_demo_child_i_roster_031_i_02",
+            "items/sed_bm_demo_child_i_roster_031_i_03",
+            "items/sed_bm_demo_child_i_roster_031_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_031_i_04",
+            "items/sed_bm_demo_child_i_roster_031_i_05",
+            "items/sed_bm_demo_child_i_roster_031_i_06",
+            "items/sed_bm_demo_child_i_roster_032_i_01",
+            "items/sed_bm_demo_child_i_roster_032_i_02",
+            "items/sed_bm_demo_child_i_roster_032_i_03",
+            "items/sed_bm_demo_child_i_roster_032_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_032_i_04",
+            "items/sed_bm_demo_child_i_roster_032_i_05",
+            "items/sed_bm_demo_child_i_roster_032_i_06",
+            "items/sed_bm_demo_child_i_roster_033_i_01",
+            "items/sed_bm_demo_child_i_roster_033_i_02",
+            "items/sed_bm_demo_child_i_roster_033_i_03",
+            "items/sed_bm_demo_child_i_roster_033_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_033_i_04",
+            "items/sed_bm_demo_child_i_roster_033_i_05",
+            "items/sed_bm_demo_child_i_roster_033_i_06",
+            "items/sed_bm_demo_child_i_roster_034_i_01",
+            "items/sed_bm_demo_child_i_roster_034_i_02",
+            "items/sed_bm_demo_child_i_roster_034_i_03",
+            "items/sed_bm_demo_child_i_roster_034_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_034_i_04",
+            "items/sed_bm_demo_child_i_roster_034_i_05",
+            "items/sed_bm_demo_child_i_roster_034_i_06",
+            "items/sed_bm_demo_child_i_roster_035_i_01",
+            "items/sed_bm_demo_child_i_roster_035_i_02",
+            "items/sed_bm_demo_child_i_roster_035_i_03",
+            "items/sed_bm_demo_child_i_roster_035_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_035_i_04",
+            "items/sed_bm_demo_child_i_roster_035_i_05",
+            "items/sed_bm_demo_child_i_roster_035_i_06",
+            "items/sed_bm_demo_child_i_roster_036_i_01",
+            "items/sed_bm_demo_child_i_roster_036_i_02",
+            "items/sed_bm_demo_child_i_roster_036_i_03",
+            "items/sed_bm_demo_child_i_roster_036_i_03_i_01",
+            "items/sed_bm_demo_child_i_roster_036_i_04",
+            "items/sed_bm_demo_child_i_roster_036_i_05",
+            "items/sed_bm_demo_child_i_roster_036_i_06",
+            "items/sed_bm_demo_child_i_income_001",
+            "items/sed_bm_demo_child_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_demo_child_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_location"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001",
+                "isVis": "event-name == 'v04_arm_1' OR event-name == 'v06_arm_1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001_i_01",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_herit_001___0 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001_i_02",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_herit_001___1 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001_i_03",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_herit_001___2 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001_i_04",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_herit_001___3 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001_i_05",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_herit_001___4 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001_i_06",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_herit_001___5 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_001_i_07",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_herit_001___6 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_001_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_herit_002",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_herit_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_001",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_002",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_002_i_01",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_relat_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_003",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_004",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_relat_003 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_004"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_004_i_01",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_relat_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_004_i_02",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND ( sed_bm_demo_child_i_relat_004_i_01 == '0' OR sed_bm_demo_child_i_relat_004 == '0')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_004_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_relat_004_i_03",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND ( sed_bm_demo_child_i_relat_004_i_02 == '0' OR sed_bm_demo_child_i_relat_003 == '0')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_relat_004_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_instr01",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1')",
+                "variableName": "sed_bm_demo_child_i_roster_instr01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_001",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_001_i_01",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_instr04",
+                "isVis": "sed_bm_demo_child_i_roster_001 == '1'",
+                "variableName": "sed_bm_demo_child_i_roster_instr04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_instr05",
+                "isVis": "sed_bm_demo_child_i_roster_001 == '2'",
+                "variableName": "sed_bm_demo_child_i_roster_instr05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_instr06",
+                "isVis": "sed_bm_demo_child_i_roster_001 == '3'",
+                "variableName": "sed_bm_demo_child_i_roster_instr06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_roster_001_i_01 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002_i_01",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002_i_02_i_00",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_00"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002_i_02_i_01",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002_i_02_i_01_i_01",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_01_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002_i_02_i_02",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002_i_02_i_02_i_01",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_02_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_002_i_02_i_03",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_002_i_02_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_1",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 1",
+                "variableName": "sed_bm_demo_child_i_roster_table_1"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_2",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 2",
+                "variableName": "sed_bm_demo_child_i_roster_table_2"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_3",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3",
+                "variableName": "sed_bm_demo_child_i_roster_table_3"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_4",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 4",
+                "variableName": "sed_bm_demo_child_i_roster_table_4"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_5",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 5",
+                "variableName": "sed_bm_demo_child_i_roster_table_5"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_6",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 6",
+                "variableName": "sed_bm_demo_child_i_roster_table_6"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_7",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 7",
+                "variableName": "sed_bm_demo_child_i_roster_table_7"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_8",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 8",
+                "variableName": "sed_bm_demo_child_i_roster_table_8"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_9",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 9",
+                "variableName": "sed_bm_demo_child_i_roster_table_9"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_10",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 10",
+                "variableName": "sed_bm_demo_child_i_roster_table_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_11",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 11",
+                "variableName": "sed_bm_demo_child_i_roster_table_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_12",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 12",
+                "variableName": "sed_bm_demo_child_i_roster_table_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_13",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 13",
+                "variableName": "sed_bm_demo_child_i_roster_table_13"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_14",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 14",
+                "variableName": "sed_bm_demo_child_i_roster_table_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_15",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 15",
+                "variableName": "sed_bm_demo_child_i_roster_table_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_16",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 16",
+                "variableName": "sed_bm_demo_child_i_roster_table_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_004_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_004_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 1 AND sed_bm_demo_child_i_roster_004_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_004_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_004_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_004_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_004_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_004_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_004_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_004_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_004_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_004_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_004_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_004_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_005_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_005_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 2 AND sed_bm_demo_child_i_roster_005_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_005_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_005_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_005_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_005_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_005_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_005_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_005_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_005_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_005_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_005_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_005_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_005_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_006_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_006_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_006_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3 AND sed_bm_demo_child_i_roster_006_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_006_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_006_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_006_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_006_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_006_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_006_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_006_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_006_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_006_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_006_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_006_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_007_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_007_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_007_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3 AND sed_bm_demo_child_i_roster_007_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_007_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_007_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_007_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_007_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_007_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_007_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_007_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_007_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_007_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_007_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_007_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_007_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_008_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_008_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_008_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 3 AND sed_bm_demo_child_i_roster_008_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_008_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_008_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_008_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_008_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_008_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_008_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_008_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_008_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_008_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_008_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_008_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_008_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_009_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_009_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_009_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 6 AND sed_bm_demo_child_i_roster_009_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_009_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_009_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_009_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_009_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_009_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_009_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_009_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_009_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_009_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_009_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_009_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_009_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_010_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_010_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 7 AND sed_bm_demo_child_i_roster_010_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_010_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_010_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_010_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_010_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_010_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_010_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_010_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_010_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_010_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_010_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_010_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_010_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_011_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_011_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 8 AND sed_bm_demo_child_i_roster_011_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_011_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_011_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_011_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_011_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_011_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_011_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_011_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_011_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_011_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_011_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_011_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_011_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_012_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_012_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_012_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 9 AND sed_bm_demo_child_i_roster_012_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_012_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_012_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_012_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_012_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_012_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_012_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_012_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_012_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_012_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_012_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_012_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_012_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_013_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_013_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_013_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 10 AND sed_bm_demo_child_i_roster_013_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_013_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_013_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_013_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_013_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_013_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_013_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_013_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_013_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_013_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_013_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_013_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_013_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_014_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_014_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_014_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 11 AND sed_bm_demo_child_i_roster_014_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_014_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_014_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_014_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_014_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_014_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_014_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_014_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_014_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_014_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_014_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_014_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_014_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_015_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_015_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_015_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 12 AND sed_bm_demo_child_i_roster_015_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_015_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_015_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_015_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_015_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_015_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_015_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_015_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_015_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_015_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_015_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_015_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_015_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_016_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_016_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_016_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 13 AND sed_bm_demo_child_i_roster_016_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_016_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_016_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_016_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_016_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_016_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_016_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_016_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_016_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_016_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_016_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_016_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_016_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_017_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_017_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_017_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 14 AND sed_bm_demo_child_i_roster_017_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_017_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_017_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_017_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_017_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_017_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_017_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_017_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_017_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_017_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_017_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_017_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_017_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_018_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_018_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_018_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 15 AND sed_bm_demo_child_i_roster_018_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_018_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_018_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_018_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_018_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_018_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_018_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_018_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_018_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_018_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_018_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_018_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_018_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_019_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_019_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_019_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 16 AND sed_bm_demo_child_i_roster_019_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_019_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_019_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_019_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_019_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_019_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_019_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_019_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_019_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_019_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_019_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_019_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_002_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_019_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND sed_bm_demo_child_i_roster_001_i_01 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_020"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020_i_01",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND ( sed_bm_demo_child_i_roster_020 == '1' OR sed_bm_demo_child_i_roster_020 == '2' OR sed_bm_demo_child_i_roster_020 == '6') AND sed_bm_demo_child_i_roster_001_i_01 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_020_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020_i_02_i_00",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND ( sed_bm_demo_child_i_roster_020 == '1' OR sed_bm_demo_child_i_roster_020 == '2' OR sed_bm_demo_child_i_roster_020 == '6') AND sed_bm_demo_child_i_roster_001_i_01 >= 2",
+                "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_00"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020_i_02_i_01",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND ( sed_bm_demo_child_i_roster_020 == '1' OR sed_bm_demo_child_i_roster_020 == '2' OR sed_bm_demo_child_i_roster_020 == '6') AND sed_bm_demo_child_i_roster_001_i_01 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020_i_02_i_01_i_01",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_01_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020_i_02_i_02",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND ( sed_bm_demo_child_i_roster_020 == '1' OR sed_bm_demo_child_i_roster_020 == '2' OR sed_bm_demo_child_i_roster_020 == '6') AND sed_bm_demo_child_i_roster_001_i_01 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020_i_02_i_02_i_01",
+                "isVis": "( sed_bm_demo_child_i_roster_002 == '1' OR sed_bm_demo_child_i_roster_002 == '2' OR sed_bm_demo_child_i_roster_002 == '6')",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_02_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_020_i_02_i_03",
+                "isVis": "( event-name == 'v04_arm_1' OR event-name == 'v06_arm_1') AND ( sed_bm_demo_child_i_roster_020 == '1' OR sed_bm_demo_child_i_roster_020 == '2' OR sed_bm_demo_child_i_roster_020 == '6') AND sed_bm_demo_child_i_roster_001_i_01 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_020_i_02_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_instr03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1",
+                "variableName": "sed_bm_demo_child_i_roster_instr03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_17",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1",
+                "variableName": "sed_bm_demo_child_i_roster_table_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_18",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 2",
+                "variableName": "sed_bm_demo_child_i_roster_table_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_19",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3",
+                "variableName": "sed_bm_demo_child_i_roster_table_19"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_20",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 4",
+                "variableName": "sed_bm_demo_child_i_roster_table_20"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_21",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 5",
+                "variableName": "sed_bm_demo_child_i_roster_table_21"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_22",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 6",
+                "variableName": "sed_bm_demo_child_i_roster_table_22"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_23",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 7",
+                "variableName": "sed_bm_demo_child_i_roster_table_23"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_24",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 8",
+                "variableName": "sed_bm_demo_child_i_roster_table_24"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_25",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 9",
+                "variableName": "sed_bm_demo_child_i_roster_table_25"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_26",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 10",
+                "variableName": "sed_bm_demo_child_i_roster_table_26"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_27",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 11",
+                "variableName": "sed_bm_demo_child_i_roster_table_27"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_28",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 12",
+                "variableName": "sed_bm_demo_child_i_roster_table_28"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_29",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 13",
+                "variableName": "sed_bm_demo_child_i_roster_table_29"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_30",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 14",
+                "variableName": "sed_bm_demo_child_i_roster_table_30"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_31",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 15",
+                "variableName": "sed_bm_demo_child_i_roster_table_31"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_table_32",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 16",
+                "variableName": "sed_bm_demo_child_i_roster_table_32"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_021_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_021_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_021_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1 AND sed_bm_demo_child_i_roster_021_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_021_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_021_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_021_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_021_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_021_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_021_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_021_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_021_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_021_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_021_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_021_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_021_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_022_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_022_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_022_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 2 AND sed_bm_demo_child_i_roster_022_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_022_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_022_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_022_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_022_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_022_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_022_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_022_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_022_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_022_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_022_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_022_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_022_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_023_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_023_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_023_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3 AND sed_bm_demo_child_i_roster_023_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_023_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_023_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_023_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_023_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_023_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_023_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_023_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_023_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_023_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_023_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_023_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_023_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_024_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_024_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_024_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3 AND sed_bm_demo_child_i_roster_024_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_024_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_024_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_024_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_024_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_024_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_024_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_024_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_024_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_024_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_024_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_024_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_024_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_025_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_025_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_025_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 3 AND sed_bm_demo_child_i_roster_025_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_025_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_025_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_025_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_025_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_025_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_025_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_025_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_025_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_025_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_025_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_025_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_025_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_026_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_026_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_026_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 6 AND sed_bm_demo_child_i_roster_026_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_026_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_026_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_026_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_026_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_026_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_026_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_026_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_026_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_026_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_026_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_026_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_026_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_027_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_027_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_027_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 7 AND sed_bm_demo_child_i_roster_027_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_027_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_027_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_027_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_027_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_027_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_027_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_027_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_027_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_027_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_027_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_027_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_027_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_028_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_028_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_028_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 8 AND sed_bm_demo_child_i_roster_028_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_028_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_028_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_028_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_028_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_028_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_028_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_028_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_028_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_028_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_028_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_028_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_028_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_029_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_029_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_029_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 9 AND sed_bm_demo_child_i_roster_029_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_029_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_029_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_029_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_029_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_029_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_029_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_029_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_029_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_029_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_029_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_029_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_029_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_030_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_030_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_030_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 10 AND sed_bm_demo_child_i_roster_030_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_030_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_030_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_030_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_030_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_030_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_030_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_030_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_030_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_030_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_030_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_030_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_030_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_031_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_031_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_031_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 11 AND sed_bm_demo_child_i_roster_031_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_031_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_031_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_031_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_031_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_031_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_031_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_031_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_031_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_031_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_031_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_031_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_031_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_032_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_032_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_032_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 12 AND sed_bm_demo_child_i_roster_032_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_032_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_032_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_032_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_032_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_032_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_032_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_032_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_032_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_032_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_032_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_032_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_032_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_033_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_033_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_033_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 13 AND sed_bm_demo_child_i_roster_033_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_033_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_033_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_033_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_033_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_033_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_033_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_033_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_033_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_033_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_033_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_033_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_033_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_034_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_034_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_034_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 14 AND sed_bm_demo_child_i_roster_034_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_034_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_034_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_034_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_034_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_034_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_034_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_034_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_034_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_034_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_034_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_034_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_034_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_035_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_035_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_035_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 15 AND sed_bm_demo_child_i_roster_035_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_035_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_035_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_035_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_035_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_035_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_035_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_035_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_035_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_035_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_035_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_035_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_035_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_036_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_036_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_036_i_02",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 16 AND sed_bm_demo_child_i_roster_036_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_036_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_036_i_03",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_036_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_036_i_03_i_01",
+                "isVis": "sed_bm_demo_child_i_roster_036_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_036_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_036_i_04",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_036_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_036_i_05",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_036_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_roster_036_i_06",
+                "isVis": "sed_bm_demo_child_i_roster_020_i_02_i_03 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_roster_036_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_i_income_001",
+                "isVis": "event-name == 'v04_arm_1' OR event-name == 'v06_arm_1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_child_i_income_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_child_complete",
+                "isVis": true,
+                "variableName": "sed_bm_demo_child_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

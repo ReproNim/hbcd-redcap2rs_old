@@ -1,0 +1,170 @@
+{
+    "id": "ph_cg_screenq_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ph_cg_screenq"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ph_cg_screenq_lang",
+            "items/ph_cg_screenq_dtt",
+            "items/ph_cg_screenq_timestamp_start",
+            "items/ph_cg_screenq_location",
+            "items/ph_cg_screenq_001",
+            "items/ph_cg_screenq_002",
+            "items/ph_cg_screenq_003",
+            "items/ph_cg_screenq_004",
+            "items/ph_cg_screenq_005",
+            "items/ph_cg_screenq_006",
+            "items/ph_cg_screenq_007",
+            "items/ph_cg_screenq_008",
+            "items/ph_cg_screenq_009",
+            "items/ph_cg_screenq_010",
+            "items/ph_cg_screenq_011",
+            "items/ph_cg_screenq_012",
+            "items/ph_cg_screenq_013",
+            "items/ph_cg_screenq_014",
+            "items/ph_cg_screenq_015",
+            "items/ph_cg_screenq_016",
+            "items/ph_cg_screenq_017",
+            "items/ph_cg_screenq_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ph_cg_screenq_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_lang"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_dtt"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_timestamp_start"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_location"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_001"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_002"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_003"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_004"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_005"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_006"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_007"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_008"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_009"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_010"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_011"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_012"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_013"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_014"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_015"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_016"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ph_cg_screenq_017"
+            },
+            {
+                "isAbout": "items/ph_cg_screenq_complete",
+                "isVis": true,
+                "variableName": "ph_cg_screenq_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

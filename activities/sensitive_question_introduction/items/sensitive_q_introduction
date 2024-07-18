@@ -1,0 +1,19 @@
+{
+    "id": "sensitive_q_introduction",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sensitive_q_introduction"
+    },
+    "question": {
+        "en": "Next, we ask sensitive questions about stressful or traumatic experiences you or your child may have had. We understand that answering some of these questions may make you feel uneasy. We want to remind you that your answers are private. The person giving you these questions will not review your answers to these sensitive questions.\n\nAll participants will receive information about resources related to violence or trauma. You can also ask to talk with a member of our team if you need more help."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

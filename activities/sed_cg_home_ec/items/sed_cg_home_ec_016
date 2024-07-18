@@ -1,0 +1,94 @@
+{
+    "id": "sed_cg_home_ec_016",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_home_ec_016"
+    },
+    "question": {
+        "en": "Most children get angry at their parents/caregivers from time to time. If your child got so angry that they hit you, what would you do? (check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yell at Child"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Send child to their room"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Spank child"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Talk to child"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Ignore it"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Give child a household chore"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Take away allowance"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Hold child's hand until calm"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Put child in a short time out"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Something else"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

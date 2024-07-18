@@ -1,0 +1,19 @@
+{
+    "id": "child_introduction_v5",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "child_introduction_v5"
+    },
+    "question": {
+        "en": "This first set of surveys will ask you all about your child, how they are growing, and the new things they are learning. There are no right or wrong answers. We want to learn about your child from you! Some surveys will be short and others will be longer. You can take breaks as needed. There are13 surveysin this section and all together they will takeabout an hourto complete."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

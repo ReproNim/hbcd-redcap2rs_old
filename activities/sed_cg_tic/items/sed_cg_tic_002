@@ -1,0 +1,45 @@
+{
+    "id": "sed_cg_tic_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_tic_002"
+    },
+    "question": {
+        "en": "Other than the time period you just told me about, was there another time when someone else was responsible for providing CHILD with care and support for 2 weeks or more?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

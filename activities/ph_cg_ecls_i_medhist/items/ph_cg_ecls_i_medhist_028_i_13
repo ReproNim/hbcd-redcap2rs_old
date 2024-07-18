@@ -1,0 +1,63 @@
+{
+    "id": "ph_cg_ecls_i_medhist_028_i_13",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_028_i_13"
+    },
+    "question": {
+        "en": "Stomach pain"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Daily"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Weekly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Monthly"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Less than monthly"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

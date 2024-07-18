@@ -1,0 +1,57 @@
+{
+    "id": "ph_cg_cnq_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_001"
+    },
+    "question": {
+        "en": "How much milk does your child drink each day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 cup"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 cups"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3 or more cups"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Does not drink milk"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

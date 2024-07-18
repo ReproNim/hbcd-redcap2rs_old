@@ -1,0 +1,117 @@
+{
+    "id": "ph_cg_bisq_is_004_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_is_004_i_01"
+    },
+    "question": {
+        "en": "Hours of total nighttime sleep"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 60
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 120
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 180
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 240
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 300
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 360
+            },
+            {
+                "name": {
+                    "en": "7"
+                },
+                "value": 420
+            },
+            {
+                "name": {
+                    "en": "8"
+                },
+                "value": 480
+            },
+            {
+                "name": {
+                    "en": "9"
+                },
+                "value": 540
+            },
+            {
+                "name": {
+                    "en": "10"
+                },
+                "value": 600
+            },
+            {
+                "name": {
+                    "en": "11"
+                },
+                "value": 660
+            },
+            {
+                "name": {
+                    "en": "12"
+                },
+                "value": 720
+            },
+            {
+                "name": {
+                    "en": "13"
+                },
+                "value": 780
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

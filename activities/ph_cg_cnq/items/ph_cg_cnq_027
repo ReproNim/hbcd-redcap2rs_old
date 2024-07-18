@@ -1,0 +1,57 @@
+{
+    "id": "ph_cg_cnq_027",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_027"
+    },
+    "question": {
+        "en": "How do you feel about how your child is growing?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "My child should weigh more"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My child is about the right weight"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "My child should weigh less"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I'm not sure"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

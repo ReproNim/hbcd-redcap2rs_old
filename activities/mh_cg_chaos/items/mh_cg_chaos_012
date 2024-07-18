@@ -1,0 +1,51 @@
+{
+    "id": "mh_cg_chaos_012",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_chaos_012"
+    },
+    "question": {
+        "en": "Our home is a good place to relax."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very much like your own home"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat like your own home"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A little bit like your own home"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Not at all like your own home"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

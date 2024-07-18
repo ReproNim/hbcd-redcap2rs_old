@@ -1,0 +1,93 @@
+{
+    "id": "sed_cg_employ_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_003"
+    },
+    "question": {
+        "en": "Select the category that best describes your current work or employment status:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Employed for wages full time (30 hours per week or more)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Employed for wages part time (29 hours per week or less)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Self-employed or family business for wages"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Work without pay in a family business or farm"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Active Duty in the United States Armed Forces (regular military National Guard Military Reserve Unit)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "On paid leave and expect to return (for example maternity family or sick leave)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "On unpaid leave and expect to return (for example maternity family or sick leave)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Stay-at-home parent/caretaker not working for pay"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Unemployed or laid off looking for work"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Unemployed not currently looking for work"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

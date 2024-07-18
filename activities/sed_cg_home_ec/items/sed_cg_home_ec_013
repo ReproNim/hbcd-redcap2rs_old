@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_home_ec_013",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_home_ec_013"
+    },
+    "question": {
+        "en": "How frequently do you or another person in the home help your child learn colors (like pointing out items and naming the color)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Once a month or less often"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Once a week"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Several times a week"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Once a day or more"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

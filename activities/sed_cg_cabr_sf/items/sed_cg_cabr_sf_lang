@@ -1,0 +1,33 @@
+{
+    "id": "sed_cg_cabr_sf_lang",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_cabr_sf_lang"
+    },
+    "question": {
+        "en": "Language"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": "en"
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": " es"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

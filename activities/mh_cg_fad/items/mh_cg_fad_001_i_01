@@ -1,0 +1,54 @@
+{
+    "id": "mh_cg_fad_001_i_01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "This questionnaire contains a number of statements about families. Please read each statement carefully, and decide how well it describes your own family. You should answer as to how you see your family."
+    },
+    "prefLabel": {
+        "en": "mh_cg_fad_001_i_01"
+    },
+    "question": {
+        "en": "Planning family activities is difficult because we misunderstand each other."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

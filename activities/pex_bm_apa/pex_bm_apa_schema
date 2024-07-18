@@ -159,21 +159,25 @@
             {
                 "isAbout": "items/pex_bm_apa_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa_lang"
             },
             {
                 "isAbout": "items/pex_bm_apa_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa_dtt"
             },
             {
                 "isAbout": "items/pex_bm_apa_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa_timestamp_start"
             },
             {
                 "isAbout": "items/pex_bm_apa_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa_location"
             },
             {
@@ -287,6 +291,7 @@
             {
                 "isAbout": "items/pex_bm_apa1_flag01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa1_flag01"
             },
             {
@@ -340,51 +345,61 @@
             {
                 "isAbout": "items/pex_bm_apa2_depr_001_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_001_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_002_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_002_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_003_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_003_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_004_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_004_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_005_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_005_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_006_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_006_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_007_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_007_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_008_i_01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_008_i_01"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_score",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_score"
             },
             {
                 "isAbout": "items/pex_bm_apa2_depr_flag01",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "pex_bm_apa2_depr_flag01"
             },
             {
@@ -815,6 +830,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

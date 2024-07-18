@@ -1,0 +1,64 @@
+{
+    "id": "ph_cg_ecls_i_medhist_i_injury_07",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_i_injury_07"
+    },
+    "question": {
+        "en": "What kind(s) of water access do you visit?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Private pool"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Public pool"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Public beach or water access (lake or ocean)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Private beach or water access (lake or ocean)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Brook/stream/estuary"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

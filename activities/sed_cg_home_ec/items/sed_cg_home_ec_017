@@ -1,0 +1,63 @@
+{
+    "id": "sed_cg_home_ec_017",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_home_ec_017"
+    },
+    "question": {
+        "en": "How often has any family member taken or arranged to take your child to any type of museum (children's, scientific, art, historical, etc.) in the past year?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Once or twice"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Several times"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About once a month or more"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "About once a week or more"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

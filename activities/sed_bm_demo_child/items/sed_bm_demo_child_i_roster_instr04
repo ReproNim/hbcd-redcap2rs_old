@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_child_i_roster_instr04",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_instr04"
+    },
+    "question": {
+        "en": "In the next section, please provide details of the child's household."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

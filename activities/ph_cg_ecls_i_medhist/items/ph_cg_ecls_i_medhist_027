@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_ecls_i_medhist_027",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_027"
+    },
+    "question": {
+        "en": "Has your child been prescribed any special medical equipment?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

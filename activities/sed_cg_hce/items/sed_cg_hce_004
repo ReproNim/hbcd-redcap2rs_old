@@ -1,0 +1,45 @@
+{
+    "id": "sed_cg_hce_004",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_004"
+    },
+    "question": {
+        "en": "Does the drinking water come from a private well or a public water supply at this home or dwelling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Public water supply"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Private well"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

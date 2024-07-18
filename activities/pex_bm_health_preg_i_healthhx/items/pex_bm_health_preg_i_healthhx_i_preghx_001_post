@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_healthhx_i_preghx_001_post"
     },
     "question": {
-        "en": "Including live births, stillbirths, miscarriages, abortions, and tubal and other ectopic pregnancies, how many times have you been pregnant?(Be sure to count your recent pregnancy)"
+        "en": "# of pregnancy post enrollment"
     },
     "responseOptions": {
         "choices": [

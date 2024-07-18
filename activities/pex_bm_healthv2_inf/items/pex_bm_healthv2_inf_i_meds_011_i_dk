@@ -5,7 +5,7 @@
         "en": "pex_bm_healthv2_inf_i_meds_011_i_dk"
     },
     "question": {
-        "en": "med dk/decline"
+        "en": "med dk/decline otc 2"
     },
     "responseOptions": {
         "choices": [

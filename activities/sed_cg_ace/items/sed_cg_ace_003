@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_ace_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_ace_003"
+    },
+    "question": {
+        "en": "3) Did you live with anyone who was depressed, mentally ill, or attempted suicide?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

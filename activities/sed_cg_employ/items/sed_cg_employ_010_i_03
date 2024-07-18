@@ -1,0 +1,51 @@
+{
+    "id": "sed_cg_employ_010_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_010_i_03"
+    },
+    "question": {
+        "en": "Has your partner returned to the job they held during your most recent pregnancy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No but they plan to return"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No and they don't plan to return"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

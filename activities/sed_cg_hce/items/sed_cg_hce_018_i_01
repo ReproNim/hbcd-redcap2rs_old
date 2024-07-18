@@ -1,0 +1,82 @@
+{
+    "id": "sed_cg_hce_018_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_018_i_01"
+    },
+    "question": {
+        "en": "In which of the following rooms have there been renovation or repairs was done during the past 12 months? (select all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Participating child's bedroom"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Bedroom other than participating child's"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Family room den or common space"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Bathroom"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Kitchen"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "External feature like a roof or external wall"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Basement"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

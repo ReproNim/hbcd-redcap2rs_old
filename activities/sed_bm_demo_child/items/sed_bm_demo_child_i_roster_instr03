@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_child_i_roster_instr03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_instr03"
+    },
+    "question": {
+        "en": "Please complete a row in the table below for each person\u00a0who lives in the child's household at least two nights a week. Please start with yourself if you are the primary caregiver and living in this household. Continue to list from the youngest person to the oldest for up to 16 people."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

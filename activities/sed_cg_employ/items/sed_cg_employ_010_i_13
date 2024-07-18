@@ -1,0 +1,93 @@
+{
+    "id": "sed_cg_employ_010_i_13",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_010_i_13"
+    },
+    "question": {
+        "en": "What best describes your spouse/partner's current occupation? If your spouse/partner has more than one job, describe the job at which your spouse/partner worked the most hours in the past week."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Day laborer janitor house cleaner farm worker food counter sales food preparation worker busboy"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Garbage collector short-order cook cab driver shoe sales assembly line workers masons baggage porter"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Painter skilled construction trade sales clerk truck driver cook sales counter or general office clerk"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Automobile mechanic typist locksmith farmer carpenter receptionist construction laborer hairdresser"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Machinist musician bookkeeper secretary insurance sales cabinet maker personnel specialist welder"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Supervisor librarian aircraft mechanic artist and artisan electrician administrator military enlisted personnel buyer"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Nurse skilled technician medical technician counselor manager police and fire personnel financial manager physical occupational speech therapist"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Mechanical nuclear and electrical engineer educational administrator veterinarian military officer elementary high school and special education teacher"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Physician attorney professor chemical and aerospace engineer judge CEO senior manager public official psychologist pharmacist accountant"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

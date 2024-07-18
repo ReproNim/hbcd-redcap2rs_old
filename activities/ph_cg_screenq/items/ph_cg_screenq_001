@@ -1,0 +1,67 @@
+{
+    "id": "ph_cg_screenq_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please respond to each question or statement by marking one box per row."
+    },
+    "prefLabel": {
+        "en": "ph_cg_screenq_001"
+    },
+    "question": {
+        "en": "Does the child have any of these in their bedroom?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Television (TV)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Video Game system (Xbox Play Statione)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Handheld device such as Leapster or iPad"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Computer with internet access"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

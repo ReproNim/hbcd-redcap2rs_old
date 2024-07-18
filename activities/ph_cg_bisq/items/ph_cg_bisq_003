@@ -1,0 +1,225 @@
+{
+    "id": "ph_cg_bisq_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_003"
+    },
+    "question": {
+        "en": "What time does your child wake up in the morning?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "4:00 AM"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "4:15 AM"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "4:30 AM"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4:45 AM"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5:00 AM"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "5:15 AM"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "5:30 AM"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "5:45 AM"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "6:00 AM"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "6:15 AM"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "6:30 AM"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "6:45 AM"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "7:00 AM"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "7:15 AM"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "7:30 AM"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "7:45 AM"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "8:00 AM"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "8:15 AM"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "8:30 AM"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "8:45 AM"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "9:00 AM"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "9:15 AM"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "9:30 AM"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "9:45 AM"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "10:00 AM"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "10:15 AM"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "10:30 AM"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "10:45 AM"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "11:00 AM"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "11:15 AM"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "11:30 AM"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "11:45 AM"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

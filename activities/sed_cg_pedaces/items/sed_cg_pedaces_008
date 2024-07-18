@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_pedaces_008",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_pedaces_008"
+    },
+    "question": {
+        "en": "8) Has any adult in the household often or very often pushed, grabbed, slapped, or thrown something at your child?Orhas any adult in the household ever hit your child so hard that your child had marks or was injured?Orhas any adult in the household ever threatened your child or acted in a way that made your child afraid that they might be hurt?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

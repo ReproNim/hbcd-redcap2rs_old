@@ -1,0 +1,92 @@
+{
+    "id": "mh_cg_pms_i_selfreg_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_pms_i_selfreg"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_pms_i_selfreg_lang",
+            "items/mh_cg_pms_i_selfreg_dtt",
+            "items/mh_cg_pms_i_selfreg_timestamp_start",
+            "items/mh_cg_pms_i_selfreg_location",
+            "items/mh_cg_pms_i_selfreg_flex_instr01",
+            "items/mh_cg_pms_i_selfreg_002",
+            "items/mh_cg_pms_i_selfreg_003",
+            "items/mh_cg_pms_i_selfreg_004",
+            "items/mh_cg_pms_i_selfreg_005",
+            "items/mh_cg_pms_i_selfreg_001",
+            "items/mh_cg_pms_i_selfreg_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_location"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_flex_instr01",
+                "isVis": true,
+                "variableName": "mh_cg_pms_i_selfreg_flex_instr01"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_002"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_003"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_004"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_005"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_pms_i_selfreg_001"
+            },
+            {
+                "isAbout": "items/mh_cg_pms_i_selfreg_complete",
+                "isVis": true,
+                "variableName": "mh_cg_pms_i_selfreg_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

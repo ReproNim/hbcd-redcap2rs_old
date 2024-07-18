@@ -1,0 +1,79 @@
+{
+    "id": "sed_cg_shs_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_shs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_shs_lang",
+            "items/sed_cg_shs_dtt",
+            "items/sed_cg_shs_timestamp_start",
+            "items/sed_cg_shs_location",
+            "items/sed_cg_shs_001",
+            "items/sed_cg_shs_001_i_01",
+            "items/sed_cg_shs_002",
+            "items/sed_cg_shs_002_i_01",
+            "items/sed_cg_shs_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_shs_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_location"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_001"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_001_i_01",
+                "isVis": "sed_cg_shs_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_002"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_002_i_01",
+                "isVis": "sed_cg_shs_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_cg_shs_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_cg_shs_complete",
+                "isVis": true,
+                "variableName": "sed_cg_shs_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

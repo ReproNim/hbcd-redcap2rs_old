@@ -1,0 +1,78 @@
+{
+    "id": "sed_cg_hpss_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "In this questionnaire, I will ask you a set of questions for me to understand types of stress you experienced during your last pregnancy. We would really like to know what you think. This information helps us better understand how your pregnancy needs are being met. \n\nPlease be as honest about your experience as you can with 1= \"Not a source of stress during pregnancy at all\" to 6 = \"Source of great stress during pregnancy.\""
+    },
+    "prefLabel": {
+        "en": "sed_cg_hpss_001"
+    },
+    "question": {
+        "en": "I had difficulty finding help with other children when I needed it during pregnancy."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Not applicable"
+                },
+                "value": 555
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

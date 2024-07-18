@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_hce_instruc_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_instruc_01"
+    },
+    "question": {
+        "en": "This form has two sections. For each question, do the best you can to remember the details requested. If there is a question to which you do not know or cannot remember the answer, please mark \"Don't know\"."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

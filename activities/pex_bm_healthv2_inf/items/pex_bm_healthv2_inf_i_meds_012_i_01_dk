@@ -5,7 +5,7 @@
         "en": "pex_bm_healthv2_inf_i_meds_012_i_01_dk"
     },
     "question": {
-        "en": "indication dk/decline"
+        "en": "indication dk/decline otc 3"
     },
     "responseOptions": {
         "choices": [

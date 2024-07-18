@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_child_i_roster_instr06",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_instr06"
+    },
+    "question": {
+        "en": "In the next sections, please provide details for the two households the child spends the most time in."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

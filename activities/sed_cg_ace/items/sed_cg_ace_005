@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_ace_005",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_ace_005"
+    },
+    "question": {
+        "en": "5) Did your parents or adults in your home ever hit, punch, beat, or threaten to harm each other?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

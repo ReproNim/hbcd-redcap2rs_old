@@ -1,0 +1,177 @@
+{
+    "id": "sed_cg_home_ec_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_cg_home_ec"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_home_ec_lang",
+            "items/sed_cg_home_ec_dtt",
+            "items/sed_cg_home_ec_timestamp_start",
+            "items/sed_cg_home_ec_location",
+            "items/sed_cg_home_ec_001",
+            "items/sed_cg_home_ec_002",
+            "items/sed_cg_home_ec_003",
+            "items/sed_cg_home_ec_004",
+            "items/sed_cg_home_ec_005",
+            "items/sed_cg_home_ec_006",
+            "items/sed_cg_home_ec_007",
+            "items/sed_cg_home_ec_008",
+            "items/sed_cg_home_ec_009",
+            "items/sed_cg_home_ec_010",
+            "items/sed_cg_home_ec_011",
+            "items/sed_cg_home_ec_012",
+            "items/sed_cg_home_ec_013",
+            "items/sed_cg_home_ec_014",
+            "items/sed_cg_home_ec_015",
+            "items/sed_cg_home_ec_016",
+            "items/sed_cg_home_ec_017",
+            "items/sed_cg_home_ec_018",
+            "items/sed_cg_home_ec_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_home_ec_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_location"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_001"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_002"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_003"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_004"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_005"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_006"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_007"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_008"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_009"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_010"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_011"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_012"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_013"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_014"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_015"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_016"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_017"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_home_ec_018"
+            },
+            {
+                "isAbout": "items/sed_cg_home_ec_complete",
+                "isVis": true,
+                "variableName": "sed_cg_home_ec_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid117",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

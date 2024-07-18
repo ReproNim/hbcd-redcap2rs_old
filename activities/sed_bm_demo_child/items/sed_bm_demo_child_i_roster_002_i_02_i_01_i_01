@@ -1,0 +1,20 @@
+{
+    "id": "sed_bm_demo_child_i_roster_002_i_02_i_01_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_002_i_02_i_01_i_01"
+    },
+    "question": {
+        "en": "Total number adults, Household 1"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

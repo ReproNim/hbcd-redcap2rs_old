@@ -5,7 +5,7 @@
         "en": "pex_bm_healthv2_preg_i_erhosp_025_i_01_dk"
     },
     "question": {
-        "en": "reason dk/decline"
+        "en": "reason dk/decline admission 1"
     },
     "responseOptions": {
         "choices": [

@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_illness_002_i_dk"
     },
     "question": {
-        "en": "illness dk/decline"
+        "en": "illness number dk/decline"
     },
     "responseOptions": {
         "choices": [

@@ -5,7 +5,7 @@
         "en": "pex_bm_healthv2_preg_i_meds_060_i_01_dk"
     },
     "question": {
-        "en": "secondmed dk/decline"
+        "en": "secondmed dk/decline otc"
     },
     "responseOptions": {
         "choices": [

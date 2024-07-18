@@ -1,0 +1,19 @@
+{
+    "id": "parent_introduction_v4",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "parent_introduction_v4"
+    },
+    "question": {
+        "en": "Thank you for completing questions about your child! That was the longest section of the surveys. Next we'd like to ask some questions about you. These questions will ask about your health, your thoughts and feelings, support and stress, and your use of medications and substances. As a reminder, your responses are confidential. There are4 surveysin this section and all together they will take about20-30 minutes."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

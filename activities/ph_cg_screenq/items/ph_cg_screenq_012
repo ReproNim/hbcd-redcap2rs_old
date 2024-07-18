@@ -1,0 +1,45 @@
+{
+    "id": "ph_cg_screenq_012",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_screenq_012"
+    },
+    "question": {
+        "en": "How would you describemostof the shows, video games, or apps that the child watches or plays?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Fast-paced more action"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Slower paced more talking or singing"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

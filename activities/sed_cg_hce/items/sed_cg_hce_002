@@ -1,0 +1,75 @@
+{
+    "id": "sed_cg_hce_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_002"
+    },
+    "question": {
+        "en": "What is the type of home or dwelling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Single Family / Detached House"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Duplex/Triplex"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Row house"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Low rise apartment (1-3 floors)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "High rise apartment (4 or more floors)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mobile home/trailer"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

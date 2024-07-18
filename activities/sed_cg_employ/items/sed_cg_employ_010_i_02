@@ -1,0 +1,48 @@
+{
+    "id": "sed_cg_employ_010_i_02",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Partners Parental Leave"
+    },
+    "prefLabel": {
+        "en": "sed_cg_employ_010_i_02"
+    },
+    "question": {
+        "en": "At any time during your most recent pregnancy, did your partner work at a job for pay?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

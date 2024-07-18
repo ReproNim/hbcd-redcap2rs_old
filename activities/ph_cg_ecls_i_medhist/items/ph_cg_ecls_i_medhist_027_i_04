@@ -1,0 +1,57 @@
+{
+    "id": "ph_cg_ecls_i_medhist_027_i_04",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_027_i_04"
+    },
+    "question": {
+        "en": "Feeding tube"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes currently using"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes prescribe but no longer using"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes but never got"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

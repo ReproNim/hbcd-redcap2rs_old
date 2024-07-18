@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_bisq_is_003_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_is_003_i_00"
+    },
+    "question": {
+        "en": "What is the longest stretch of time that your child is asleep during the NIGHT without waking up? \n\nPlease make a selection for both hours and minutes, even if one of the selections is zero \"0.\"\n\nLongest stretch of sleep (hours): {ph_cg_bisq_is_003_i_01}\nLongest stretch of sleep (minutes): {ph_cg_bisq_is_003_i_02}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

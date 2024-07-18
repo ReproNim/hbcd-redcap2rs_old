@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_ecls_i_medhist_018_i_table",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_018_i_table"
+    },
+    "question": {
+        "en": "How many over the counters medications?{ph_cg_ecls_i_medhist_018_i_01}{ph_cg_ecls_i_medhist_018_i_01_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

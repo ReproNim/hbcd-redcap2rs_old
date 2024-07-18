@@ -1,0 +1,129 @@
+{
+    "id": "sed_bm_demo_child_i_roster_034_i_04",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_034_i_04"
+    },
+    "question": {
+        "en": "Person 14 relationship household 2"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Biological Child"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Step Child"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Adopted Child"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Foster Child"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Child-in-Law"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Grandchild"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Spouse/Partner"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Friend/Roommate"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Roomer/Boarder"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Parent"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Step-parent"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Parent-in-Law"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Grandparent"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Sibling"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Other Relative"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Other Non-relative"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

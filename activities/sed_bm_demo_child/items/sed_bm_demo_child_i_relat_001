@@ -1,0 +1,78 @@
+{
+    "id": "sed_bm_demo_child_i_relat_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Relationship with the Child"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_relat_001"
+    },
+    "question": {
+        "en": "What is the child's relationship to you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Child"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Foster Child"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Grandchild"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sibling"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other family member"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Non-family (a friend or friend of the family)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

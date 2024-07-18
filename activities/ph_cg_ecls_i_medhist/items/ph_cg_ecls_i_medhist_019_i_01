@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_ecls_i_medhist_019_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_019_i_01"
+    },
+    "question": {
+        "en": "To the best of your recollection, which month and year was your child's first COVID infection?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

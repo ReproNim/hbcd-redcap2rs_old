@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_bisq_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_instr01"
+    },
+    "question": {
+        "en": "Please answer the following questions about your child's sleep patterns."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

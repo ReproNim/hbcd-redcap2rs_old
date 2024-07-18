@@ -1,0 +1,63 @@
+{
+    "id": "ph_cg_bisq_pp_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_pp_003"
+    },
+    "question": {
+        "en": "Do you consider your child's sleep a problem?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all a problem"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A very small problem"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A small problem"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A moderate problem"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "A serious problem"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

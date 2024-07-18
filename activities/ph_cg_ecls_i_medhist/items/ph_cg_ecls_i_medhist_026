@@ -1,0 +1,160 @@
+{
+    "id": "ph_cg_ecls_i_medhist_026",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_ecls_i_medhist_026"
+    },
+    "question": {
+        "en": "Has a doctor or nurse ever told you that your child has the following chronic (long-lasting or permanent) problem(s):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Blindness"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Difficulty seeing including nearsightedness or farsightedness"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Difficulty hearing or deafness (NOT including temporary loss of hearing due to cold or congestion)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A cleft lip and/or palate"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "A heart defect"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Failure to thrive or very poor growth"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "A congenital (that is acquired while in the womb) infection such as Hepatitis or HIV"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "A problem with mobility or using their legs to get around or cerebral palsy"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "A problem with using their hands"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Down syndrome or Trisomy 21"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Turner's syndrome"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Spina bifida"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Seizures or epilepsy"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Overweight or obesity"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Cancer"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Asthma"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Cystic fibrosis"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Diabetes"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Hypertension or high blood pressure"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Fetal alcohol syndrome"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Other chronic condition(s)"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "sed_cg_hce_029",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The next few questions are about air fresheners used in the past year. The first question is about continuously releasing plug-ins, gels, oils, solids or other types of products that continually or automatically freshen the air. The second question is about air freshener spray products that need to be sprayed by a person."
+    },
+    "prefLabel": {
+        "en": "sed_cg_hce_029"
+    },
+    "question": {
+        "en": "Are air fresheners such as plug-ins, gels, oils, solids, or other types of products that continually or automatically freshen the air, used in the child's home or dwelling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

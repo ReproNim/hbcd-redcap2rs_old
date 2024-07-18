@@ -1,0 +1,81 @@
+{
+    "id": "sed_cg_employ_010_i_07_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_employ_010_i_07_i_01"
+    },
+    "question": {
+        "en": "If unemployed and not currently looking for work, what is the main reason your spouse/partner has been out of work?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "On sick or other unpaid leave"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "On layoff"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Unable to work for health reasons"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disabled"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Retired"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Taking care of house/family"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Going to school"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

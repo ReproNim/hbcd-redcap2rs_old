@@ -1,0 +1,75 @@
+{
+    "id": "sed_bm_demo_child_i_relat_004_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_relat_004_i_03"
+    },
+    "question": {
+        "en": "Who is the child's legal guardian?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Parent"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "State foster care system"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Grandparent"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Sibling"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Other family"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Non-family (friend or friend of the family)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

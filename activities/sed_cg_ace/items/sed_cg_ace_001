@@ -1,0 +1,22 @@
+{
+    "id": "sed_cg_ace_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Below is a list of 10 categories of Adverse Childhood Experiences (ACEs). From the list below, please select 'yes' for each ACE category that you experienced prior to your 18th birthday."
+    },
+    "prefLabel": {
+        "en": "sed_cg_ace_001"
+    },
+    "question": {
+        "en": "1) Did you feel that you didn't have enough to eat, had to wear dirty clothes, or had no one to protect or take care of you?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

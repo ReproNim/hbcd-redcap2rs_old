@@ -5,7 +5,7 @@
         "en": "ph_cg_phx_i_bfh_003_i_01_i_01"
     },
     "question": {
-        "en": "How old (in days) was the baby when they completely stopped breastfeeding or being fed breast milk?"
+        "en": "How old (in days) was the baby when they completely stopped breastfeeding or being fed breast milk? (days and months asked, V3)"
     },
     "responseOptions": {
         "choices": [

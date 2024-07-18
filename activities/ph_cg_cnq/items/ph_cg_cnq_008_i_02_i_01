@@ -1,0 +1,58 @@
+{
+    "id": "ph_cg_cnq_008_i_02_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_cnq_008_i_02_i_01"
+    },
+    "question": {
+        "en": "How does your child feed themselves?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Spoon"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Fork"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fingers"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -99,27 +99,32 @@
             "items/ncl_cg_spm2_i_inf_plan_008",
             "items/ncl_cg_spm2_i_inf_plan_009",
             "items/ncl_cg_spm2_i_inf_plan_010",
+            "items/ncl_cg_spm2_i_inf_copyright",
             "items/ncl_cg_spm2_i_inf_complete"
         ],
         "addProperties": [
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_lang"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_dtt"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_timestamp_start"
             },
             {
                 "isAbout": "items/ncl_cg_spm2_i_inf_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "ncl_cg_spm2_i_inf_location"
             },
             {
@@ -643,6 +648,11 @@
                 "variableName": "ncl_cg_spm2_i_inf_plan_010"
             },
             {
+                "isAbout": "items/ncl_cg_spm2_i_inf_copyright",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_copyright"
+            },
+            {
                 "isAbout": "items/ncl_cg_spm2_i_inf_complete",
                 "isVis": true,
                 "variableName": "ncl_cg_spm2_i_inf_complete"
@@ -650,6 +660,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid116",
+    "version": "revid117",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

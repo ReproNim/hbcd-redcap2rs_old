@@ -1,0 +1,51 @@
+{
+    "id": "mh_cg_fad_001_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_fad_001_i_03"
+    },
+    "question": {
+        "en": "We cannot talk to each other about the sadness we feel."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

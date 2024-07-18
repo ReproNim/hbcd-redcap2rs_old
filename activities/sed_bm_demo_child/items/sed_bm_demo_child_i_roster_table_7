@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_child_i_roster_table_7",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_table_7"
+    },
+    "question": {
+        "en": "Person 7Years of age{sed_bm_demo_child_i_roster_010_i_01}Months of age{sed_bm_demo_child_i_roster_010_i_02}Gender{sed_bm_demo_child_i_roster_010_i_03}{sed_bm_demo_child_i_roster_010_i_03_i_01}Relationship to YOU{sed_bm_demo_child_i_roster_010_i_04}Relationship to Child{sed_bm_demo_child_i_roster_010_i_05}Average\u00a0 days per month this person cares for the child?{sed_bm_demo_child_i_roster_010_i_06}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "sed_bm_demo_child_i_roster_013_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_child_i_roster_013_i_03"
+    },
+    "question": {
+        "en": "Person 10 gender household 1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Female"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I'd like to consider additional options"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

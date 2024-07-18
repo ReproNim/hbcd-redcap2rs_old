@@ -1,0 +1,19 @@
+{
+    "id": "sed_cg_pedaces_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_pedaces_002"
+    },
+    "question": {
+        "en": "2) Do you think your child ever felt unsupported, unloved and/or unprotected?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_inq_005",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_inq_005"
+    },
+    "question": {
+        "en": "How often have the following items been added to the child's bottle of formula or pumped breast milk?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

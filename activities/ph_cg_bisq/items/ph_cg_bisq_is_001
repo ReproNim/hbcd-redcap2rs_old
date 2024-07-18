@@ -1,0 +1,219 @@
+{
+    "id": "ph_cg_bisq_is_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_bisq_is_001"
+    },
+    "question": {
+        "en": "How long does it usually take your child to fall asleep? (Example: If you put your child to bed at 6:30 pm and your child falls asleep at 8:00 pm, it takes 1 hour and 30 mins for your child to fall asleep)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "0 minutes"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "5 minutes"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "10 minutes"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "15 minutes"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "20 minutes"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "25 minutes"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "30 minutes"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "35 minutes"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "40 minutes"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "45 minutes"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "50 minutes"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "55 minutes"
+                },
+                "value": 55
+            },
+            {
+                "name": {
+                    "en": "1 hour"
+                },
+                "value": 60
+            },
+            {
+                "name": {
+                    "en": "1 hour and 5 minutes"
+                },
+                "value": 65
+            },
+            {
+                "name": {
+                    "en": "1 hour and 10 minutes"
+                },
+                "value": 70
+            },
+            {
+                "name": {
+                    "en": "1 hour and 15 minutes"
+                },
+                "value": 75
+            },
+            {
+                "name": {
+                    "en": "1 hour and 20 minutes"
+                },
+                "value": 80
+            },
+            {
+                "name": {
+                    "en": "1 hour and 25 minutes"
+                },
+                "value": 85
+            },
+            {
+                "name": {
+                    "en": "1 hour and 30 minutes"
+                },
+                "value": 90
+            },
+            {
+                "name": {
+                    "en": "1 hour and 35 minutes"
+                },
+                "value": 95
+            },
+            {
+                "name": {
+                    "en": "1 hour and 40 minute"
+                },
+                "value": 100
+            },
+            {
+                "name": {
+                    "en": "1 hour and 45 minutes"
+                },
+                "value": 105
+            },
+            {
+                "name": {
+                    "en": "1 hour and 50 minutes"
+                },
+                "value": 110
+            },
+            {
+                "name": {
+                    "en": "1 hour and 55 minutes"
+                },
+                "value": 115
+            },
+            {
+                "name": {
+                    "en": "2 hours"
+                },
+                "value": 120
+            },
+            {
+                "name": {
+                    "en": "2 hours and 5 minutes"
+                },
+                "value": 125
+            },
+            {
+                "name": {
+                    "en": "2 hours and 10 minutes"
+                },
+                "value": 130
+            },
+            {
+                "name": {
+                    "en": "2 hours and 15 minutes"
+                },
+                "value": 135
+            },
+            {
+                "name": {
+                    "en": "2 hours and 20 minutes"
+                },
+                "value": 140
+            },
+            {
+                "name": {
+                    "en": "2 hours and 25 minutes"
+                },
+                "value": 145
+            },
+            {
+                "name": {
+                    "en": "2 hours and 30 minutes"
+                },
+                "value": 150
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

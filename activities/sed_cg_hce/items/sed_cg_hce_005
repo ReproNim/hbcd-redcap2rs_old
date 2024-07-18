@@ -1,0 +1,93 @@
+{
+    "id": "sed_cg_hce_005",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_hce_005"
+    },
+    "question": {
+        "en": "What is the main heating source in the home or dwelling?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gas-heated forced air (vents)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Electric-heated forced air (vents)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Oil/Kerosene-fired furnace"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Radiators (steam or hot water)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Gas stove/fireplace/wall furnace"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Wood burning stove/fireplace"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Kerosene space heater"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Radiant/ceramic heater"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Electric space heater"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

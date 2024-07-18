@@ -1,9 +1,6 @@
 {
     "id": "sed_bm_demo_instr07_post",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "Work Environment"
-    },
     "prefLabel": {
         "en": "sed_bm_demo_instr07_post"
     },
