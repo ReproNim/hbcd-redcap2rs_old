@@ -31,7 +31,7 @@
             "../activities/pex_bm_assistv3/pex_bm_assistv3_schema",
             "../activities/remote_survey_completion/remote_survey_completion_schema",
             "../activities/sed_bm_nbhsaf/sed_bm_nbhsaf_schema",
-            "../activities/pex_bm_paces/pex_bm_paces_schema",
+            "../activities/sed_bm_paces/sed_bm_paces_schema",
             "../activities/sed_bm_bfy/sed_bm_bfy_schema",
             "../activities/pex_bm_health_preg_i_healthhx/pex_bm_health_preg_i_healthhx_schema",
             "../activities/pex_bm_health_preg_i_exp_i_vacc/pex_bm_health_preg_i_exp_i_vacc_schema",
@@ -257,12 +257,12 @@
                 "variableName": "sed_bm_nbhsaf_schema"
             },
             {
-                "isAbout": "../activities/pex_bm_paces/pex_bm_paces_schema",
+                "isAbout": "../activities/sed_bm_paces/sed_bm_paces_schema",
                 "isVis": true,
                 "prefLabel": {
-                    "en": "Pex Bm Paces"
+                    "en": "Sed Bm Paces"
                 },
-                "variableName": "pex_bm_paces_schema"
+                "variableName": "sed_bm_paces_schema"
             },
             {
                 "isAbout": "../activities/sed_bm_bfy/sed_bm_bfy_schema",
@@ -699,6 +699,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid133",
+    "version": "revid134",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

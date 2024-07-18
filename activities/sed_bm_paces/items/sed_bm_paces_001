@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_paces_001",
+    "id": "sed_bm_paces_001",
     "category": "reproschema:Item",
     "preamble": {
         "en": "When answering these questions, think about the last 12 months. Please select the response that best describes you."
     },
     "prefLabel": {
-        "en": "pex_bm_paces_001"
+        "en": "sed_bm_paces_001"
     },
     "question": {
         "en": "I felt loved and did not doubt that I was cared for."

@@ -179,7 +179,6 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_008",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_008"
             },
             {
@@ -202,13 +201,11 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_010",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_010"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_011",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_011"
             },
             {
@@ -394,7 +391,6 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_004",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_004"
             },
             {
@@ -417,7 +413,6 @@
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_006",
                 "isVis": true,
-                "valueRequired": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_006"
             },
             {
@@ -488,6 +483,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid133",
+    "version": "revid134",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

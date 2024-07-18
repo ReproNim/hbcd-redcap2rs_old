@@ -1,33 +1,33 @@
 {
-    "id": "pex_bm_paces_location",
+    "id": "sed_bm_paces_lang",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_paces_location"
+        "en": "sed_bm_paces_lang"
     },
     "question": {
-        "en": "Remote or on-site?"
+        "en": "Language"
     },
     "responseOptions": {
         "choices": [
             {
                 "name": {
-                    "en": "Remote"
+                    "en": "English"
                 },
-                "value": 1
+                "value": "en"
             },
             {
                 "name": {
-                    "en": "On-site"
+                    "en": "Spanish"
                 },
-                "value": 2
+                "value": " es"
             }
         ],
         "valueType": [
-            "xsd:integer"
+            "xsd:string"
         ]
     },
     "ui": {
-        "inputType": "select"
+        "inputType": "radio"
     },
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

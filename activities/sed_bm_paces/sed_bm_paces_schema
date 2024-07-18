@@ -1,0 +1,121 @@
+{
+    "id": "sed_bm_paces_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_paces"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_paces_lang",
+            "items/sed_bm_paces_dtt",
+            "items/sed_bm_paces_timestamp_start",
+            "items/sed_bm_paces_location",
+            "items/sed_bm_paces_001",
+            "items/sed_bm_paces_002",
+            "items/sed_bm_paces_003",
+            "items/sed_bm_paces_004",
+            "items/sed_bm_paces_005",
+            "items/sed_bm_paces_006",
+            "items/sed_bm_paces_007",
+            "items/sed_bm_paces_008",
+            "items/sed_bm_paces_009",
+            "items/sed_bm_paces_010",
+            "items/sed_bm_paces_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_paces_lang",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_dtt",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_timestamp_start",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_location",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_location"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_001"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_002"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_003"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_004"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_005"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_006"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_007"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_008"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_009"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_paces_010"
+            },
+            {
+                "isAbout": "items/sed_bm_paces_complete",
+                "isVis": true,
+                "variableName": "sed_bm_paces_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid134",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

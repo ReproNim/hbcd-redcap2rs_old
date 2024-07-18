@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_paces_complete",
+    "id": "sed_bm_paces_complete",
     "category": "reproschema:Item",
     "preamble": {
         "en": "Form Status"
     },
     "prefLabel": {
-        "en": "pex_bm_paces_complete"
+        "en": "sed_bm_paces_complete"
     },
     "question": {
         "en": "Complete?"

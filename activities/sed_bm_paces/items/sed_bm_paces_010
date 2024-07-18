@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_paces_004",
+    "id": "sed_bm_paces_010",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_paces_004"
+        "en": "sed_bm_paces_010"
     },
     "question": {
-        "en": "I was engaged in at least one social or faith-based group."
+        "en": "I enjoyed at least one hobby or leisure activity."
     },
     "responseOptions": {
         "choices": [

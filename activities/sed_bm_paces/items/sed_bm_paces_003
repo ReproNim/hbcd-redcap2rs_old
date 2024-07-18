@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_paces_009",
+    "id": "sed_bm_paces_003",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_paces_009"
+        "en": "sed_bm_paces_003"
     },
     "question": {
-        "en": "I was physically active, either alone or with others."
+        "en": "I had at least one best friend, someone I could count on and had fun with."
     },
     "responseOptions": {
         "choices": [

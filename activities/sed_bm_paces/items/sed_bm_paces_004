@@ -1,11 +1,11 @@
 {
-    "id": "pex_bm_paces_007",
+    "id": "sed_bm_paces_004",
     "category": "reproschema:Item",
     "prefLabel": {
-        "en": "pex_bm_paces_007"
+        "en": "sed_bm_paces_004"
     },
     "question": {
-        "en": "I lived in a space that was clean, safe, and uncluttered."
+        "en": "I was engaged in at least one social or faith-based group."
     },
     "responseOptions": {
         "choices": [
