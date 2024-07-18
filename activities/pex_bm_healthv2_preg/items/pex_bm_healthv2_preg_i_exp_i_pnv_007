@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_healthv2_preg_i_exp_i_pnv_007",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Pregnancy Exposures"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_exp_i_pnv_007"
+    },
+    "question": {
+        "en": "When we last met you stated that you were taking a prenatal vitamin or folic acid containing vitamin. Did you stop taking the prenatal vitamin/folic acid containing vitamin?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No continued use"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes stopped use"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

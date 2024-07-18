@@ -1,0 +1,69 @@
+{
+    "id": "sed_bm_demo_residence_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_residence_002"
+    },
+    "question": {
+        "en": "How many years have you lived at your current address?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Less than 1 year"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1-2 years"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3-5 years"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "6-10 years"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "11-20 years"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "More than 20 years"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

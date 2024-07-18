@@ -1,0 +1,19 @@
+{
+    "id": "visit_start_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "visit_start_instr01"
+    },
+    "question": {
+        "en": "If you have started the on-site visit for this participant, click 'Submit'"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,137 @@
+{
+    "id": "admin_part_fb_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "admin_part_fb"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/admin_part_fb_lang",
+            "items/admin_part_fb_dtt",
+            "items/admin_part_fb_timestamp_start",
+            "items/admin_part_fb_location",
+            "items/admin_part_fb_001",
+            "items/admin_part_fb_002",
+            "items/admin_part_fb_003_i_01",
+            "items/admin_part_fb_003_i_02",
+            "items/admin_part_fb_004",
+            "items/admin_part_fb_005",
+            "items/admin_part_fb_006_i_01",
+            "items/admin_part_fb_006_i_02",
+            "items/admin_part_fb_007",
+            "items/admin_part_fb_008",
+            "items/admin_part_fb_009",
+            "items/admin_part_fb_010",
+            "items/admin_part_fb_011",
+            "items/admin_part_fb_012",
+            "items/admin_part_fb_013",
+            "items/admin_part_fb_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/admin_part_fb_lang",
+                "isVis": true,
+                "variableName": "admin_part_fb_lang"
+            },
+            {
+                "isAbout": "items/admin_part_fb_dtt",
+                "isVis": true,
+                "variableName": "admin_part_fb_dtt"
+            },
+            {
+                "isAbout": "items/admin_part_fb_timestamp_start",
+                "isVis": true,
+                "variableName": "admin_part_fb_timestamp_start"
+            },
+            {
+                "isAbout": "items/admin_part_fb_location",
+                "isVis": true,
+                "variableName": "admin_part_fb_location"
+            },
+            {
+                "isAbout": "items/admin_part_fb_001",
+                "isVis": true,
+                "variableName": "admin_part_fb_001"
+            },
+            {
+                "isAbout": "items/admin_part_fb_002",
+                "isVis": true,
+                "variableName": "admin_part_fb_002"
+            },
+            {
+                "isAbout": "items/admin_part_fb_003_i_01",
+                "isVis": "event-name == 'v01_arm_1'",
+                "variableName": "admin_part_fb_003_i_01"
+            },
+            {
+                "isAbout": "items/admin_part_fb_003_i_02",
+                "isVis": "event-name ! == 'v01_arm_1'",
+                "variableName": "admin_part_fb_003_i_02"
+            },
+            {
+                "isAbout": "items/admin_part_fb_004",
+                "isVis": "event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'",
+                "variableName": "admin_part_fb_004"
+            },
+            {
+                "isAbout": "items/admin_part_fb_005",
+                "isVis": "event-name =='v02_arm_1' OR event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'",
+                "variableName": "admin_part_fb_005"
+            },
+            {
+                "isAbout": "items/admin_part_fb_006_i_01",
+                "isVis": "event-name == 'v01_arm_1' OR event-name == 'v05_arm_1'",
+                "variableName": "admin_part_fb_006_i_01"
+            },
+            {
+                "isAbout": "items/admin_part_fb_006_i_02",
+                "isVis": "event-name =='v02_arm_1' OR event-name =='v03_arm_1' OR event-name =='v04_arm_1' OR event-name =='v06_arm_1'",
+                "variableName": "admin_part_fb_006_i_02"
+            },
+            {
+                "isAbout": "items/admin_part_fb_007",
+                "isVis": "event-name == 'v02_arm_1' OR event-name == 'v03_arm_1'",
+                "variableName": "admin_part_fb_007"
+            },
+            {
+                "isAbout": "items/admin_part_fb_008",
+                "isVis": "event-name == 'v02_arm_1' OR event-name == 'v03_arm_1'",
+                "variableName": "admin_part_fb_008"
+            },
+            {
+                "isAbout": "items/admin_part_fb_009",
+                "isVis": true,
+                "variableName": "admin_part_fb_009"
+            },
+            {
+                "isAbout": "items/admin_part_fb_010",
+                "isVis": true,
+                "variableName": "admin_part_fb_010"
+            },
+            {
+                "isAbout": "items/admin_part_fb_011",
+                "isVis": true,
+                "variableName": "admin_part_fb_011"
+            },
+            {
+                "isAbout": "items/admin_part_fb_012",
+                "isVis": true,
+                "variableName": "admin_part_fb_012"
+            },
+            {
+                "isAbout": "items/admin_part_fb_013",
+                "isVis": true,
+                "variableName": "admin_part_fb_013"
+            },
+            {
+                "isAbout": "items/admin_part_fb_complete",
+                "isVis": true,
+                "variableName": "admin_part_fb_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

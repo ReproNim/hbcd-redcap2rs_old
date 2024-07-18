@@ -1,0 +1,32 @@
+{
+    "id": "visit_start_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "visit_start"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/visit_start_instr01",
+            "items/visit_start_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/visit_start_instr01",
+                "isVis": true,
+                "variableName": "visit_start_instr01"
+            },
+            {
+                "isAbout": "items/visit_start_complete",
+                "isVis": true,
+                "variableName": "visit_start_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

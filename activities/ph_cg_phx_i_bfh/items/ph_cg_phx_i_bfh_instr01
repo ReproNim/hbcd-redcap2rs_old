@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_phx_i_bfh_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_phx_i_bfh_instr01"
+    },
+    "question": {
+        "en": "I'm going to ask you some general questions about your baby's eating habits.If no questions are displayed below, you have already completed this questionnaire at a previous visit. In this case, please click \"Submit\" to go to the next questionnaire."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

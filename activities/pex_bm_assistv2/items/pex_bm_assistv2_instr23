@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv2_instr23",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv2_instr23"
+    },
+    "question": {
+        "en": "For the substance(s) that you endorsed using SINCE WE LAST MET UNTIL THE END OF PREGNANCY, we would like to ask you for some more information."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

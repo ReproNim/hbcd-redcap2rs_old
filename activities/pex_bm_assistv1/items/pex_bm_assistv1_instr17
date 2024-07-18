@@ -1,0 +1,22 @@
+{
+    "id": "pex_bm_assistv1_instr17",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Marijuana"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr17"
+    },
+    "question": {
+        "en": "When you were using marijuana during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select ways in which you used it below."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

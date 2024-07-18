@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_preg_i_illness_018_i_13_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_illness_018_i_13_i_01"
+    },
+    "question": {
+        "en": "How many hours or days did the fever last?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

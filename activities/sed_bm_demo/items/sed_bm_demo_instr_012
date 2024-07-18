@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_instr_012",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_instr_012"
+    },
+    "question": {
+        "en": "Please complete a row in the table below for each personwho spends at least two nights a weekliving with you. Please start with the youngest person and continue to list from youngest to oldest for up to 16 people."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

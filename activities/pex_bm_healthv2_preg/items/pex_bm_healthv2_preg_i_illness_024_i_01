@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_preg_i_illness_024_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_illness_024_i_01"
+    },
+    "question": {
+        "en": "Name of tenth illness (ICD-10)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

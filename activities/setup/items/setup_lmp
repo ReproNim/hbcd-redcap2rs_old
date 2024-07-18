@@ -1,0 +1,19 @@
+{
+    "id": "setup_lmp",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_lmp"
+    },
+    "question": {
+        "en": "Last menstrual period (LMP)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

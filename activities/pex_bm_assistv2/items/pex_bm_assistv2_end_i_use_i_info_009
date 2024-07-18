@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv2_end_i_use_i_info_009",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv2_end_i_use_i_info_009"
+    },
+    "question": {
+        "en": "Buprenorphine{pex_bm_assistv2_end_i_use_i_amount_009}{pex_bm_assistv2_end_i_use_i_unit_009}{pex_bm_assistv2_end_i_use_i_unit_009_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

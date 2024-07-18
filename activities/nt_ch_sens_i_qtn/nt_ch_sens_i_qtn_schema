@@ -1,0 +1,117 @@
+{
+    "id": "nt_ch_sens_i_qtn_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nt_ch_sens_i_qtn_lang",
+            "items/nt_ch_sens_i_qtn_dtt",
+            "items/nt_ch_sens_i_qtn_timestamp_start",
+            "items/nt_ch_sens_i_qtn_location",
+            "items/nt_ch_sens_i_qtn_mv_002",
+            "items/nt_ch_sens_i_qtn_hr_002",
+            "items/nt_ch_sens_i_qtn_beh_001",
+            "items/nt_ch_sens_i_qtn_beh_001_i_01",
+            "items/nt_ch_sens_i_qtn_beh_002",
+            "items/nt_ch_sens_i_qtn_beh_003",
+            "items/nt_ch_sens_i_qtn_beh_004",
+            "items/nt_ch_sens_i_qtn_beh_005",
+            "items/nt_ch_sens_i_qtn_beh_006",
+            "items/nt_ch_sens_i_qtn_beh_007",
+            "items/nt_ch_sens_i_qtn_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_lang",
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_lang"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_dtt",
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_dtt"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_timestamp_start",
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_timestamp_start"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_location",
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_location"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_mv_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_mv_002"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_hr_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_hr_002"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_001"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_001_i_01",
+                "isVis": "nt_ch_sens_i_qtn_beh_001 == '0'",
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_001_i_01"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_002"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_003"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_004"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_005"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_006"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_beh_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nt_ch_sens_i_qtn_beh_007"
+            },
+            {
+                "isAbout": "items/nt_ch_sens_i_qtn_complete",
+                "isVis": true,
+                "variableName": "nt_ch_sens_i_qtn_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,22 @@
+{
+    "id": "sed_bm_demo_income_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Income"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_income_001"
+    },
+    "question": {
+        "en": "When answering this next question, please remember to include your income PLUS the income of all family members living in this household."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

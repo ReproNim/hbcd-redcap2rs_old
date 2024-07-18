@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv2_instr21",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv2_instr21"
+    },
+    "question": {
+        "en": "SINCE WE LAST MET UNTIL THE END OF PREGNANCY, did you take (prescribed or otherwise) medication(s) as treatment for a problem substance?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

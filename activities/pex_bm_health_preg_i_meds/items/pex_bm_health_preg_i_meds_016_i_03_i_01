@@ -1,0 +1,45 @@
+{
+    "id": "pex_bm_health_preg_i_meds_016_i_03_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_016_i_03_i_01"
+    },
+    "question": {
+        "en": "Unit of frequency"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hour"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Day"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Month"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Year"
+                },
+                "value": 4
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

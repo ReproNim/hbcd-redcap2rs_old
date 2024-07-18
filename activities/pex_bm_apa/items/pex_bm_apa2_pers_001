@@ -1,0 +1,60 @@
+{
+    "id": "pex_bm_apa2_pers_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "This is a list of things different people might say about themselves. We are interested in how you would describe yourself. There are no right or wrong answers. So you can describe yourself as honestly as possible, we will keep your responses confidential. We'd like you to take your time and read each statement carefully, selecting the response that best describes you."
+    },
+    "prefLabel": {
+        "en": "pex_bm_apa2_pers_001"
+    },
+    "question": {
+        "en": "People would describe me as reckless."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very False or Often False"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes or Somewhat False"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes or Somewhat True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very True or Often True"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

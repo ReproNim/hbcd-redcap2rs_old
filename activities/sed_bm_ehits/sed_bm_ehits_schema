@@ -1,0 +1,147 @@
+{
+    "id": "sed_bm_ehits_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(( sed_bm_ehits_001 == '777' OR sed_bm_ehits_001 == '999'), '', sed_bm_ehits_001 )",
+            "variableName": "sed_bm_ehits_001_i_01"
+        },
+        {
+            "jsExpression": "if(( sed_bm_ehits_002 == '777' OR sed_bm_ehits_002 == '999'), '', sed_bm_ehits_002 )",
+            "variableName": "sed_bm_ehits_002_i_01"
+        },
+        {
+            "jsExpression": "if(( sed_bm_ehits_003 == '777' OR sed_bm_ehits_003 == '999'), '', sed_bm_ehits_003 )",
+            "variableName": "sed_bm_ehits_003_i_01"
+        },
+        {
+            "jsExpression": "if(( sed_bm_ehits_004 == '777' OR sed_bm_ehits_004 == '999'), '', sed_bm_ehits_004 )",
+            "variableName": "sed_bm_ehits_004_i_01"
+        },
+        {
+            "jsExpression": "if(( sed_bm_ehits_005 == '777' OR sed_bm_ehits_005 == '999'), '', sed_bm_ehits_005 )",
+            "variableName": "sed_bm_ehits_005_i_01"
+        },
+        {
+            "jsExpression": "sum( sed_bm_ehits_001_i_01 , sed_bm_ehits_002_i_01 , sed_bm_ehits_003_i_01 , sed_bm_ehits_004_i_01 , sed_bm_ehits_005_i_01 )",
+            "variableName": "sed_bm_ehits_score"
+        },
+        {
+            "jsExpression": "if(( sed_bm_ehits_score > 7 OR sed_bm_ehits_001 >= 1 OR sed_bm_ehits_005 >= 1), 1, 0)",
+            "variableName": "sed_bm_ehits_flag01"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_ehits"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_ehits_lang",
+            "items/sed_bm_ehits_dtt",
+            "items/sed_bm_ehits_timestamp_start",
+            "items/sed_bm_ehits_location",
+            "items/sed_bm_ehits_001",
+            "items/sed_bm_ehits_002",
+            "items/sed_bm_ehits_003",
+            "items/sed_bm_ehits_004",
+            "items/sed_bm_ehits_005",
+            "items/sed_bm_ehits_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_ehits_lang",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_dtt",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_timestamp_start",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_location",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_location"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_ehits_001"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_ehits_002"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_ehits_003"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_ehits_004"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_ehits_005"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_001_i_01",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_002_i_01",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_003_i_01",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_003_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_004_i_01",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_005_i_01",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_score",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_score"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_flag01",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_flag01"
+            },
+            {
+                "isAbout": "items/sed_bm_ehits_complete",
+                "isVis": true,
+                "variableName": "sed_bm_ehits_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

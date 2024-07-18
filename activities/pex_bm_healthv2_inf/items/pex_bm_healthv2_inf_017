@@ -1,0 +1,51 @@
+{
+    "id": "pex_bm_healthv2_inf_017",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_017"
+    },
+    "question": {
+        "en": "What was the result of your child's hearing test when they were born?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Pass"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Referred or Refer (didn't pass)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not tested"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,100 @@
+{
+    "id": "sed_bm_demo_herit_002_i_05",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_002_i_05"
+    },
+    "question": {
+        "en": "Middle Eastern or North African"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Afghan"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Algerian"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Egyptian"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Iranian"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Iraqi"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Israeli"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Lebanese"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Moroccan"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Syrian"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Tunisian"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe me / Other"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

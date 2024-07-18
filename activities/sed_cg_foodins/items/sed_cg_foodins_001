@@ -1,0 +1,51 @@
+{
+    "id": "sed_cg_foodins_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_foodins_001"
+    },
+    "question": {
+        "en": "The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more. Was that often, sometimes, or never true for (you/your household) in the last 12 months?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_erhosp_008_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_erhosp_008_i_02"
+    },
+    "question": {
+        "en": "Start date of sixth emergency room visit"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

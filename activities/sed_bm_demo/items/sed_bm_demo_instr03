@@ -1,0 +1,22 @@
+{
+    "id": "sed_bm_demo_instr03",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Jobs During Pregnancy"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_instr03"
+    },
+    "question": {
+        "en": "The purpose of the employment and occupation section is to obtain information on jobs held during pregnancy."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

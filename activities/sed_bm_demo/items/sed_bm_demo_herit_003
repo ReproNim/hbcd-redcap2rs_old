@@ -1,0 +1,82 @@
+{
+    "id": "sed_bm_demo_herit_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_003"
+    },
+    "question": {
+        "en": "How do other people usually classify you in this country? Select all that apply. Note, you may select more than one group."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "American Indian or Alaska Native"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Asian"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Black African American or African"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hispanic Latino or Spanish"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Middle Eastern or North African"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Native Hawaiian or other Pacific Islander"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "White"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe me"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

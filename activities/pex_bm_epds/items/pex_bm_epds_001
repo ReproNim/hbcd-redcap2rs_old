@@ -1,0 +1,57 @@
+{
+    "id": "pex_bm_epds_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_epds_001"
+    },
+    "question": {
+        "en": "I have been able to laugh and see the funny side of things:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "As much as I always could"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Not quite so much now"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Definitely not so much now"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

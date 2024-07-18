@@ -1,0 +1,63 @@
+{
+    "id": "pex_bm_apa2_mania_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_mania_001"
+    },
+    "question": {
+        "en": "Question 1"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I do not feel happier or more cheerful than usual"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I occasionally feel happier than usual"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I often feel happier than usual"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I feel happier or more cheerful than usual most of the time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I feel happier or more cheerful than usual all of the time."
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

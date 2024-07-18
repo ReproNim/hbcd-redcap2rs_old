@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_erhosp_003_i_02_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_erhosp_003_i_02_i_00"
+    },
+    "question": {
+        "en": "Start date of first emergency room visit {pex_bm_health_preg_i_erhosp_003_i_02} {pex_bm_health_preg_i_erhosp_003_i_02_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

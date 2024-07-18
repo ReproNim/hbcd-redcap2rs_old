@@ -1,0 +1,19 @@
+{
+    "id": "ph_cg_phx_i_bfh_003_i_01_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_phx_i_bfh_003_i_01_i_00"
+    },
+    "question": {
+        "en": "How old was the baby when they completely stopped breastfeeding or being fed breast milk?\n\nAge in days: {ph_cg_phx_i_bfh_003_i_01_i_01} or age in months: {ph_cg_phx_i_bfh_003_i_02}\n\n{ph_cg_phx_i_bfh_003_i_01_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

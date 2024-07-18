@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv1_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr01"
+    },
+    "question": {
+        "en": "IN YOUR LIFE, which of the following substances have you EVER used for any reason?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

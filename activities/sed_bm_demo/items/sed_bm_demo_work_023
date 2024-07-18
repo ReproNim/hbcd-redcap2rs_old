@@ -1,0 +1,351 @@
+{
+    "id": "sed_bm_demo_work_023",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_work_023"
+    },
+    "question": {
+        "en": "What kind of work did you do at this job?\n\nIf your occupation is not in the list below, select \"Other\""
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Administrative Assistant Secretary office support worker"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Architecture or Engineering professional"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Barber or hairdresser cosmetologist"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Bookkeeper accounting or auditing"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Building Maintenance worker (Commercial Residential or Institutional)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Business Finance and Corporate Sales including banking investments broker"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Cashier teller"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Chef cook catering"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Kitchen worker dishwasher"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Child care provider (nanny preschool daycare)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Personal care aide (elder care disability care)"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Social services provider (including Social worker Psychologist or Counselor)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Construction worker Carpenter or other Construction-related jobs (Roofing Cement Framing Highway repair)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Electrician/repair of transformers electrical or electronic equipment"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Painter"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Dentist dental hygienist dental assistant or orthodontist"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Driver (bus truck commercial public transport)"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Driver Taxicab ride-hail limo driver"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Dry cleaner launderer"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Education Primary or Secondary (teacher or teaching assistant for preschool elementary middle high school"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Education Post-secondary (University College Vocation or Trade school teaching professional)"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "Farmer rancher"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "General farm worker or field crop and vegetable worker"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "Gardener or groundskeeper"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "Firefighter"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "Host hostess restaurant lounge and coffee shop (including barista)"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "Janitor maid or housekeeping"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "Laboratory worker (clinical or other)"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "Lawyer paralegal legal assistant"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "Mail carrier Postal Worker or Courier"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "Manager executive or supervisor"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "Manicurist pedicurist"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "Massage therapist"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "Mechanic Vehicle Technician"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "Medical doctor"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "Medical support provider (e.g. respiratory therapist medical technologist physical therapist occupational therapist)"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "Other healthcare practitioner or technical occupation (including nurse or nursing assistant)"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "Paramedic or Emergency Medical Technician (EMT)"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "Mover works with material moving equipment"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "Pest Control Worker (Residential Industrial Institutional)"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "Pilot (commercial) or Flight Attendant"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "Plumber"
+                },
+                "value": 42
+            },
+            {
+                "name": {
+                    "en": "Public Safety Officer (Police officer Detective Security Guard)"
+                },
+                "value": 43
+            },
+            {
+                "name": {
+                    "en": "Real estate professional (residential or commercial)"
+                },
+                "value": 44
+            },
+            {
+                "name": {
+                    "en": "Retail salesperson"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "Science Professional (Life Physical or Social Science related job)"
+                },
+                "value": 46
+            },
+            {
+                "name": {
+                    "en": "Software development Information technology and telecommunications professionals"
+                },
+                "value": 47
+            },
+            {
+                "name": {
+                    "en": "Stock and inventory clerk"
+                },
+                "value": 48
+            },
+            {
+                "name": {
+                    "en": "Pharmacist pharmacy technician"
+                },
+                "value": 49
+            },
+            {
+                "name": {
+                    "en": "Tailor dressmaker sewer"
+                },
+                "value": 50
+            },
+            {
+                "name": {
+                    "en": "Veterinarian or Veterinary Assistant"
+                },
+                "value": 51
+            },
+            {
+                "name": {
+                    "en": "Waiter/waitress"
+                },
+                "value": 52
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 53
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

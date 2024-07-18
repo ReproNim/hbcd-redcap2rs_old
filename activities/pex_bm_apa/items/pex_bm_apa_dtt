@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_apa_dtt",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa_dtt"
+    },
+    "question": {
+        "en": "Start time"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

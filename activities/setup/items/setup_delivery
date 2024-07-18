@@ -1,0 +1,19 @@
+{
+    "id": "setup_delivery",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_delivery"
+    },
+    "question": {
+        "en": "Actual date of delivery"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

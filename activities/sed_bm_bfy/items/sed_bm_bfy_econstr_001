@@ -1,0 +1,72 @@
+{
+    "id": "sed_bm_bfy_econstr_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Economic Stress"
+    },
+    "prefLabel": {
+        "en": "sed_bm_bfy_econstr_001"
+    },
+    "question": {
+        "en": "How often do you worry about being able to meet your monthly living expenses?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "All the time"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very frequently"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Very rarely"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

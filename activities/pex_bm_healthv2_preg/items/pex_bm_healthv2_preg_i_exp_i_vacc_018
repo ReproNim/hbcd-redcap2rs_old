@@ -1,0 +1,106 @@
+{
+    "id": "pex_bm_healthv2_preg_i_exp_i_vacc_018",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_exp_i_vacc_018"
+    },
+    "question": {
+        "en": "Which vaccine(s) have you received?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Tdap"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Flu"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "HPV"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "MMR"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Meningitis"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Hepatitis A"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Hepatitis B"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Hepatitis C"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Varicella"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Polio"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Shingles"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Typhoid"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Yellow Fever"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "COVID-19"
+                },
+                "value": 13
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

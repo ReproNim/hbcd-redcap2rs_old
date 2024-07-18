@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_meds_014_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_014_00"
+    },
+    "question": {
+        "en": "How many over-the-counter medications have you taken since your last menstrual period ([pex_bm_health_preg_i_healthhx_001])? {pex_bm_health_preg_i_meds_014} {pex_bm_health_preg_i_meds_014_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_preg_i_illness_019_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_illness_019_i_02"
+    },
+    "question": {
+        "en": "If you don't know the name of the illness, please select the most prominent symptom."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

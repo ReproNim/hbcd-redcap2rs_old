@@ -1,0 +1,81 @@
+{
+    "id": "sed_bm_demo_sexorient_001_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_sexorient_001_i_01"
+    },
+    "question": {
+        "en": "Are any of these a closer description of how you think of yourself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Queer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Polysexual omnisexual sapiosexual or pansexual"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Asexual"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Two-spirit"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Have not figured out or are in the process of figuring out your sexuality"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Mostly straight but sometimes attracted to people of your own sex"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Do not think of yourself as having sexuality"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Do not use labels to identify yourself"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Don't know the answer"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "None of these describe me"
+                },
+                "value": 10
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

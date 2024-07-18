@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_roster_table_20",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_roster_table_20"
+    },
+    "question": {
+        "en": "Person 20Years {sed_bm_demo_roster_023_i_01}Months {sed_bm_demo_roster_023_i_02}{sed_bm_demo_roster_023_i_03}{sed_bm_demo_roster_023_i_03_i_01}{sed_bm_demo_roster_023_i_04}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

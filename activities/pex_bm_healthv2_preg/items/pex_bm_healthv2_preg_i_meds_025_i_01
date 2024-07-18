@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_preg_i_meds_025_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_025_i_01"
+    },
+    "question": {
+        "en": "What date did you stop this medication?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

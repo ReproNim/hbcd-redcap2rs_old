@@ -1,0 +1,66 @@
+{
+    "id": "sed_bm_demo_sexorient_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Sexual Orientation"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_sexorient_001"
+    },
+    "question": {
+        "en": "Which of the following best represents how you think of yourself?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gay"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Lesbian"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Straight; that is not gay or lesbian etc."
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Bisexual"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "None of these describe me and I'd like to see additional options"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "pex_bm_apa2_depr_001_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_depr_001_i_01"
+    },
+    "question": {
+        "en": "Value of \"worthless\""
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

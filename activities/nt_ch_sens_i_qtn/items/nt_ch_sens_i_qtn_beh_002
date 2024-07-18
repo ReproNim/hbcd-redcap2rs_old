@@ -1,0 +1,87 @@
+{
+    "id": "nt_ch_sens_i_qtn_beh_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_beh_002"
+    },
+    "question": {
+        "en": "How much time (in total) do you estimate your infant was in a car seat, infant chair, or swing over the past 24 hours?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More than 8 hours"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "7-8 hours"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "6-7 hours"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "5-6 hours"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "4-5 hours"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "3-4 hours"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "2-3 hours"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "1-2 hours"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Less than 1 hour"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

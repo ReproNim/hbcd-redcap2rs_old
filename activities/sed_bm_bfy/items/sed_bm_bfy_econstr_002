@@ -1,0 +1,51 @@
+{
+    "id": "sed_bm_bfy_econstr_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_bfy_econstr_002"
+    },
+    "question": {
+        "en": "In the past 12 months, would you say that your household has spent more, less or about as much as all of your sources of income combined?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "More than combined income"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "The same as combined income"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Less than combined income"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

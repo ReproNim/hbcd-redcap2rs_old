@@ -1,0 +1,159 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006"
+    },
+    "question": {
+        "en": "Age of sperm donor"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "18"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "19"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "20"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "21"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "22"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "23"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "24"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "25"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "26"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "27"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "28"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "29"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "30"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "31"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "32"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "33"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "34"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "35"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "36"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "37"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "38"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "39"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "40"
+                },
+                "value": 40
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

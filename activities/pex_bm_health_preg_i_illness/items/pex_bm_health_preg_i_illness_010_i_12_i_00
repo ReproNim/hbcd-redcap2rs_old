@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_illness_010_i_12_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_010_i_12_i_00"
+    },
+    "question": {
+        "en": "What was the highest temperature of the fever? {pex_bm_health_preg_i_illness_010_i_12} {pex_bm_health_preg_i_illness_010_i_12_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

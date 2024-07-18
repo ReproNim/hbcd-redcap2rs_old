@@ -1,0 +1,72 @@
+{
+    "id": "sed_bm_demo_relationship_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Marital Status and Relationship Status"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_relationship_001"
+    },
+    "question": {
+        "en": "Which best describes you?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Single"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Married"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Partnered"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Divorced/Separated"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Widowed"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_healthv2_preg_i_covid_008",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Illnesses During Pregnancy"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_covid_008"
+    },
+    "question": {
+        "en": "Since we last met, have you tested positive for SARS-CoV-2, the virus that causes COVID-19?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,106 @@
+{
+    "id": "sed_bm_phx_i_discr_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_phx_i_discr_006"
+    },
+    "question": {
+        "en": "What do you think is the main reason for these experiences? If more than one main reason, check all that apply."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Your Ancestry or National Origins"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Your Gender"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Your Race"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Your Age"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Your Religion"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Your Height"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Your Weight"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Some other Aspect of your Physical Appearance"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Your Sexual Orientation"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Your Education or Income Level"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "A Physical Disability"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Substance Use / Addiction"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

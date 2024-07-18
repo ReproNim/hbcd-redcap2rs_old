@@ -1,0 +1,99 @@
+{
+    "id": "pex_bm_healthv2_inf_016_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_016_i_01"
+    },
+    "question": {
+        "en": "What kind of specialist?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Ophthalmology (eye doctor)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Cardiology (heart doctor)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Pulmonology (lung doctor)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Dermatology (skin doctor)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Allergy/immunology"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Endocrinology (hormones)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Otorhinolarynology (ENT)"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Gastroenterology (GI doctor)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Nephrology (renal/kidney)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Neurology (brain doctor)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv1_pre_during_i_use_008",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv1_pre_during_i_use_008"
+    },
+    "question": {
+        "en": "Methadone{pex_bm_assistv1_pre_during_i_use_i_amount_008}{pex_bm_assistv1_pre_during_i_use_i_unit_008}{pex_bm_assistv1_pre_during_i_use_i_unit_008_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

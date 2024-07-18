@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv1_instr13",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr13"
+    },
+    "question": {
+        "en": "For the substance(s) that you endorsed using IN THE THREE MONTHS BEFORE or DURING YOUR PREGNANCY, we would like to ask you for some more information."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

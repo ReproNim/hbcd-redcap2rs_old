@@ -1,0 +1,22 @@
+{
+    "id": "pex_bm_assistv2_instr22",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "AFTER PREGNANCY"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv2_instr22"
+    },
+    "question": {
+        "en": "FROM THE TIME THAT YOU DELIVERED your child until now, how often have you used any of the following substances for any reason?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

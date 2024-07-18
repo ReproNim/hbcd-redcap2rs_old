@@ -1,0 +1,54 @@
+{
+    "id": "admin_part_fb_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "We would like to hear about your visit to the Healthy Brain and Child Development study (HBCD). Your comments will help us continue to improve the study.\n\n[event-label]"
+    },
+    "prefLabel": {
+        "en": "admin_part_fb_001"
+    },
+    "question": {
+        "en": "Scheduling visits with the study team was clear and easy?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral (neither agree nor disagree)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 5
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

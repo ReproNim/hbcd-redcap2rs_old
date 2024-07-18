@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_007_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_007_i_00"
+    },
+    "question": {
+        "en": "How tall are you without shoes?{pex_bm_health_preg_i_healthhx_007_i_01} ft {pex_bm_health_preg_i_healthhx_007_i_02} in {pex_bm_health_preg_i_healthhx_007_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

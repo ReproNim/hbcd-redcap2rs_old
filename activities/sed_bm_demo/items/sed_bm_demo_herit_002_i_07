@@ -1,0 +1,106 @@
+{
+    "id": "sed_bm_demo_herit_002_i_07",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_002_i_07"
+    },
+    "question": {
+        "en": "White"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Dutch"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "European"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "French"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "German"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Irish"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Italian"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Norwegian"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Polish"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Scottish"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe me / Other"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

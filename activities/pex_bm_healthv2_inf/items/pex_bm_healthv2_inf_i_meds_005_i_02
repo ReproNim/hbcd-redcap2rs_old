@@ -1,0 +1,57 @@
+{
+    "id": "pex_bm_healthv2_inf_i_meds_005_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_i_meds_005_i_02"
+    },
+    "question": {
+        "en": "What is the status of this medication?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never filled prescription and/or never gave the medicine"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Completed it"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Still giving it as needed"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Still giving it regularly"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

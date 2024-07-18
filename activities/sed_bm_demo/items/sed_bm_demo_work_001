@@ -1,0 +1,45 @@
+{
+    "id": "sed_bm_demo_work_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_work_001"
+    },
+    "question": {
+        "en": "Do you currently work for pay, either part time or full time? \nNote: please answer yes if you are currently employed, even if you are currently on paid or unpaid leave."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

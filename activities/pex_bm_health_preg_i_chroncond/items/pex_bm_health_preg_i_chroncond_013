@@ -1,0 +1,121 @@
+{
+    "id": "pex_bm_health_preg_i_chroncond_013",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Other infections during pregnancy"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_chroncond_013"
+    },
+    "question": {
+        "en": "At any time since your last menstrual period ([pex_bm_health_preg_i_healthhx_001]), have you been told that you have any of the following?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Gonorrhea"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Chlamydia"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Herpes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "HPV"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Syphilis"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "CMV"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Group B Strep"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Hepatitis A"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Hepatitis B"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Hepatitis C"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "HIV"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Toxoplasmosis"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Urinary Tract Infection"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "None"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

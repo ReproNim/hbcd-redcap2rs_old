@@ -1,0 +1,166 @@
+{
+    "id": "mh_cg_mapdb_i_inf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "mh_cg_mapdb_i_inf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/mh_cg_mapdb_i_inf_lang",
+            "items/mh_cg_mapdb_i_inf_dtt",
+            "items/mh_cg_mapdb_i_inf_timestamp_start",
+            "items/mh_cg_mapdb_i_inf_location",
+            "items/mh_cg_mapdb_i_inf_001",
+            "items/mh_cg_mapdb_i_inf_002",
+            "items/mh_cg_mapdb_i_inf_003",
+            "items/mh_cg_mapdb_i_inf_004",
+            "items/mh_cg_mapdb_i_inf_005",
+            "items/mh_cg_mapdb_i_inf_006",
+            "items/mh_cg_mapdb_i_inf_007",
+            "items/mh_cg_mapdb_i_inf_008",
+            "items/mh_cg_mapdb_i_inf_009",
+            "items/mh_cg_mapdb_i_inf_010",
+            "items/mh_cg_mapdb_i_inf_011",
+            "items/mh_cg_mapdb_i_inf_012",
+            "items/mh_cg_mapdb_i_inf_013",
+            "items/mh_cg_mapdb_i_inf_014",
+            "items/mh_cg_mapdb_i_inf_015",
+            "items/mh_cg_mapdb_i_inf_016",
+            "items/mh_cg_mapdb_i_inf_017",
+            "items/mh_cg_mapdb_i_inf_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_lang",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb_i_inf_lang"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_dtt",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb_i_inf_dtt"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_timestamp_start",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb_i_inf_timestamp_start"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_location",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb_i_inf_location"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_001"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_002"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_003"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_004"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_005"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_006"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_007"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_008"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_009"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_010"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_011"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_012"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_013"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_014"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_015"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_016"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "mh_cg_mapdb_i_inf_017"
+            },
+            {
+                "isAbout": "items/mh_cg_mapdb_i_inf_complete",
+                "isVis": true,
+                "variableName": "mh_cg_mapdb_i_inf_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

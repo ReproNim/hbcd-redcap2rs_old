@@ -1,0 +1,100 @@
+{
+    "id": "pex_bm_healthv2_preg_i_outcome_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_outcome_003"
+    },
+    "question": {
+        "en": "Did any of the following things happen during your labor or the baby's delivery? Check all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Breech presentation (baby not positioned head down)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Forceps-assisted delivery"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Vacuum-assisted delivery"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Placental abruption"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Chorioamnionitis or infection in the womb during labor"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Preterm labor (regular contractions between 20-37 weeks of pregnancy)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Premature rupture of the membranes"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Prolonged rupture of the membranes"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Meconium presence (baby stooled in the womb)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Postpartum hemorrhage (bleeding) requiring transfusion"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "None of the above"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

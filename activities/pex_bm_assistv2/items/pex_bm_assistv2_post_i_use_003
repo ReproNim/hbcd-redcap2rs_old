@@ -1,0 +1,63 @@
+{
+    "id": "pex_bm_assistv2_post_i_use_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv2_post_i_use_003"
+    },
+    "question": {
+        "en": "Cannabis (marijuana, weed, pot, hash, wax, blunts, dabs, gummies, vapes, etc.)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Once or Twice"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Monthly"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Weekly"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Daily or Almost Daily"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,1283 @@
+{
+    "id": "pex_bm_health_preg_i_erhosp_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_erhosp"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_health_preg_i_erhosp_lang",
+            "items/pex_bm_health_preg_i_erhosp_001",
+            "items/pex_bm_health_preg_i_erhosp_002_i_00",
+            "items/pex_bm_health_preg_i_erhosp_002",
+            "items/pex_bm_health_preg_i_erhosp_002_i_dk",
+            "items/pex_bm_health_preg_i_erhosp_003_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_003_i_01",
+            "items/pex_bm_health_preg_i_erhosp_003_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_003_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_003_i_02",
+            "items/pex_bm_health_preg_i_erhosp_003_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_003_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_003_i_03",
+            "items/pex_bm_health_preg_i_erhosp_003_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_004_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_004_i_01",
+            "items/pex_bm_health_preg_i_erhosp_004_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_004_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_004_i_02",
+            "items/pex_bm_health_preg_i_erhosp_004_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_004_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_004_i_03",
+            "items/pex_bm_health_preg_i_erhosp_004_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_005_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_005_i_01",
+            "items/pex_bm_health_preg_i_erhosp_005_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_005_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_005_i_02",
+            "items/pex_bm_health_preg_i_erhosp_005_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_005_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_005_i_03",
+            "items/pex_bm_health_preg_i_erhosp_005_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_006_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_006_i_01",
+            "items/pex_bm_health_preg_i_erhosp_006_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_006_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_006_i_02",
+            "items/pex_bm_health_preg_i_erhosp_006_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_006_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_006_i_03",
+            "items/pex_bm_health_preg_i_erhosp_006_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_007_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_007_i_01",
+            "items/pex_bm_health_preg_i_erhosp_007_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_007_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_007_i_02",
+            "items/pex_bm_health_preg_i_erhosp_007_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_007_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_007_i_03",
+            "items/pex_bm_health_preg_i_erhosp_007_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_008_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_008_i_01",
+            "items/pex_bm_health_preg_i_erhosp_008_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_008_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_008_i_02",
+            "items/pex_bm_health_preg_i_erhosp_008_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_008_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_008_i_03",
+            "items/pex_bm_health_preg_i_erhosp_008_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_009_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_009_i_01",
+            "items/pex_bm_health_preg_i_erhosp_009_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_009_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_009_i_02",
+            "items/pex_bm_health_preg_i_erhosp_009_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_009_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_009_i_03",
+            "items/pex_bm_health_preg_i_erhosp_009_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_010_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_010_i_01",
+            "items/pex_bm_health_preg_i_erhosp_010_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_010_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_010_i_02",
+            "items/pex_bm_health_preg_i_erhosp_010_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_010_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_010_i_03",
+            "items/pex_bm_health_preg_i_erhosp_010_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_011_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_011_i_01",
+            "items/pex_bm_health_preg_i_erhosp_011_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_011_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_011_i_02",
+            "items/pex_bm_health_preg_i_erhosp_011_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_011_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_011_i_03",
+            "items/pex_bm_health_preg_i_erhosp_011_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_012_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_012_i_01",
+            "items/pex_bm_health_preg_i_erhosp_012_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_012_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_012_i_02",
+            "items/pex_bm_health_preg_i_erhosp_012_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_012_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_012_i_03",
+            "items/pex_bm_health_preg_i_erhosp_012_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_013",
+            "items/pex_bm_health_preg_i_erhosp_014_i_00",
+            "items/pex_bm_health_preg_i_erhosp_014",
+            "items/pex_bm_health_preg_i_erhosp_014_i_dk",
+            "items/pex_bm_health_preg_i_erhosp_015_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_015_i_01",
+            "items/pex_bm_health_preg_i_erhosp_015_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_015_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_015_i_02",
+            "items/pex_bm_health_preg_i_erhosp_015_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_015_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_015_i_03",
+            "items/pex_bm_health_preg_i_erhosp_015_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_016_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_016_i_01",
+            "items/pex_bm_health_preg_i_erhosp_016_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_016_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_016_i_02",
+            "items/pex_bm_health_preg_i_erhosp_016_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_016_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_016_i_03",
+            "items/pex_bm_health_preg_i_erhosp_016_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_017_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_017_i_01",
+            "items/pex_bm_health_preg_i_erhosp_017_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_017_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_017_i_02",
+            "items/pex_bm_health_preg_i_erhosp_017_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_017_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_017_i_03",
+            "items/pex_bm_health_preg_i_erhosp_017_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_018_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_018_i_01",
+            "items/pex_bm_health_preg_i_erhosp_018_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_018_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_018_i_02",
+            "items/pex_bm_health_preg_i_erhosp_018_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_018_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_018_i_03",
+            "items/pex_bm_health_preg_i_erhosp_018_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_019_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_019_i_01",
+            "items/pex_bm_health_preg_i_erhosp_019_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_019_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_019_i_02",
+            "items/pex_bm_health_preg_i_erhosp_019_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_019_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_019_i_03",
+            "items/pex_bm_health_preg_i_erhosp_019_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_020_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_020_i_01",
+            "items/pex_bm_health_preg_i_erhosp_020_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_020_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_020_i_02",
+            "items/pex_bm_health_preg_i_erhosp_020_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_020_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_020_i_03",
+            "items/pex_bm_health_preg_i_erhosp_020_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_021_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_021_i_01",
+            "items/pex_bm_health_preg_i_erhosp_021_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_021_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_021_i_02",
+            "items/pex_bm_health_preg_i_erhosp_021_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_021_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_021_i_03",
+            "items/pex_bm_health_preg_i_erhosp_021_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_022_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_022_i_01",
+            "items/pex_bm_health_preg_i_erhosp_022_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_022_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_022_i_02",
+            "items/pex_bm_health_preg_i_erhosp_022_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_022_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_022_i_03",
+            "items/pex_bm_health_preg_i_erhosp_022_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_023_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_023_i_01",
+            "items/pex_bm_health_preg_i_erhosp_023_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_023_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_023_i_02",
+            "items/pex_bm_health_preg_i_erhosp_023_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_023_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_023_i_03",
+            "items/pex_bm_health_preg_i_erhosp_023_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_024_i_01_i_00",
+            "items/pex_bm_health_preg_i_erhosp_024_i_01",
+            "items/pex_bm_health_preg_i_erhosp_024_i_01_dk",
+            "items/pex_bm_health_preg_i_erhosp_024_i_02_i_00",
+            "items/pex_bm_health_preg_i_erhosp_024_i_02",
+            "items/pex_bm_health_preg_i_erhosp_024_i_02_dk",
+            "items/pex_bm_health_preg_i_erhosp_024_i_03_i_00",
+            "items/pex_bm_health_preg_i_erhosp_024_i_03",
+            "items/pex_bm_health_preg_i_erhosp_024_i_03_dk",
+            "items/pex_bm_health_preg_i_erhosp_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_lang",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_002_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_001 == '1'",
+                "variableName": "pex_bm_health_preg_i_erhosp_002_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_002",
+                "isVis": "pex_bm_health_preg_i_erhosp_002_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_002_i_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_002_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 1",
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_003_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_003_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 1",
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_003_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_003_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 1",
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_003_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_003_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_003_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_003_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 2",
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_004_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_004_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 2",
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_004_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_004_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 2",
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_004_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_004_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_004_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_004_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 3",
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_005_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_005_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 3",
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_005_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_005_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 3",
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_005_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_005_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_005_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_005_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 4",
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_006_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_006_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 4",
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_006_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_006_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 4",
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_006_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_006_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_006_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_006_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 5",
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_007_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_007_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 5",
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_007_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_007_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 5",
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_007_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_007_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_007_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_007_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 6",
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_008_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_008_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 6",
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_008_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_008_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 6",
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_008_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_008_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_008_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_008_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 7",
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_009_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_009_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 7",
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_009_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_009_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 7",
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_009_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_009_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_009_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_009_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 8",
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_010_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_010_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 8",
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_010_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_010_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 8",
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_010_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_010_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_010_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_010_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 9",
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_011_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_011_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 9",
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_011_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_011_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 9",
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_011_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_011_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_011_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_011_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 10",
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_012_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_012_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 10",
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_012_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_012_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_002 >= 10",
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_012_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_012_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_012_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_012_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_013"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_014_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_013 == '1'",
+                "variableName": "pex_bm_health_preg_i_erhosp_014_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_014",
+                "isVis": "pex_bm_health_preg_i_erhosp_014_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_014"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_014_i_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_014_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_013 == '1'",
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_015_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_015_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 1",
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_015_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_015_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 1",
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_015_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_015_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_015_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_015_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 2",
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_016_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_016_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 2",
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_016_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_016_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 2",
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_016_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_016_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_016_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_016_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 3",
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_017_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_017_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 3",
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_017_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_017_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 3",
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_017_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_017_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_017_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_017_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 4",
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_018_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_018_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 4",
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_018_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_018_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 4",
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_018_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_018_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_018_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_018_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 5",
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_019_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_019_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 5",
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_019_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_019_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 5",
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_019_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_019_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_019_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_019_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 6",
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_020_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_020_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 6",
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_020_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_020_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 6",
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_020_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_020_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_020_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_020_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 7",
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_021_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_021_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 7",
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_021_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_021_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 7",
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_021_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_021_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_021_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_021_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 8",
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_022_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_022_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 8",
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_022_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_022_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 8",
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_022_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_022_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_022_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_022_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 9",
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_023_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_023_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 9",
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_023_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_023_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 9",
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_023_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_023_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_023_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_023_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_01_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 10",
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_01_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_01",
+                "isVis": "pex_bm_health_preg_i_erhosp_024_i_01_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_01_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_024_i_01 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_01_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_02_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 10",
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_02_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_02",
+                "isVis": "pex_bm_health_preg_i_erhosp_024_i_02_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_02_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_024_i_02 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_02_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_03_i_00",
+                "isVis": "pex_bm_health_preg_i_erhosp_014 >= 10",
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_03_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_03",
+                "isVis": "pex_bm_health_preg_i_erhosp_024_i_03_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_024_i_03_dk",
+                "isVis": "pex_bm_health_preg_i_erhosp_024_i_03 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_024_i_03_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_erhosp_complete",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_erhosp_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

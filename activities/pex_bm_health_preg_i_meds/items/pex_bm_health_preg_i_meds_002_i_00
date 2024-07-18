@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_meds_002_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_002_i_00"
+    },
+    "question": {
+        "en": "How many prescribed medications have you taken since your last menstrual period ([pex_bm_health_preg_i_healthhx_001])? {pex_bm_health_preg_i_meds_002} {pex_bm_health_preg_i_meds_002_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

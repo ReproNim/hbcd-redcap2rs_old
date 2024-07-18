@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_inf_001_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_001_i_00"
+    },
+    "question": {
+        "en": "How much did your baby weigh at birth? \n{pex_bm_healthv2_inf_001_i_02} pounds \nand \n{pex_bm_healthv2_inf_001_i_01} ounces {pex_bm_healthv2_inf_001_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

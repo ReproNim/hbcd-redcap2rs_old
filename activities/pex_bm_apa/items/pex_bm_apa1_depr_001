@@ -1,0 +1,66 @@
+{
+    "id": "pex_bm_apa1_depr_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "The questions below ask about things that might have bothered you. For each question, circle the number that best describes how much (or how often) you have been bothered by each problem during the past TWO (2) WEEKS.\n\nDuring the past TWO (2) WEEKS, how much (or how often) have you been bothered by the following problems?"
+    },
+    "prefLabel": {
+        "en": "pex_bm_apa1_depr_001"
+    },
+    "question": {
+        "en": "Little interest or pleasure in doing things?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "None-Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Slight-Rare less than a day or two"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mild-Several Days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Moderate-More than half the days"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Severe-Nearly every day"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

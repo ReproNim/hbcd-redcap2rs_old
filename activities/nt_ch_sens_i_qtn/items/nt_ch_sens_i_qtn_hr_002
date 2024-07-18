@@ -1,0 +1,45 @@
+{
+    "id": "nt_ch_sens_i_qtn_hr_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_hr_002"
+    },
+    "question": {
+        "en": "Did your baby wear theheart rate sensorall or most of the 24 hours?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_roster_001_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_roster_001_i_00"
+    },
+    "question": {
+        "en": "How many people live with you? Please do not include yourself. For example, if you live alone, indicate 0 for the number of children and the number of adults.\n\nNumber of adults (18 years and older) {sed_bm_demo_roster_001} {sed_bm_demo_roster_001_i_dk}  \n\nNumber of children (17 years and younger) {sed_bm_demo_roster_002} {sed_bm_demo_roster_002_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

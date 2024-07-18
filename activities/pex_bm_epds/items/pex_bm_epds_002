@@ -1,0 +1,57 @@
+{
+    "id": "pex_bm_epds_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_epds_002"
+    },
+    "question": {
+        "en": "I have looked forward with enjoyment to things:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "As much as I ever did"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rather less than I used to"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Definitely less than I used to"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Hardly at all"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

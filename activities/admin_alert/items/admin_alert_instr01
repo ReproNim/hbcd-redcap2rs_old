@@ -1,0 +1,19 @@
+{
+    "id": "admin_alert_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "admin_alert_instr01"
+    },
+    "question": {
+        "en": "If any clinical alerts show up in this form, please contact your local site clinician to follow-up with the participant before they leave the premises!\n\nBy clicking \"Submit\" you acknowledge that you have followed these instructions."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

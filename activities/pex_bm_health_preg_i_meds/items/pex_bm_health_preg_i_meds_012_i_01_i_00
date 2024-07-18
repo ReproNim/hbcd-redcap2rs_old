@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_meds_012_i_01_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_012_i_01_i_00"
+    },
+    "question": {
+        "en": "What is the tenth medication (prescribed) you used? {pex_bm_health_preg_i_meds_012_i_01} {pex_bm_health_preg_i_meds_012_i_01_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

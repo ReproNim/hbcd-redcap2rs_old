@@ -1,0 +1,490 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "( pex_bm_health_preg_i_healthhx_007_i_01 * 12 + pex_bm_health_preg_i_healthhx_007_i_02 ) * 2.54",
+            "variableName": "pex_bm_health_preg_i_healthhx_008"
+        },
+        {
+            "jsExpression": "( pex_bm_health_preg_i_healthhx_009 /2.2046)",
+            "variableName": "pex_bm_health_preg_i_healthhx_010"
+        },
+        {
+            "jsExpression": "pex_bm_health_preg_i_healthhx_010 * 10000 / ( pex_bm_health_preg_i_healthhx_008 * pex_bm_health_preg_i_healthhx_008 )",
+            "variableName": "pex_bm_health_preg_i_healthhx_011"
+        },
+        {
+            "jsExpression": "if( pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02 == 1, pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01 , if( pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02 == 2, pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01 * 4, '' ))",
+            "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_004"
+        },
+        {
+            "jsExpression": "( pex_bm_health_preg_i_healthhx_i_pregcurr_005 /2.2046)",
+            "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_006"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_health_preg_i_healthhx_lang",
+            "items/pex_bm_health_preg_i_healthhx_dtt",
+            "items/pex_bm_health_preg_i_healthhx_timestamp_start",
+            "items/pex_bm_health_preg_i_healthhx_location",
+            "items/pex_bm_health_preg_i_healthhx_001",
+            "items/pex_bm_health_preg_i_healthhx_002",
+            "items/pex_bm_health_preg_i_healthhx_003",
+            "items/pex_bm_health_preg_i_healthhx_004",
+            "items/pex_bm_health_preg_i_healthhx_005",
+            "items/pex_bm_health_preg_i_healthhx_006_i_pre",
+            "items/pex_bm_health_preg_i_healthhx_006_i_post",
+            "items/pex_bm_health_preg_i_healthhx_007_i_01",
+            "items/pex_bm_health_preg_i_healthhx_007_i_02",
+            "items/pex_bm_health_preg_i_healthhx_007_i_00",
+            "items/pex_bm_health_preg_i_healthhx_007_i_dk",
+            "items/pex_bm_health_preg_i_healthhx_009_i_00",
+            "items/pex_bm_health_preg_i_healthhx_009",
+            "items/pex_bm_health_preg_i_healthhx_009_i_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_pre",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_001",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_post",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_001_post",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_00",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_002",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_post",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_004_i_pre",
+            "items/pex_bm_health_preg_i_healthhx_i_preghx_004_i_post",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_001",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_002",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_005",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_i_00",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_007",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_001",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_002",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_00",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_00",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_005",
+            "items/pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_dk",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_01",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_03",
+            "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
+            "items/pex_bm_health_preg_i_healthhx_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_lang",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_dtt",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_timestamp_start",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_location",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_location"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_001",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_003"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_006_i_pre",
+                "isVis": "screening_arm_1 recruitment_period =='1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_006_i_pre"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_006_i_post",
+                "isVis": "screening_arm_1 recruitment_period == '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_006_i_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_007_i_01",
+                "isVis": "pex_bm_health_preg_i_healthhx_007_i_dk ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_007_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_007_i_02",
+                "isVis": "pex_bm_health_preg_i_healthhx_007_i_dk ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_007_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_007_i_00",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_007_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_007_i_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_007_i_01 == '' AND pex_bm_health_preg_i_healthhx_007_i_02 ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_007_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_008",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_008"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_009_i_00",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_009_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_009",
+                "isVis": "pex_bm_health_preg_i_healthhx_009_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_009"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_009_i_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_009 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_009_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_010",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_010"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_011",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_011"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_pre",
+                "isVis": "screening_arm_1 recruitment_period =='1'",
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_pre"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_post",
+                "isVis": "screening_arm_1 recruitment_period == '2'",
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_post",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001_post == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_00",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1",
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND pex_bm_health_preg_i_healthhx_i_preghx_002 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_002_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND screening_arm_1 recruitment_period =='1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_pre"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_003_i_post",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND recruitment_period == '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_004_i_pre",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND screening_arm_1 recruitment_period =='1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_004_i_pre"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_preghx_004_i_post",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_preghx_001 >1 AND recruitment_period == '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_preghx_004_i_post"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_002",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___6 == '1' OR pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___8 == '1'",
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_dk ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004 ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_005",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___6 == '1' OR pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___8 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_i_00",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___7 == '1' OR pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___8 == '1'",
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_dk ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006 ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_006_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_007",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___7 == '1' OR pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003___8 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_007"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_001 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_008"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_00",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_01 =='' AND pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_02 ==''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_003_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_004",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_00",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_00"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_005",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_dk == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_dk",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_pregcurr_005 == ''",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_005_i_dk"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_pregcurr_006",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_pregcurr_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_003"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_01",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_03",
+                "isVis": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_02 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_011"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_healthhx_complete",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_healthhx_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

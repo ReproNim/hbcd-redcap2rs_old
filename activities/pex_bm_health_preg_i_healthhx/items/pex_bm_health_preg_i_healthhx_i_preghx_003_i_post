@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_post",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_preghx_003_i_post"
+    },
+    "question": {
+        "en": "On what date did your last pregnancy prior to this most recent one end (regardless of the outcome)?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

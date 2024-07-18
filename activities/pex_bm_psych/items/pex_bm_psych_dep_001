@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_psych_dep_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Have any of your relatives ever suffered from depression, that is, have they felt so low for a period  of at least two weeks that they hardly ate or slept or couldn't work or do whatever they usually do?"
+    },
+    "prefLabel": {
+        "en": "pex_bm_psych_dep_001"
+    },
+    "question": {
+        "en": "Baby's Biological Mother"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

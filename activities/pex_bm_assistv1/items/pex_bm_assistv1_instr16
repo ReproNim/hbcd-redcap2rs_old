@@ -1,0 +1,22 @@
+{
+    "id": "pex_bm_assistv1_instr16",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Tobacco"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr16"
+    },
+    "question": {
+        "en": "When you were using tobacco during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select ways in which you used it below."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

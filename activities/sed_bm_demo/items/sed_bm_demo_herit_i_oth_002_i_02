@@ -1,0 +1,94 @@
+{
+    "id": "sed_bm_demo_herit_i_oth_002_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_i_oth_002_i_02"
+    },
+    "question": {
+        "en": "Asian"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Asian Indian"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Cambodian"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Chinese"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Filipino"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Hmong"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Japanese"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Korean"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Pakistani"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Vietnamese"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe the other biological parent / Other"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_health_preg_i_meds_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Medications during Pregnancy (prescription and over the counter)"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_001"
+    },
+    "question": {
+        "en": "Many individuals use a prescription medication at some point during pregnancy, including pain medications (codeine, hydrocodone), antidepressants (Celexa, Prozac), Sedatives (Xanax, Valium), Insulin, antibiotics (penicillin, Cipro), anti-fungal (miconazole), anti-nausea (zofran), anti-seizure (gabapentin, lamictal), antipsychotics (Zyprexa, Risperidone), mood stabilizers (lithium), stimulants (Adderall, Concerta), blood pressure medications (Vasotrec, Zestril), or sleeping agents (Ambien, Halcion). \n\nAre there any prescription medications that you have taken since your last menstrual period?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

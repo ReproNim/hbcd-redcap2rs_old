@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv3_instr31",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv3_instr31"
+    },
+    "question": {
+        "en": "DURING THE PAST THREE MONTHS, have you ever failed to do what was normally expected of you  (like work, go to school, be a parent, or household tasks) because of your use of this substance?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

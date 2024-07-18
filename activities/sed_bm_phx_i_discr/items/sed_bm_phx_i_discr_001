@@ -1,0 +1,72 @@
+{
+    "id": "sed_bm_phx_i_discr_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "In your day-to-day life how often have any of the following things happened to you?"
+    },
+    "prefLabel": {
+        "en": "sed_bm_phx_i_discr_001"
+    },
+    "question": {
+        "en": "You are treated with less courtesy or respect than other people."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Almost everyday"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "At least once a week"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A few times a month"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A few times a year"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Less than once a year"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

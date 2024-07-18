@@ -1,0 +1,369 @@
+{
+    "id": "pex_bm_psych_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_psych"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_psych_lang",
+            "items/pex_bm_psych_dtt",
+            "items/pex_bm_psych_timestamp_start",
+            "items/pex_bm_psych_location",
+            "items/pex_bm_psych_alc_001",
+            "items/pex_bm_psych_alc_002",
+            "items/pex_bm_psych_alc_003",
+            "items/pex_bm_psych_alc_004",
+            "items/pex_bm_psych_alc_005",
+            "items/pex_bm_psych_alc_006",
+            "items/pex_bm_psych_drug_001",
+            "items/pex_bm_psych_drug_002",
+            "items/pex_bm_psych_drug_003",
+            "items/pex_bm_psych_drug_004",
+            "items/pex_bm_psych_drug_005",
+            "items/pex_bm_psych_drug_006",
+            "items/pex_bm_psych_dep_001",
+            "items/pex_bm_psych_dep_002",
+            "items/pex_bm_psych_dep_003",
+            "items/pex_bm_psych_dep_004",
+            "items/pex_bm_psych_dep_005",
+            "items/pex_bm_psych_dep_006",
+            "items/pex_bm_psych_man_001",
+            "items/pex_bm_psych_man_002",
+            "items/pex_bm_psych_man_003",
+            "items/pex_bm_psych_man_004",
+            "items/pex_bm_psych_man_005",
+            "items/pex_bm_psych_man_006",
+            "items/pex_bm_psych_sch_001",
+            "items/pex_bm_psych_sch_002",
+            "items/pex_bm_psych_sch_003",
+            "items/pex_bm_psych_sch_004",
+            "items/pex_bm_psych_sch_005",
+            "items/pex_bm_psych_sch_006",
+            "items/pex_bm_psych_bm_001",
+            "items/pex_bm_psych_bm_002",
+            "items/pex_bm_psych_bm_003",
+            "items/pex_bm_psych_bm_004",
+            "items/pex_bm_psych_bm_005",
+            "items/pex_bm_psych_bm_006",
+            "items/pex_bm_psych_bm_007",
+            "items/pex_bm_psych_bm_008",
+            "items/pex_bm_psych_bf_001",
+            "items/pex_bm_psych_bf_002",
+            "items/pex_bm_psych_bf_003",
+            "items/pex_bm_psych_bf_004",
+            "items/pex_bm_psych_bf_005",
+            "items/pex_bm_psych_bf_006",
+            "items/pex_bm_psych_bf_007",
+            "items/pex_bm_psych_bf_008",
+            "items/pex_bm_psych_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_psych_lang",
+                "isVis": true,
+                "variableName": "pex_bm_psych_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_dtt",
+                "isVis": true,
+                "variableName": "pex_bm_psych_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_timestamp_start",
+                "isVis": true,
+                "variableName": "pex_bm_psych_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_location",
+                "isVis": true,
+                "variableName": "pex_bm_psych_location"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_alc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_alc_001"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_alc_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_alc_002"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_alc_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_alc_003"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_alc_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_alc_004"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_alc_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_alc_005"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_alc_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_alc_006"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_drug_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_drug_001"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_drug_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_drug_002"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_drug_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_drug_003"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_drug_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_drug_004"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_drug_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_drug_005"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_drug_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_drug_006"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_dep_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_dep_001"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_dep_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_dep_002"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_dep_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_dep_003"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_dep_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_dep_004"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_dep_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_dep_005"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_dep_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_dep_006"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_man_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_man_001"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_man_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_man_002"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_man_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_man_003"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_man_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_man_004"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_man_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_man_005"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_man_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_man_006"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_sch_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_sch_001"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_sch_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_sch_002"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_sch_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_sch_003"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_sch_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_sch_004"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_sch_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_sch_005"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_sch_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_sch_006"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_001"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_002"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_003"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_004"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_005"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_006"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_007"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bm_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bm_008"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_001"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_002"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_003"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_004"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_005"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_006"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_007"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_bf_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_psych_bf_008"
+            },
+            {
+                "isAbout": "items/pex_bm_psych_complete",
+                "isVis": true,
+                "variableName": "pex_bm_psych_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,63 @@
+{
+    "id": "sed_bm_nbhsaf_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_nbhsaf_001"
+    },
+    "question": {
+        "en": "I feel safe walking in my neighborhood, day or night."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Strongly Agree"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Agree"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Neutral (neither agree nor disagree)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Disagree"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Strongly Disagree"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

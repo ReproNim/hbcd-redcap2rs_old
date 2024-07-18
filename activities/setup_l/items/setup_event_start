@@ -1,0 +1,19 @@
+{
+    "id": "setup_event_start",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_event_start"
+    },
+    "question": {
+        "en": "Visit window start date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "pex_bm_apa2_pers_014",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_pers_014"
+    },
+    "question": {
+        "en": "I'm not interested in making friends."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Very False or Often False"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes or Somewhat False"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes or Somewhat True"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very True or Often True"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,48 @@
+{
+    "id": "pex_bm_psych_bf_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Has the baby's biologic father ever been diagnosed with the following health conditions and/or health events:"
+    },
+    "prefLabel": {
+        "en": "pex_bm_psych_bf_001"
+    },
+    "question": {
+        "en": "Alcohol use disorder"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

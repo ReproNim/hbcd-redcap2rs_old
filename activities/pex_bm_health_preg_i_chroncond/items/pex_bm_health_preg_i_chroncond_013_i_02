@@ -1,0 +1,51 @@
+{
+    "id": "pex_bm_health_preg_i_chroncond_013_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_chroncond_013_i_02"
+    },
+    "question": {
+        "en": "chlamydia?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1st Trimester <br> ([pex_bm_health_preg_i_exp_i_pnv_001] - [pex_bm_health_preg_i_exp_i_pnv_002])"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2nd Trimester <br> ([pex_bm_health_preg_i_exp_i_pnv_003] - [pex_bm_health_preg_i_exp_i_pnv_004])"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3rd Trimester <br> (after [pex_bm_health_preg_i_exp_i_pnv_005])"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

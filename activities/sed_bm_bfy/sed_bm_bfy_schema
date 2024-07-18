@@ -1,0 +1,117 @@
+{
+    "id": "sed_bm_bfy_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_bfy"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_bfy_lang",
+            "items/sed_bm_bfy_dtt",
+            "items/sed_bm_bfy_timestamp_start",
+            "items/sed_bm_bfy_location",
+            "items/sed_bm_bfy_bensvc_001",
+            "items/sed_bm_bfy_econstr_001",
+            "items/sed_bm_bfy_econstr_002",
+            "items/sed_bm_bfy_econstr_003",
+            "items/sed_bm_bfy_econstr_004",
+            "items/sed_bm_bfy_econstr_005",
+            "items/sed_bm_bfy_econstr_006",
+            "items/sed_bm_bfy_econstr_006_i_01",
+            "items/sed_bm_bfy_econstr_007",
+            "items/sed_bm_bfy_econstr_008",
+            "items/sed_bm_bfy_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_bfy_lang",
+                "isVis": true,
+                "variableName": "sed_bm_bfy_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_dtt",
+                "isVis": true,
+                "variableName": "sed_bm_bfy_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_timestamp_start",
+                "isVis": true,
+                "variableName": "sed_bm_bfy_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_location",
+                "isVis": true,
+                "variableName": "sed_bm_bfy_location"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_bensvc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_bensvc_001"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_001"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_002"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_003"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_004"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_005"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_006"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_006_i_01",
+                "isVis": "sed_bm_bfy_econstr_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_006_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_007"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_econstr_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_bfy_econstr_008"
+            },
+            {
+                "isAbout": "items/sed_bm_bfy_complete",
+                "isVis": true,
+                "variableName": "sed_bm_bfy_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

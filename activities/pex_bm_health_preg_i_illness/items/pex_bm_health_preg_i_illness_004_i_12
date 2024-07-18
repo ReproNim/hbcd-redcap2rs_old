@@ -1,0 +1,21 @@
+{
+    "id": "pex_bm_health_preg_i_illness_004_i_12",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_004_i_12"
+    },
+    "question": {
+        "en": "What was the highest temperature of the fever?"
+    },
+    "responseOptions": {
+        "maxValue": 108.0,
+        "minValue": 98.6,
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

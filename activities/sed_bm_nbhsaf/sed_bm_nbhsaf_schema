@@ -1,0 +1,71 @@
+{
+    "id": "sed_bm_nbhsaf_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "sed_bm_nbhsaf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_nbhsaf_lang",
+            "items/sed_bm_nbhsaf_dtt",
+            "items/sed_bm_nbhsaf_timestamp_start",
+            "items/sed_bm_nbhsaf_location",
+            "items/sed_bm_nbhsaf_001",
+            "items/sed_bm_nbhsaf_002",
+            "items/sed_bm_nbhsaf_003",
+            "items/sed_bm_nbhsaf_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_nbhsaf_lang",
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_dtt",
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_timestamp_start",
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_location",
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_location"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_nbhsaf_001"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_nbhsaf_002"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_nbhsaf_003"
+            },
+            {
+                "isAbout": "items/sed_bm_nbhsaf_complete",
+                "isVis": true,
+                "variableName": "sed_bm_nbhsaf_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

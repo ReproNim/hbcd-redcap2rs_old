@@ -1,0 +1,63 @@
+{
+    "id": "pex_bm_str_i_ptsd_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_str_i_ptsd_006"
+    },
+    "question": {
+        "en": "Losing interest in activities you used to enjoy before having a stressful experience?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little bit"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Quite a bit"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Extremely"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

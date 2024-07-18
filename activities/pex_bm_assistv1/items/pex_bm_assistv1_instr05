@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv1_instr05",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr05"
+    },
+    "question": {
+        "en": "Have you EVER sought or received treatment related to your use of this substance by a medical provider, spiritual leader, community mutual help group (like AA or SMART Recovery), counselors, or in other settings?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

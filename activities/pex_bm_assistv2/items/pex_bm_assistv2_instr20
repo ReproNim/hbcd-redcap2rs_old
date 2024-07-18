@@ -1,0 +1,22 @@
+{
+    "id": "pex_bm_assistv2_instr20",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "END OF PREGNANCY"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv2_instr20"
+    },
+    "question": {
+        "en": "SINCE WE LAST MET UNTIL THE END OF PREGNANCY, which of the following substances did you use for any reason?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

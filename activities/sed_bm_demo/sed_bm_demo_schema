@@ -1,0 +1,3410 @@
+{
+    "id": "sed_bm_demo_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if( sed_bm_demo_roster_001 =='', sed_bm_demo_roster_002 , ( sed_bm_demo_roster_001 + sed_bm_demo_roster_002 )) OR if( sed_bm_demo_roster_002 =='', sed_bm_demo_roster_001 , ( sed_bm_demo_roster_001 + sed_bm_demo_roster_002 ))",
+            "variableName": "sed_bm_demo_roster_003"
+        }
+    ],
+    "prefLabel": {
+        "en": "sed_bm_demo"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_demo_lang",
+            "items/sed_bm_demo_dtt",
+            "items/sed_bm_demo_timestamp_start",
+            "items/sed_bm_demo_location",
+            "items/sed_bm_demo_relationship_001",
+            "items/sed_bm_demo_gndrident_001",
+            "items/sed_bm_demo_gndrident_001_i_01",
+            "items/sed_bm_demo_sexorient_001",
+            "items/sed_bm_demo_sexorient_001_i_01",
+            "items/sed_bm_demo_residence_001",
+            "items/sed_bm_demo_residence_002",
+            "items/sed_bm_demo_instr_011",
+            "items/sed_bm_demo_roster_001_i_00",
+            "items/sed_bm_demo_roster_001",
+            "items/sed_bm_demo_roster_001_i_dk",
+            "items/sed_bm_demo_roster_002",
+            "items/sed_bm_demo_roster_002_i_dk",
+            "items/sed_bm_demo_instr_012",
+            "items/sed_bm_demo_roster_table_00",
+            "items/sed_bm_demo_roster_table_1",
+            "items/sed_bm_demo_roster_table_2",
+            "items/sed_bm_demo_roster_table_3",
+            "items/sed_bm_demo_roster_table_4",
+            "items/sed_bm_demo_roster_table_5",
+            "items/sed_bm_demo_roster_table_6",
+            "items/sed_bm_demo_roster_table_7",
+            "items/sed_bm_demo_roster_table_8",
+            "items/sed_bm_demo_roster_table_9",
+            "items/sed_bm_demo_roster_table_10",
+            "items/sed_bm_demo_roster_table_11",
+            "items/sed_bm_demo_roster_table_12",
+            "items/sed_bm_demo_roster_table_13",
+            "items/sed_bm_demo_roster_table_14",
+            "items/sed_bm_demo_roster_table_15",
+            "items/sed_bm_demo_roster_table_16",
+            "items/sed_bm_demo_roster_table_17",
+            "items/sed_bm_demo_roster_table_18",
+            "items/sed_bm_demo_roster_table_19",
+            "items/sed_bm_demo_roster_table_20",
+            "items/sed_bm_demo_roster_004_i_01",
+            "items/sed_bm_demo_roster_004_i_02",
+            "items/sed_bm_demo_roster_004_i_03",
+            "items/sed_bm_demo_roster_004_i_03_i_01",
+            "items/sed_bm_demo_roster_004_i_04",
+            "items/sed_bm_demo_roster_005_i_01",
+            "items/sed_bm_demo_roster_005_i_02",
+            "items/sed_bm_demo_roster_005_i_03",
+            "items/sed_bm_demo_roster_005_i_03_i_01",
+            "items/sed_bm_demo_roster_005_i_04",
+            "items/sed_bm_demo_roster_006_i_01",
+            "items/sed_bm_demo_roster_006_i_02",
+            "items/sed_bm_demo_roster_006_i_03",
+            "items/sed_bm_demo_roster_006_i_03_i_01",
+            "items/sed_bm_demo_roster_006_i_04",
+            "items/sed_bm_demo_roster_007_i_01",
+            "items/sed_bm_demo_roster_007_i_02",
+            "items/sed_bm_demo_roster_007_i_03",
+            "items/sed_bm_demo_roster_007_i_03_i_01",
+            "items/sed_bm_demo_roster_007_i_04",
+            "items/sed_bm_demo_roster_008_i_01",
+            "items/sed_bm_demo_roster_008_i_02",
+            "items/sed_bm_demo_roster_008_i_03",
+            "items/sed_bm_demo_roster_008_i_03_i_01",
+            "items/sed_bm_demo_roster_008_i_04",
+            "items/sed_bm_demo_roster_009_i_01",
+            "items/sed_bm_demo_roster_009_i_02",
+            "items/sed_bm_demo_roster_009_i_03",
+            "items/sed_bm_demo_roster_009_i_03_i_01",
+            "items/sed_bm_demo_roster_009_i_04",
+            "items/sed_bm_demo_roster_010_i_01",
+            "items/sed_bm_demo_roster_010_i_02",
+            "items/sed_bm_demo_roster_010_i_03",
+            "items/sed_bm_demo_roster_010_i_03_i_01",
+            "items/sed_bm_demo_roster_010_i_04",
+            "items/sed_bm_demo_roster_011_i_01",
+            "items/sed_bm_demo_roster_011_i_02",
+            "items/sed_bm_demo_roster_011_i_03",
+            "items/sed_bm_demo_roster_011_i_03_i_01",
+            "items/sed_bm_demo_roster_011_i_04",
+            "items/sed_bm_demo_roster_012_i_01",
+            "items/sed_bm_demo_roster_012_i_02",
+            "items/sed_bm_demo_roster_012_i_03",
+            "items/sed_bm_demo_roster_012_i_03_i_01",
+            "items/sed_bm_demo_roster_012_i_04",
+            "items/sed_bm_demo_roster_013_i_01",
+            "items/sed_bm_demo_roster_013_i_02",
+            "items/sed_bm_demo_roster_013_i_03",
+            "items/sed_bm_demo_roster_013_i_03_i_01",
+            "items/sed_bm_demo_roster_013_i_04",
+            "items/sed_bm_demo_roster_014_i_01",
+            "items/sed_bm_demo_roster_014_i_02",
+            "items/sed_bm_demo_roster_014_i_03",
+            "items/sed_bm_demo_roster_014_i_03_i_01",
+            "items/sed_bm_demo_roster_014_i_04",
+            "items/sed_bm_demo_roster_015_i_01",
+            "items/sed_bm_demo_roster_015_i_02",
+            "items/sed_bm_demo_roster_015_i_03",
+            "items/sed_bm_demo_roster_015_i_03_i_01",
+            "items/sed_bm_demo_roster_015_i_04",
+            "items/sed_bm_demo_roster_016_i_01",
+            "items/sed_bm_demo_roster_016_i_02",
+            "items/sed_bm_demo_roster_016_i_03",
+            "items/sed_bm_demo_roster_016_i_03_i_01",
+            "items/sed_bm_demo_roster_016_i_04",
+            "items/sed_bm_demo_roster_017_i_01",
+            "items/sed_bm_demo_roster_017_i_02",
+            "items/sed_bm_demo_roster_017_i_03",
+            "items/sed_bm_demo_roster_017_i_03_i_01",
+            "items/sed_bm_demo_roster_017_i_04",
+            "items/sed_bm_demo_roster_018_i_01",
+            "items/sed_bm_demo_roster_018_i_02",
+            "items/sed_bm_demo_roster_018_i_03",
+            "items/sed_bm_demo_roster_018_i_03_i_01",
+            "items/sed_bm_demo_roster_018_i_04",
+            "items/sed_bm_demo_roster_019_i_01",
+            "items/sed_bm_demo_roster_019_i_02",
+            "items/sed_bm_demo_roster_019_i_03",
+            "items/sed_bm_demo_roster_019_i_03_i_01",
+            "items/sed_bm_demo_roster_019_i_04",
+            "items/sed_bm_demo_roster_020_i_01",
+            "items/sed_bm_demo_roster_020_i_02",
+            "items/sed_bm_demo_roster_020_i_03",
+            "items/sed_bm_demo_roster_020_i_03_i_01",
+            "items/sed_bm_demo_roster_020_i_04",
+            "items/sed_bm_demo_roster_021_i_01",
+            "items/sed_bm_demo_roster_021_i_02",
+            "items/sed_bm_demo_roster_021_i_03",
+            "items/sed_bm_demo_roster_021_i_03_i_01",
+            "items/sed_bm_demo_roster_021_i_04",
+            "items/sed_bm_demo_roster_022_i_01",
+            "items/sed_bm_demo_roster_022_i_02",
+            "items/sed_bm_demo_roster_022_i_03",
+            "items/sed_bm_demo_roster_022_i_03_i_01",
+            "items/sed_bm_demo_roster_022_i_04",
+            "items/sed_bm_demo_roster_023_i_01",
+            "items/sed_bm_demo_roster_023_i_02",
+            "items/sed_bm_demo_roster_023_i_03",
+            "items/sed_bm_demo_roster_023_i_03_i_01",
+            "items/sed_bm_demo_roster_023_i_04",
+            "items/sed_bm_demo_herit_001",
+            "items/sed_bm_demo_herit_001_i_01",
+            "items/sed_bm_demo_herit_001_i_02",
+            "items/sed_bm_demo_herit_005",
+            "items/sed_bm_demo_herit_002",
+            "items/sed_bm_demo_herit_002_i_01",
+            "items/sed_bm_demo_herit_002_i_02",
+            "items/sed_bm_demo_herit_002_i_03",
+            "items/sed_bm_demo_herit_002_i_04",
+            "items/sed_bm_demo_herit_002_i_05",
+            "items/sed_bm_demo_herit_002_i_06",
+            "items/sed_bm_demo_herit_002_i_07",
+            "items/sed_bm_demo_herit_003",
+            "items/sed_bm_demo_herit_006",
+            "items/sed_bm_demo_herit_007",
+            "items/sed_bm_demo_income_001",
+            "items/sed_bm_demo_income_002",
+            "items/sed_bm_demo_edu_001",
+            "items/sed_bm_demo_mil_001",
+            "items/sed_bm_demo_instr03",
+            "items/sed_bm_demo_work_002_pre",
+            "items/sed_bm_demo_work_002_post",
+            "items/sed_bm_demo_work_001",
+            "items/sed_bm_demo_work_004_pre",
+            "items/sed_bm_demo_work_004_post",
+            "items/sed_bm_demo_work_005",
+            "items/sed_bm_demo_work_003_pre",
+            "items/sed_bm_demo_work_003_post",
+            "items/sed_bm_demo_instr07_pre",
+            "items/sed_bm_demo_instr07_post",
+            "items/sed_bm_demo_instr08",
+            "items/sed_bm_demo_work_007",
+            "items/sed_bm_demo_work_008_i_01",
+            "items/sed_bm_demo_work_008_i_02",
+            "items/sed_bm_demo_work_008_i_03",
+            "items/sed_bm_demo_work_008_i_04",
+            "items/sed_bm_demo_work_014",
+            "items/sed_bm_demo_work_009",
+            "items/sed_bm_demo_work_010_i_01",
+            "items/sed_bm_demo_work_010_i_02",
+            "items/sed_bm_demo_work_010_i_03",
+            "items/sed_bm_demo_work_010_i_04",
+            "items/sed_bm_demo_work_010_i_05",
+            "items/sed_bm_demo_work_010_i_06",
+            "items/sed_bm_demo_work_010_i_07",
+            "items/sed_bm_demo_work_011_i_01",
+            "items/sed_bm_demo_work_011_i_02",
+            "items/sed_bm_demo_work_011_i_03",
+            "items/sed_bm_demo_work_011_i_04",
+            "items/sed_bm_demo_work_011_i_05",
+            "items/sed_bm_demo_work_012_i_01",
+            "items/sed_bm_demo_work_012_i_02",
+            "items/sed_bm_demo_work_012_i_03",
+            "items/sed_bm_demo_work_012_i_04",
+            "items/sed_bm_demo_work_012_i_05",
+            "items/sed_bm_demo_work_012_i_06",
+            "items/sed_bm_demo_work_012_i_07",
+            "items/sed_bm_demo_work_012_i_08",
+            "items/sed_bm_demo_work_012_i_09",
+            "items/sed_bm_demo_work_012_i_10",
+            "items/sed_bm_demo_work_013_i_01",
+            "items/sed_bm_demo_work_013_i_02",
+            "items/sed_bm_demo_work_013_i_03",
+            "items/sed_bm_demo_work_013_i_04",
+            "items/sed_bm_demo_work_013_i_05",
+            "items/sed_bm_demo_work_013_i_06",
+            "items/sed_bm_demo_work_013_i_07",
+            "items/sed_bm_demo_work_013_i_08",
+            "items/sed_bm_demo_work_013_i_09",
+            "items/sed_bm_demo_work_013_i_10",
+            "items/sed_bm_demo_work_013_i_11",
+            "items/sed_bm_demo_work_013_i_12",
+            "items/sed_bm_demo_work_013_i_13",
+            "items/sed_bm_demo_work_013_i_14",
+            "items/sed_bm_demo_work_013_i_15",
+            "items/sed_bm_demo_work_013_i_16",
+            "items/sed_bm_demo_work_013_i_17",
+            "items/sed_bm_demo_work_013_i_18",
+            "items/sed_bm_demo_work_i_env_002",
+            "items/sed_bm_demo_instr09",
+            "items/sed_bm_demo_work_015",
+            "items/sed_bm_demo_work_016_i_01",
+            "items/sed_bm_demo_work_016_i_02",
+            "items/sed_bm_demo_work_016_i_03",
+            "items/sed_bm_demo_work_016_i_04",
+            "items/sed_bm_demo_work_017",
+            "items/sed_bm_demo_work_018",
+            "items/sed_bm_demo_work_019_i_01",
+            "items/sed_bm_demo_work_019_i_02",
+            "items/sed_bm_demo_work_019_i_03",
+            "items/sed_bm_demo_work_019_i_04",
+            "items/sed_bm_demo_work_019_i_05",
+            "items/sed_bm_demo_work_019_i_06",
+            "items/sed_bm_demo_work_019_i_07",
+            "items/sed_bm_demo_work_020_i_01",
+            "items/sed_bm_demo_work_020_i_02",
+            "items/sed_bm_demo_work_020_i_03",
+            "items/sed_bm_demo_work_020_i_04",
+            "items/sed_bm_demo_work_020_i_05",
+            "items/sed_bm_demo_work_021_i_01",
+            "items/sed_bm_demo_work_021_i_02",
+            "items/sed_bm_demo_work_021_i_03",
+            "items/sed_bm_demo_work_021_i_04",
+            "items/sed_bm_demo_work_021_i_05",
+            "items/sed_bm_demo_work_021_i_06",
+            "items/sed_bm_demo_work_021_i_07",
+            "items/sed_bm_demo_work_021_i_08",
+            "items/sed_bm_demo_work_021_i_09",
+            "items/sed_bm_demo_work_021_i_10",
+            "items/sed_bm_demo_work_022_i_01",
+            "items/sed_bm_demo_work_022_i_02",
+            "items/sed_bm_demo_work_022_i_03",
+            "items/sed_bm_demo_work_022_i_04",
+            "items/sed_bm_demo_work_022_i_05",
+            "items/sed_bm_demo_work_022_i_06",
+            "items/sed_bm_demo_work_022_i_07",
+            "items/sed_bm_demo_work_022_i_08",
+            "items/sed_bm_demo_work_022_i_09",
+            "items/sed_bm_demo_work_022_i_10",
+            "items/sed_bm_demo_work_022_i_11",
+            "items/sed_bm_demo_work_022_i_12",
+            "items/sed_bm_demo_work_022_i_22",
+            "items/sed_bm_demo_work_022_i_14",
+            "items/sed_bm_demo_work_022_i_15",
+            "items/sed_bm_demo_work_022_i_16",
+            "items/sed_bm_demo_work_022_i_17",
+            "items/sed_bm_demo_work_022_i_18",
+            "items/sed_bm_demo_work_i_env_003",
+            "items/sed_bm_demo_instr10",
+            "items/sed_bm_demo_work_023",
+            "items/sed_bm_demo_work_024_i_01",
+            "items/sed_bm_demo_work_024_i_02",
+            "items/sed_bm_demo_work_024_i_03",
+            "items/sed_bm_demo_work_024_i_04",
+            "items/sed_bm_demo_work_025",
+            "items/sed_bm_demo_work_026",
+            "items/sed_bm_demo_work_027_i_01",
+            "items/sed_bm_demo_work_027_i_02",
+            "items/sed_bm_demo_work_027_i_03",
+            "items/sed_bm_demo_work_027_i_04",
+            "items/sed_bm_demo_work_027_i_05",
+            "items/sed_bm_demo_work_027_i_06",
+            "items/sed_bm_demo_work_027_i_07",
+            "items/sed_bm_demo_work_028_i_01",
+            "items/sed_bm_demo_work_028_i_02",
+            "items/sed_bm_demo_work_028_i_03",
+            "items/sed_bm_demo_work_028_i_04",
+            "items/sed_bm_demo_work_028_i_05",
+            "items/sed_bm_demo_work_029_i_01",
+            "items/sed_bm_demo_work_029_i_02",
+            "items/sed_bm_demo_work_029_i_03",
+            "items/sed_bm_demo_work_029_i_04",
+            "items/sed_bm_demo_work_029_i_05",
+            "items/sed_bm_demo_work_029_i_06",
+            "items/sed_bm_demo_work_029_i_07",
+            "items/sed_bm_demo_work_029_i_08",
+            "items/sed_bm_demo_work_029_i_09",
+            "items/sed_bm_demo_work_029_i_10",
+            "items/sed_bm_demo_work_030_i_01",
+            "items/sed_bm_demo_work_030_i_02",
+            "items/sed_bm_demo_work_030_i_03",
+            "items/sed_bm_demo_work_030_i_04",
+            "items/sed_bm_demo_work_030_i_05",
+            "items/sed_bm_demo_work_030_i_06",
+            "items/sed_bm_demo_work_030_i_07",
+            "items/sed_bm_demo_work_030_i_08",
+            "items/sed_bm_demo_work_030_i_09",
+            "items/sed_bm_demo_work_030_i_10",
+            "items/sed_bm_demo_work_030_i_11",
+            "items/sed_bm_demo_work_030_i_12",
+            "items/sed_bm_demo_work_030_i_30",
+            "items/sed_bm_demo_work_030_i_14",
+            "items/sed_bm_demo_work_030_i_15",
+            "items/sed_bm_demo_work_030_i_16",
+            "items/sed_bm_demo_work_030_i_17",
+            "items/sed_bm_demo_work_030_i_18",
+            "items/sed_bm_demo_work_i_env_004",
+            "items/sed_bm_demo_instr11",
+            "items/sed_bm_demo_work_031",
+            "items/sed_bm_demo_work_032_i_01",
+            "items/sed_bm_demo_work_032_i_02",
+            "items/sed_bm_demo_work_032_i_03",
+            "items/sed_bm_demo_work_032_i_04",
+            "items/sed_bm_demo_work_033",
+            "items/sed_bm_demo_work_034",
+            "items/sed_bm_demo_work_035_i_01",
+            "items/sed_bm_demo_work_035_i_02",
+            "items/sed_bm_demo_work_035_i_03",
+            "items/sed_bm_demo_work_035_i_04",
+            "items/sed_bm_demo_work_035_i_05",
+            "items/sed_bm_demo_work_035_i_06",
+            "items/sed_bm_demo_work_035_i_07",
+            "items/sed_bm_demo_work_036_i_01",
+            "items/sed_bm_demo_work_036_i_02",
+            "items/sed_bm_demo_work_036_i_03",
+            "items/sed_bm_demo_work_036_i_04",
+            "items/sed_bm_demo_work_036_i_05",
+            "items/sed_bm_demo_work_037_i_01",
+            "items/sed_bm_demo_work_037_i_02",
+            "items/sed_bm_demo_work_037_i_03",
+            "items/sed_bm_demo_work_037_i_04",
+            "items/sed_bm_demo_work_037_i_05",
+            "items/sed_bm_demo_work_037_i_06",
+            "items/sed_bm_demo_work_037_i_07",
+            "items/sed_bm_demo_work_037_i_08",
+            "items/sed_bm_demo_work_037_i_09",
+            "items/sed_bm_demo_work_037_i_10",
+            "items/sed_bm_demo_work_038_i_01",
+            "items/sed_bm_demo_work_038_i_02",
+            "items/sed_bm_demo_work_038_i_03",
+            "items/sed_bm_demo_work_038_i_04",
+            "items/sed_bm_demo_work_038_i_05",
+            "items/sed_bm_demo_work_038_i_06",
+            "items/sed_bm_demo_work_038_i_07",
+            "items/sed_bm_demo_work_038_i_08",
+            "items/sed_bm_demo_work_038_i_09",
+            "items/sed_bm_demo_work_038_i_10",
+            "items/sed_bm_demo_work_038_i_11",
+            "items/sed_bm_demo_work_038_i_12",
+            "items/sed_bm_demo_work_038_i_38",
+            "items/sed_bm_demo_work_038_i_14",
+            "items/sed_bm_demo_work_038_i_15",
+            "items/sed_bm_demo_work_038_i_16",
+            "items/sed_bm_demo_work_038_i_17",
+            "items/sed_bm_demo_work_038_i_18",
+            "items/sed_bm_demo_work_i_env_005",
+            "items/sed_bm_demo_instr12",
+            "items/sed_bm_demo_work_039",
+            "items/sed_bm_demo_work_040_i_01",
+            "items/sed_bm_demo_work_040_i_02",
+            "items/sed_bm_demo_work_040_i_03",
+            "items/sed_bm_demo_work_040_i_04",
+            "items/sed_bm_demo_work_041",
+            "items/sed_bm_demo_work_042",
+            "items/sed_bm_demo_work_043_i_01",
+            "items/sed_bm_demo_work_043_i_02",
+            "items/sed_bm_demo_work_043_i_03",
+            "items/sed_bm_demo_work_043_i_04",
+            "items/sed_bm_demo_work_043_i_05",
+            "items/sed_bm_demo_work_043_i_06",
+            "items/sed_bm_demo_work_043_i_07",
+            "items/sed_bm_demo_work_044_i_01",
+            "items/sed_bm_demo_work_044_i_02",
+            "items/sed_bm_demo_work_044_i_03",
+            "items/sed_bm_demo_work_044_i_04",
+            "items/sed_bm_demo_work_044_i_05",
+            "items/sed_bm_demo_work_045_i_01",
+            "items/sed_bm_demo_work_045_i_02",
+            "items/sed_bm_demo_work_045_i_03",
+            "items/sed_bm_demo_work_045_i_04",
+            "items/sed_bm_demo_work_045_i_05",
+            "items/sed_bm_demo_work_045_i_06",
+            "items/sed_bm_demo_work_045_i_07",
+            "items/sed_bm_demo_work_045_i_08",
+            "items/sed_bm_demo_work_045_i_09",
+            "items/sed_bm_demo_work_045_i_10",
+            "items/sed_bm_demo_work_046_i_01",
+            "items/sed_bm_demo_work_046_i_02",
+            "items/sed_bm_demo_work_046_i_03",
+            "items/sed_bm_demo_work_046_i_04",
+            "items/sed_bm_demo_work_046_i_05",
+            "items/sed_bm_demo_work_046_i_06",
+            "items/sed_bm_demo_work_046_i_07",
+            "items/sed_bm_demo_work_046_i_08",
+            "items/sed_bm_demo_work_046_i_09",
+            "items/sed_bm_demo_work_046_i_10",
+            "items/sed_bm_demo_work_046_i_11",
+            "items/sed_bm_demo_work_046_i_12",
+            "items/sed_bm_demo_work_046_i_46",
+            "items/sed_bm_demo_work_046_i_14",
+            "items/sed_bm_demo_work_046_i_15",
+            "items/sed_bm_demo_work_046_i_16",
+            "items/sed_bm_demo_work_046_i_17",
+            "items/sed_bm_demo_work_046_i_18",
+            "items/sed_bm_demo_work_i_env_006",
+            "items/sed_bm_demo_instr13",
+            "items/sed_bm_demo_work_047",
+            "items/sed_bm_demo_work_048_i_01",
+            "items/sed_bm_demo_work_048_i_02",
+            "items/sed_bm_demo_work_048_i_03",
+            "items/sed_bm_demo_work_048_i_04",
+            "items/sed_bm_demo_work_049",
+            "items/sed_bm_demo_work_050",
+            "items/sed_bm_demo_work_051_i_01",
+            "items/sed_bm_demo_work_051_i_02",
+            "items/sed_bm_demo_work_051_i_03",
+            "items/sed_bm_demo_work_051_i_04",
+            "items/sed_bm_demo_work_051_i_05",
+            "items/sed_bm_demo_work_051_i_06",
+            "items/sed_bm_demo_work_051_i_07",
+            "items/sed_bm_demo_work_052_i_01",
+            "items/sed_bm_demo_work_052_i_02",
+            "items/sed_bm_demo_work_052_i_03",
+            "items/sed_bm_demo_work_052_i_04",
+            "items/sed_bm_demo_work_052_i_05",
+            "items/sed_bm_demo_work_053_i_01",
+            "items/sed_bm_demo_work_053_i_02",
+            "items/sed_bm_demo_work_053_i_03",
+            "items/sed_bm_demo_work_053_i_04",
+            "items/sed_bm_demo_work_053_i_05",
+            "items/sed_bm_demo_work_053_i_06",
+            "items/sed_bm_demo_work_053_i_07",
+            "items/sed_bm_demo_work_053_i_08",
+            "items/sed_bm_demo_work_053_i_09",
+            "items/sed_bm_demo_work_053_i_10",
+            "items/sed_bm_demo_work_054_i_01",
+            "items/sed_bm_demo_work_054_i_02",
+            "items/sed_bm_demo_work_054_i_03",
+            "items/sed_bm_demo_work_054_i_04",
+            "items/sed_bm_demo_work_054_i_05",
+            "items/sed_bm_demo_work_054_i_06",
+            "items/sed_bm_demo_work_054_i_07",
+            "items/sed_bm_demo_work_054_i_08",
+            "items/sed_bm_demo_work_054_i_09",
+            "items/sed_bm_demo_work_054_i_10",
+            "items/sed_bm_demo_work_054_i_11",
+            "items/sed_bm_demo_work_054_i_12",
+            "items/sed_bm_demo_work_054_i_54",
+            "items/sed_bm_demo_work_054_i_14",
+            "items/sed_bm_demo_work_054_i_15",
+            "items/sed_bm_demo_work_054_i_16",
+            "items/sed_bm_demo_work_054_i_17",
+            "items/sed_bm_demo_work_054_i_18",
+            "items/sed_bm_demo_work_i_env_007",
+            "items/sed_bm_demo_obp_001",
+            "items/sed_bm_demo_instr05",
+            "items/sed_bm_demo_age_i_oth_001",
+            "items/sed_bm_demo_herit_i_oth_002",
+            "items/sed_bm_demo_herit_i_oth_002_i_01",
+            "items/sed_bm_demo_herit_i_oth_002_i_02",
+            "items/sed_bm_demo_herit_i_oth_002_i_03",
+            "items/sed_bm_demo_herit_i_oth_002_i_04",
+            "items/sed_bm_demo_herit_i_oth_002_i_05",
+            "items/sed_bm_demo_herit_i_oth_002_i_06",
+            "items/sed_bm_demo_herit_i_oth_002_i_07",
+            "items/sed_bm_demo_herit_i_oth_001",
+            "items/sed_bm_demo_herit_i_oth_001_i_01",
+            "items/sed_bm_demo_herit_i_oth_001_i_02",
+            "items/sed_bm_demo_herit_i_oth_001_i_04",
+            "items/sed_bm_demo_instr06",
+            "items/sed_bm_demo_herit_i_oth_003_i_01",
+            "items/sed_bm_demo_herit_i_oth_003_i_02",
+            "items/sed_bm_demo_edu_i_oth_001",
+            "items/sed_bm_demo_work_i_oth_001",
+            "items/sed_bm_demo_work_i_oth_001_i_03",
+            "items/sed_bm_demo_work_i_oth_001_i_02",
+            "items/sed_bm_demo_mil_002",
+            "items/sed_bm_demo_mil_002_i_01",
+            "items/sed_bm_demo_ses_i_oth_001",
+            "items/sed_bm_demo_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_demo_lang",
+                "isVis": true,
+                "variableName": "sed_bm_demo_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_dtt",
+                "isVis": true,
+                "variableName": "sed_bm_demo_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_timestamp_start",
+                "isVis": true,
+                "variableName": "sed_bm_demo_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_location",
+                "isVis": true,
+                "variableName": "sed_bm_demo_location"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_relationship_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_relationship_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_gndrident_001",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_gndrident_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_gndrident_001_i_01",
+                "isVis": "sed_bm_demo_gndrident_001___6 == '1' AND event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_gndrident_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_sexorient_001",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_sexorient_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_sexorient_001_i_01",
+                "isVis": "sed_bm_demo_sexorient_001 == '5'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_sexorient_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_residence_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_residence_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_residence_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_residence_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr_011",
+                "isVis": "sed_bm_demo_residence_001 == '1' OR sed_bm_demo_residence_001 == '2' OR sed_bm_demo_residence_001 == '5'",
+                "variableName": "sed_bm_demo_instr_011"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_001_i_00",
+                "isVis": "sed_bm_demo_residence_001 == '1' OR sed_bm_demo_residence_001 == '2' OR sed_bm_demo_residence_001 == '5'",
+                "variableName": "sed_bm_demo_roster_001_i_00"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_001",
+                "isVis": "sed_bm_demo_roster_001_i_dk == '' AND ( sed_bm_demo_residence_001 == '1' OR sed_bm_demo_residence_001 == '2' OR sed_bm_demo_residence_001 == '5' )",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_001_i_dk",
+                "isVis": "sed_bm_demo_roster_001 == '' AND ( sed_bm_demo_residence_001 == '1' OR sed_bm_demo_residence_001 == '2' OR sed_bm_demo_residence_001 == '5' )",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_001_i_dk"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_002",
+                "isVis": "sed_bm_demo_roster_002_i_dk == '' AND ( sed_bm_demo_residence_001 == '1' OR sed_bm_demo_residence_001 == '2' OR sed_bm_demo_residence_001 == '5' )",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_002_i_dk",
+                "isVis": "sed_bm_demo_roster_002 == '' AND ( sed_bm_demo_residence_001 == '1' OR sed_bm_demo_residence_001 == '2' OR sed_bm_demo_residence_001 == '5' )",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_002_i_dk"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_003",
+                "isVis": true,
+                "variableName": "sed_bm_demo_roster_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr_012",
+                "isVis": "sed_bm_demo_roster_003 >= 1",
+                "variableName": "sed_bm_demo_instr_012"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_00",
+                "isVis": "sed_bm_demo_roster_003 >= 1",
+                "variableName": "sed_bm_demo_roster_table_00"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_1",
+                "isVis": "sed_bm_demo_roster_003 >= 1",
+                "variableName": "sed_bm_demo_roster_table_1"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_2",
+                "isVis": "sed_bm_demo_roster_003 >= 2",
+                "variableName": "sed_bm_demo_roster_table_2"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_3",
+                "isVis": "sed_bm_demo_roster_003 >= 3",
+                "variableName": "sed_bm_demo_roster_table_3"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_4",
+                "isVis": "sed_bm_demo_roster_003 >= 4",
+                "variableName": "sed_bm_demo_roster_table_4"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_5",
+                "isVis": "sed_bm_demo_roster_003 >= 5",
+                "variableName": "sed_bm_demo_roster_table_5"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_6",
+                "isVis": "sed_bm_demo_roster_003 >= 6",
+                "variableName": "sed_bm_demo_roster_table_6"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_7",
+                "isVis": "sed_bm_demo_roster_003 >= 7",
+                "variableName": "sed_bm_demo_roster_table_7"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_8",
+                "isVis": "sed_bm_demo_roster_003 >= 8",
+                "variableName": "sed_bm_demo_roster_table_8"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_9",
+                "isVis": "sed_bm_demo_roster_003 >= 9",
+                "variableName": "sed_bm_demo_roster_table_9"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_10",
+                "isVis": "sed_bm_demo_roster_003 >= 10",
+                "variableName": "sed_bm_demo_roster_table_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_11",
+                "isVis": "sed_bm_demo_roster_003 >= 11",
+                "variableName": "sed_bm_demo_roster_table_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_12",
+                "isVis": "sed_bm_demo_roster_003 >= 12",
+                "variableName": "sed_bm_demo_roster_table_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_13",
+                "isVis": "sed_bm_demo_roster_003 >= 13",
+                "variableName": "sed_bm_demo_roster_table_13"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_14",
+                "isVis": "sed_bm_demo_roster_003 >= 14",
+                "variableName": "sed_bm_demo_roster_table_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_15",
+                "isVis": "sed_bm_demo_roster_003 >= 15",
+                "variableName": "sed_bm_demo_roster_table_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_16",
+                "isVis": "sed_bm_demo_roster_003 >= 16",
+                "variableName": "sed_bm_demo_roster_table_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_17",
+                "isVis": "sed_bm_demo_roster_003 >= 17",
+                "variableName": "sed_bm_demo_roster_table_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_18",
+                "isVis": "sed_bm_demo_roster_003 >= 18",
+                "variableName": "sed_bm_demo_roster_table_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_19",
+                "isVis": "sed_bm_demo_roster_003 >= 19",
+                "variableName": "sed_bm_demo_roster_table_19"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_table_20",
+                "isVis": "sed_bm_demo_roster_003 == 20",
+                "variableName": "sed_bm_demo_roster_table_20"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_004_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 1 AND sed_bm_demo_roster_004_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_004_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_004_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_004_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_004_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_004_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 1",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_004_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_005_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 2 AND sed_bm_demo_roster_005_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_005_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_005_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_005_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_005_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_005_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 2",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_005_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_006_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 3 AND sed_bm_demo_roster_006_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_006_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_006_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_006_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_006_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_006_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 3",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_006_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_007_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 3 AND sed_bm_demo_roster_007_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_007_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_007_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_007_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_007_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_007_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 4",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_007_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_008_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 3 AND sed_bm_demo_roster_008_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_008_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_008_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_008_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_008_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_008_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 5",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_008_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_009_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 6 AND sed_bm_demo_roster_009_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_009_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_009_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_009_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_009_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_009_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 6",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_009_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 7 AND sed_bm_demo_roster_010_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_010_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_010_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_010_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_010_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_010_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 7",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_010_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 8 AND sed_bm_demo_roster_011_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_011_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_011_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_011_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_011_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_011_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 8",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_011_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_012_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 9 AND sed_bm_demo_roster_012_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_012_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_012_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_012_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_012_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_012_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 9",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_012_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_013_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 10 AND sed_bm_demo_roster_013_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_013_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_013_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_013_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_013_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_013_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 10",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_013_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_014_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 11 AND sed_bm_demo_roster_014_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_014_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_014_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_014_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_014_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_014_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 11",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_014_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_015_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 12 AND sed_bm_demo_roster_015_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_015_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_015_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_015_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_015_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_015_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 12",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_015_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_016_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 13 AND sed_bm_demo_roster_016_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_016_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_016_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_016_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_016_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_016_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 13",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_016_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_017_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 14 AND sed_bm_demo_roster_017_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_017_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_017_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_017_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_017_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_017_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 14",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_017_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_018_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 15 AND sed_bm_demo_roster_018_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_018_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_018_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_018_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_018_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_018_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 15",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_018_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_019_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 16 AND sed_bm_demo_roster_019_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_019_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_019_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_019_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_019_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_019_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 16",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_019_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 17",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_020_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 17 AND sed_bm_demo_roster_020_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_020_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 17",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_020_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_020_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_020_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_020_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 17",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_020_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 18",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_021_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 18 AND sed_bm_demo_roster_021_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_021_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 18",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_021_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_021_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_021_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_021_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 18",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_021_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_01",
+                "isVis": "sed_bm_demo_roster_003 >= 19",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_022_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_02",
+                "isVis": "sed_bm_demo_roster_003 >= 19 AND sed_bm_demo_roster_022_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_022_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_03",
+                "isVis": "sed_bm_demo_roster_003 >= 19",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_022_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_022_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_022_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_022_i_04",
+                "isVis": "sed_bm_demo_roster_003 >= 19",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_022_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_01",
+                "isVis": "sed_bm_demo_roster_003 == 20",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_023_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_02",
+                "isVis": "sed_bm_demo_roster_003 == 20 AND sed_bm_demo_roster_023_i_01 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_023_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_03",
+                "isVis": "sed_bm_demo_roster_003 == 20",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_023_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_03_i_01",
+                "isVis": "sed_bm_demo_roster_023_i_03 == '3'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_023_i_03_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_roster_023_i_04",
+                "isVis": "sed_bm_demo_roster_003 == 20",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_roster_023_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_001_i_01",
+                "isVis": "sed_bm_demo_herit_001 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_001_i_02",
+                "isVis": "sed_bm_demo_herit_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_005",
+                "isVis": "sed_bm_demo_herit_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_01",
+                "isVis": "sed_bm_demo_herit_002___0 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_02",
+                "isVis": "sed_bm_demo_herit_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_03",
+                "isVis": "sed_bm_demo_herit_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_04",
+                "isVis": "sed_bm_demo_herit_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_05",
+                "isVis": "sed_bm_demo_herit_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_06",
+                "isVis": "sed_bm_demo_herit_002___5 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_002_i_07",
+                "isVis": "sed_bm_demo_herit_002___6 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_002_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_006",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_006"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_007",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_007"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_income_001",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "variableName": "sed_bm_demo_income_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_income_002",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_income_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_edu_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_edu_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_mil_001",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_mil_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr03",
+                "isVis": "event-name admin_caregiver_001 ! == '1'",
+                "variableName": "sed_bm_demo_instr03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_002_pre",
+                "isVis": "screening_arm_1 recruitment_period == '1' AND event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_002_pre"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_002_post",
+                "isVis": "screening_arm_1 recruitment_period == '2' AND event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_002_post"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_001",
+                "isVis": "( sed_bm_demo_work_002_pre == '1' OR sed_bm_demo_work_002_post == '1') AND event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_004_pre",
+                "isVis": "sed_bm_demo_work_002_pre == '1' AND event-name admin_caregiver_001 ! == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_004_pre"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_004_post",
+                "isVis": "sed_bm_demo_work_002_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_004_post"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_005",
+                "isVis": "sed_bm_demo_work_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_003_pre",
+                "isVis": "sed_bm_demo_work_002_pre == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_003_pre"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_003_post",
+                "isVis": "sed_bm_demo_work_002_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_003_post"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr07_pre",
+                "isVis": "sed_bm_demo_work_003_pre == '1'",
+                "variableName": "sed_bm_demo_instr07_pre"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr07_post",
+                "isVis": "sed_bm_demo_work_003_post == '1'",
+                "variableName": "sed_bm_demo_instr07_post"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr08",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "variableName": "sed_bm_demo_instr08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_007",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_007"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_01",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_008_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_02",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_008_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_03",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_008_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_008_i_04",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_008_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_014",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_014"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_009",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_009"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_01",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_010_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_02",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_010_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_03",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_010_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_04",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_010_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_05",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_010_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_06",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_010_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_010_i_07",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_010_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_01",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_011_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_02",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_011_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_03",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_011_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_04",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_011_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_011_i_05",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_011_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_01",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_02",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_03",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_04",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_05",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_06",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_07",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_08",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_09",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_012_i_10",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_012_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_01",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_02",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_03",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_04",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_05",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_06",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_07",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_08",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_09",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_10",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_11",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_12",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_13",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_13"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_14",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_15",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_16",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_17",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_013_i_18",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_013_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_002",
+                "isVis": "sed_bm_demo_work_003_pre == '1' OR sed_bm_demo_work_003_post == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_env_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr09",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "variableName": "sed_bm_demo_instr09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_015",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_015"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_01",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_016_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_02",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_016_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_03",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_016_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_016_i_04",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_016_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_017",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_017"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_018",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_018"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_01",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_019_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_02",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_019_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_03",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_019_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_04",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_019_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_05",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_019_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_06",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_019_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_019_i_07",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_019_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_01",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_020_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_02",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_020_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_03",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_020_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_04",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_020_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_020_i_05",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_020_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_01",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_02",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_03",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_04",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_05",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_06",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_07",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_08",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_09",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_021_i_10",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_021_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_01",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_02",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_03",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_04",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_05",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_06",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_07",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_08",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_09",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_10",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_11",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_12",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_22",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_22"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_14",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_15",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_16",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_17",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_022_i_18",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_022_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_003",
+                "isVis": "sed_bm_demo_work_i_env_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_env_003"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr10",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "variableName": "sed_bm_demo_instr10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_023",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_023"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_01",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_024_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_02",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_024_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_03",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_024_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_024_i_04",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_024_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_025",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_025"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_026",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_026"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_01",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_027_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_02",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_027_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_03",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_027_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_04",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_027_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_05",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_027_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_06",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_027_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_027_i_07",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_027_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_01",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_028_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_02",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_028_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_03",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_028_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_04",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_028_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_028_i_05",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_028_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_01",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_02",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_03",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_04",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_05",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_06",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_07",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_08",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_09",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_029_i_10",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_029_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_01",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_02",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_03",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_04",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_05",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_06",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_07",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_08",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_09",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_10",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_11",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_12",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_30",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_30"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_14",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_15",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_16",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_17",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_030_i_18",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_030_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_004",
+                "isVis": "sed_bm_demo_work_i_env_003 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_env_004"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr11",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "variableName": "sed_bm_demo_instr11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_031",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_031"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_01",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_032_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_02",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_032_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_03",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_032_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_032_i_04",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_032_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_033",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_033"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_034",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_034"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_01",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_035_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_02",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_035_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_03",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_035_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_04",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_035_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_05",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_035_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_06",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_035_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_035_i_07",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_035_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_01",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_036_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_02",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_036_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_03",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_036_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_04",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_036_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_036_i_05",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_036_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_01",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_02",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_03",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_04",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_05",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_06",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_07",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_08",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_09",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_037_i_10",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_037_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_01",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_02",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_03",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_04",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_05",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_06",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_07",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_08",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_09",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_10",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_11",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_12",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_38",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_38"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_14",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_15",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_16",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_17",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_038_i_18",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_038_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_005",
+                "isVis": "sed_bm_demo_work_i_env_004 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_env_005"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr12",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "variableName": "sed_bm_demo_instr12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_039",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_039"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_01",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_040_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_02",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_040_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_03",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_040_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_040_i_04",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_040_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_041",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_041"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_042",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_042"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_01",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_043_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_02",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_043_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_03",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_043_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_04",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_043_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_05",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_043_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_06",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_043_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_043_i_07",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_043_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_01",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_044_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_02",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_044_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_03",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_044_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_04",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_044_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_044_i_05",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_044_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_01",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_02",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_03",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_04",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_05",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_06",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_07",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_08",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_09",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_045_i_10",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_045_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_01",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_02",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_03",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_04",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_05",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_06",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_07",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_08",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_09",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_10",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_11",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_12",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_46",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_46"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_14",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_15",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_16",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_17",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_046_i_18",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_046_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_006",
+                "isVis": "sed_bm_demo_work_i_env_005 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_env_006"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr13",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "variableName": "sed_bm_demo_instr13"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_047",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_047"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_01",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_048_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_02",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_048_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_03",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_048_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_048_i_04",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_048_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_049",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_049"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_050",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_050"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_01",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_051_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_02",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_051_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_03",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_051_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_04",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_051_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_05",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_051_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_06",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_051_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_051_i_07",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_051_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_01",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_052_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_02",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_052_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_03",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_052_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_04",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_052_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_052_i_05",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_052_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_01",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_02",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_03",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_04",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_05",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_06",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_07",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_08",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_09",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_053_i_10",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_053_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_01",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_02",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_03",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_04",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_05",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_06",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_07",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_08",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_08"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_09",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_09"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_10",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_10"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_11",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_11"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_12",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_12"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_54",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_54"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_14",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_14"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_15",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_15"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_16",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_16"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_17",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_17"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_054_i_18",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_054_i_18"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_env_007",
+                "isVis": "sed_bm_demo_work_i_env_006 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_env_007"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_obp_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_obp_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr05",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "variableName": "sed_bm_demo_instr05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_age_i_oth_001",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_age_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_01",
+                "isVis": "sed_bm_demo_herit_i_oth_002___0 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_02",
+                "isVis": "sed_bm_demo_herit_i_oth_002___1 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_03",
+                "isVis": "sed_bm_demo_herit_i_oth_002___2 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_04",
+                "isVis": "sed_bm_demo_herit_i_oth_002___3 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_05",
+                "isVis": "sed_bm_demo_herit_i_oth_002___4 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_05"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_06",
+                "isVis": "sed_bm_demo_herit_i_oth_002___5 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_002_i_07",
+                "isVis": "sed_bm_demo_herit_i_oth_002___6 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_002_i_07"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001_i_01",
+                "isVis": "sed_bm_demo_herit_i_oth_001 == '0'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_001_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001_i_02",
+                "isVis": "sed_bm_demo_herit_i_oth_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_001_i_04",
+                "isVis": "sed_bm_demo_herit_i_oth_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_001_i_04"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_instr06",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "variableName": "sed_bm_demo_instr06"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_003_i_01",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_003_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_herit_i_oth_003_i_02",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_herit_i_oth_003_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_edu_i_oth_001",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_edu_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_oth_001",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_oth_001_i_03",
+                "isVis": "sed_bm_demo_work_i_oth_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_oth_001_i_03"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_work_i_oth_001_i_02",
+                "isVis": "sed_bm_demo_work_i_oth_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_work_i_oth_001_i_02"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_mil_002",
+                "isVis": "sed_bm_demo_work_i_oth_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_mil_002"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_mil_002_i_01",
+                "isVis": "sed_bm_demo_mil_002 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_mil_002_i_01"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_ses_i_oth_001",
+                "isVis": "sed_bm_demo_obp_001 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_demo_ses_i_oth_001"
+            },
+            {
+                "isAbout": "items/sed_bm_demo_complete",
+                "isVis": true,
+                "variableName": "sed_bm_demo_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

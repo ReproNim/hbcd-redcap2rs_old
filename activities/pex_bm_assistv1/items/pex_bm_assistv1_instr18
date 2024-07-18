@@ -1,0 +1,22 @@
+{
+    "id": "pex_bm_assistv1_instr18",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Stimulants"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr18"
+    },
+    "question": {
+        "en": "When you were using stimulants during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select the specific substance you used below."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "sed_bm_demo_work_043_i_01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Did this job involve:"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_work_043_i_01"
+    },
+    "question": {
+        "en": "Standing for more than 6 hours at a time"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Every day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

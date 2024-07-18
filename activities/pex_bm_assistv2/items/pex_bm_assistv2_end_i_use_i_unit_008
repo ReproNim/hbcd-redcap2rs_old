@@ -1,0 +1,27 @@
+{
+    "id": "pex_bm_assistv2_end_i_use_i_unit_008",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv2_end_i_use_i_unit_008"
+    },
+    "question": {
+        "en": "Methadone (units)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "mg"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,51 @@
+{
+    "id": "sed_cg_foodins_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_cg_foodins_002"
+    },
+    "question": {
+        "en": "In the last 12 months, did (you/you or other adults in your household) ever cut the size of your meals or skip meals because there wasn't enough money for food?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never true"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Sometimes true"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Often true"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

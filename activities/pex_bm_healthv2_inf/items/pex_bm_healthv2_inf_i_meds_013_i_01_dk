@@ -1,0 +1,33 @@
+{
+    "id": "pex_bm_healthv2_inf_i_meds_013_i_01_dk",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_i_meds_013_i_01_dk"
+    },
+    "question": {
+        "en": "indication dk/decline"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

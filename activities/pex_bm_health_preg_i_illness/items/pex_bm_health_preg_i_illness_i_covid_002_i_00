@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_illness_i_covid_002_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_i_covid_002_i_00"
+    },
+    "question": {
+        "en": "Since your last menstrual period on [pex_bm_health_preg_i_healthhx_001], how many times have you tested positive for SARS-CoV-2, the virus that causes COVID-19? {pex_bm_health_preg_i_illness_i_covid_002} {pex_bm_health_preg_i_illness_i_covid_002_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

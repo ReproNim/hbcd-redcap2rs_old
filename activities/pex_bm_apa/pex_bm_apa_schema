@@ -1,0 +1,819 @@
+{
+    "id": "pex_bm_apa_schema",
+    "category": "reproschema:Activity",
+    "compute": [
+        {
+            "jsExpression": "if(( pex_bm_apa1_suic_001 > 0 AND pex_bm_apa1_suic_001 < 777), 1, 0)",
+            "variableName": "pex_bm_apa1_flag01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_001 == '777' OR pex_bm_apa2_depr_001 == '999'), '', pex_bm_apa2_depr_001 )",
+            "variableName": "pex_bm_apa2_depr_001_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_002 == '777' OR pex_bm_apa2_depr_002 == '999'), '', pex_bm_apa2_depr_002 )",
+            "variableName": "pex_bm_apa2_depr_002_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_003 == '777' OR pex_bm_apa2_depr_003 == '999'), '', pex_bm_apa2_depr_003 )",
+            "variableName": "pex_bm_apa2_depr_003_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_004 == '777' OR pex_bm_apa2_depr_004 == '999'), '', pex_bm_apa2_depr_004 )",
+            "variableName": "pex_bm_apa2_depr_004_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_005 == '777' OR pex_bm_apa2_depr_005 == '999'), '', pex_bm_apa2_depr_005 )",
+            "variableName": "pex_bm_apa2_depr_005_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_006 == '777' OR pex_bm_apa2_depr_006 == '999'), '', pex_bm_apa2_depr_006 )",
+            "variableName": "pex_bm_apa2_depr_006_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_007 == '777' OR pex_bm_apa2_depr_007 == '999'), '', pex_bm_apa2_depr_007 )",
+            "variableName": "pex_bm_apa2_depr_007_i_01"
+        },
+        {
+            "jsExpression": "if(( pex_bm_apa2_depr_008 == '777' OR pex_bm_apa2_depr_008 == '999'), '', pex_bm_apa2_depr_008 )",
+            "variableName": "pex_bm_apa2_depr_008_i_01"
+        },
+        {
+            "jsExpression": "sum( pex_bm_apa2_depr_001_i_01 , pex_bm_apa2_depr_002_i_01 , pex_bm_apa2_depr_003_i_01 , pex_bm_apa2_depr_004_i_01 , pex_bm_apa2_depr_005_i_01 , pex_bm_apa2_depr_006_i_01 , pex_bm_apa2_depr_007_i_01 , pex_bm_apa2_depr_008_i_01 )",
+            "variableName": "pex_bm_apa2_depr_score"
+        },
+        {
+            "jsExpression": "if( pex_bm_apa2_depr_score >= 33, 1, 0)",
+            "variableName": "pex_bm_apa2_depr_flag01"
+        }
+    ],
+    "prefLabel": {
+        "en": "pex_bm_apa"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_apa_lang",
+            "items/pex_bm_apa_dtt",
+            "items/pex_bm_apa_timestamp_start",
+            "items/pex_bm_apa_location",
+            "items/pex_bm_apa1_depr_001",
+            "items/pex_bm_apa1_depr_002",
+            "items/pex_bm_apa1_anger_001",
+            "items/pex_bm_apa1_mania_001",
+            "items/pex_bm_apa1_mania_002",
+            "items/pex_bm_apa1_anx_001",
+            "items/pex_bm_apa1_anx_002",
+            "items/pex_bm_apa1_anx_003",
+            "items/pex_bm_apa1_somat_001",
+            "items/pex_bm_apa1_somat_002",
+            "items/pex_bm_apa1_suic_001",
+            "items/pex_bm_apa1_psych_001",
+            "items/pex_bm_apa1_psych_002",
+            "items/pex_bm_apa1_sleep_001",
+            "items/pex_bm_apa1_memo_001",
+            "items/pex_bm_apa1_repet_001",
+            "items/pex_bm_apa1_repet_002",
+            "items/pex_bm_apa1_disso_001",
+            "items/pex_bm_apa2_depr_001",
+            "items/pex_bm_apa2_depr_002",
+            "items/pex_bm_apa2_depr_003",
+            "items/pex_bm_apa2_depr_004",
+            "items/pex_bm_apa2_depr_005",
+            "items/pex_bm_apa2_depr_006",
+            "items/pex_bm_apa2_depr_007",
+            "items/pex_bm_apa2_depr_008",
+            "items/pex_bm_apa2_anx_001",
+            "items/pex_bm_apa2_anx_002",
+            "items/pex_bm_apa2_anx_003",
+            "items/pex_bm_apa2_anx_004",
+            "items/pex_bm_apa2_anx_005",
+            "items/pex_bm_apa2_anx_006",
+            "items/pex_bm_apa2_anx_007",
+            "items/pex_bm_apa2_anger_001",
+            "items/pex_bm_apa2_anger_002",
+            "items/pex_bm_apa2_anger_003",
+            "items/pex_bm_apa2_anger_004",
+            "items/pex_bm_apa2_anger_005",
+            "items/pex_bm_apa2_sleep_001",
+            "items/pex_bm_apa2_sleep_002",
+            "items/pex_bm_apa2_sleep_003",
+            "items/pex_bm_apa2_sleep_004",
+            "items/pex_bm_apa2_sleep_005",
+            "items/pex_bm_apa2_sleep_006",
+            "items/pex_bm_apa2_sleep_007",
+            "items/pex_bm_apa2_sleep_008",
+            "items/pex_bm_apa2_mania_001",
+            "items/pex_bm_apa2_mania_002",
+            "items/pex_bm_apa2_mania_003",
+            "items/pex_bm_apa2_mania_004",
+            "items/pex_bm_apa2_mania_005",
+            "items/pex_bm_apa2_repet_001",
+            "items/pex_bm_apa2_repet_002",
+            "items/pex_bm_apa2_repet_003",
+            "items/pex_bm_apa2_repet_004",
+            "items/pex_bm_apa2_repet_005",
+            "items/pex_bm_apa2_pers_001",
+            "items/pex_bm_apa2_pers_002",
+            "items/pex_bm_apa2_pers_003",
+            "items/pex_bm_apa2_pers_004",
+            "items/pex_bm_apa2_pers_005",
+            "items/pex_bm_apa2_pers_006",
+            "items/pex_bm_apa2_pers_007",
+            "items/pex_bm_apa2_pers_008",
+            "items/pex_bm_apa2_pers_009",
+            "items/pex_bm_apa2_pers_010",
+            "items/pex_bm_apa2_pers_011",
+            "items/pex_bm_apa2_pers_012",
+            "items/pex_bm_apa2_pers_013",
+            "items/pex_bm_apa2_pers_014",
+            "items/pex_bm_apa2_pers_015",
+            "items/pex_bm_apa2_pers_016",
+            "items/pex_bm_apa2_pers_017",
+            "items/pex_bm_apa2_pers_018",
+            "items/pex_bm_apa2_pers_019",
+            "items/pex_bm_apa2_pers_020",
+            "items/pex_bm_apa2_pers_021",
+            "items/pex_bm_apa2_pers_022",
+            "items/pex_bm_apa2_pers_023",
+            "items/pex_bm_apa2_pers_024",
+            "items/pex_bm_apa2_pers_025",
+            "items/pex_bm_apa2_somat_001",
+            "items/pex_bm_apa2_somat_002",
+            "items/pex_bm_apa2_somat_003",
+            "items/pex_bm_apa2_somat_004",
+            "items/pex_bm_apa2_somat_005",
+            "items/pex_bm_apa2_somat_006",
+            "items/pex_bm_apa2_somat_007",
+            "items/pex_bm_apa2_somat_008",
+            "items/pex_bm_apa2_somat_009",
+            "items/pex_bm_apa2_somat_010",
+            "items/pex_bm_apa2_somat_011",
+            "items/pex_bm_apa2_somat_012",
+            "items/pex_bm_apa2_somat_013",
+            "items/pex_bm_apa2_somat_014",
+            "items/pex_bm_apa2_somat_015",
+            "items/pex_bm_apa_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_apa_lang",
+                "isVis": true,
+                "variableName": "pex_bm_apa_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_dtt",
+                "isVis": true,
+                "variableName": "pex_bm_apa_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_timestamp_start",
+                "isVis": true,
+                "variableName": "pex_bm_apa_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_location",
+                "isVis": true,
+                "variableName": "pex_bm_apa_location"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_depr_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_depr_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_depr_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_depr_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_anger_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_anger_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_mania_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_mania_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_mania_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_mania_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_anx_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_anx_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_anx_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_anx_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_anx_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_anx_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_somat_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_somat_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_somat_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_somat_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_suic_001",
+                "isVis": true,
+                "variableName": "pex_bm_apa1_suic_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_psych_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_psych_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_psych_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_psych_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_sleep_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_sleep_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_memo_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_memo_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_repet_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_repet_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_repet_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_repet_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_disso_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa1_disso_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa1_flag01",
+                "isVis": true,
+                "variableName": "pex_bm_apa1_flag01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_006"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_007"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_depr_008"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_001_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_001_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_002_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_002_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_003_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_003_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_004_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_004_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_005_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_005_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_006_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_006_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_007_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_007_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_008_i_01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_008_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_score",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_score"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_depr_flag01",
+                "isVis": true,
+                "variableName": "pex_bm_apa2_depr_flag01"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anx_001",
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anx_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anx_002",
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anx_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anx_003",
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anx_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anx_004",
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anx_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anx_005",
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anx_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anx_006",
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anx_006"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anx_007",
+                "isVis": "pex_bm_apa1_anx_001 >= '2' OR pex_bm_apa1_anx_002 >= '2' OR pex_bm_apa1_anx_003 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anx_007"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anger_001",
+                "isVis": "pex_bm_apa1_anger_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anger_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anger_002",
+                "isVis": "pex_bm_apa1_anger_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anger_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anger_003",
+                "isVis": "pex_bm_apa1_anger_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anger_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anger_004",
+                "isVis": "pex_bm_apa1_anger_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anger_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_anger_005",
+                "isVis": "pex_bm_apa1_anger_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_anger_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_001",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_002",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_003",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_004",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_005",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_006",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_006"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_007",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_007"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_sleep_008",
+                "isVis": "pex_bm_apa1_sleep_001 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_sleep_008"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_mania_001",
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_mania_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_mania_002",
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_mania_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_mania_003",
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_mania_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_mania_004",
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_mania_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_mania_005",
+                "isVis": "pex_bm_apa1_mania_001 >= '2' OR pex_bm_apa1_mania_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_mania_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_repet_001",
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_repet_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_repet_002",
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_repet_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_repet_003",
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_repet_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_repet_004",
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_repet_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_repet_005",
+                "isVis": "pex_bm_apa1_repet_001 >= '2' OR pex_bm_apa1_repet_002 >= '2'",
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_repet_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_006"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_007"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_008"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_009"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_010"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_011"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_012"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_013"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_014"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_015"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_016"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_017"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_018"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_019",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_019"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_020",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_020"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_021",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_021"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_022",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_022"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_023",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_023"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_024",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_024"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_pers_025",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_pers_025"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_001"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_002"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_003"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_004"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_005"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_006"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_007"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_008"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_009"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_010"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_011"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_012"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_013"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_014"
+            },
+            {
+                "isAbout": "items/pex_bm_apa2_somat_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_apa2_somat_015"
+            },
+            {
+                "isAbout": "items/pex_bm_apa_complete",
+                "isVis": true,
+                "variableName": "pex_bm_apa_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

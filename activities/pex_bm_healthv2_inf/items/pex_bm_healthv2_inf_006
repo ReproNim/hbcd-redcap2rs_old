@@ -1,0 +1,112 @@
+{
+    "id": "pex_bm_healthv2_inf_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_006"
+    },
+    "question": {
+        "en": "Were you told in the hospital that your baby had any of the following? Check all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Bronchopulmonary dysplasia (BPD) or chronic lung disease (CLD)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Congenital syphilis"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Intraventricular hemorrhage (bleeding in the brain) or periventricular leukomalacia (changes in the brain on an ultrasound or MRI study)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Dilation of ventricles (swelling of ventricles of the brain)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Meconium aspiration"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Hypoxic-ischemic encephalopathy (HIE) or neonatal asphyxia"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Necrotizing enterocolitis (NEC) that required a surgery"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Neonatal Infection (sepsis pneumonia other)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Respiratory Distress or Transient tachypnea of the newborn (TTN)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Retinopathy of prematurity that required the eye doctors to treat the eye/eyes with laser surgery and/or injections"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "A stroke"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "Pulmonary hypertension (high blood pressure in the lungs)"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "None of the above"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,45 @@
+{
+    "id": "pex_bm_health_preg_i_meds_013",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_013"
+    },
+    "question": {
+        "en": "Many individuals use a common over-the-counter medication at some point during pregnancy. Examples include  antacids (tums, maalox), allergy medications (Claritin), cold, sinus or flu (Mucinex, Sinex), cough medicines (Robitussin), anti-diarrhea (Imodium), laxatives (Metamucil), stool softener (Colace), gas relief (gas-X), anti-nausea (Dramamine), sleep agents (Tylenol PM), and pain medications (Advil, Aleve). \n\nAre there any over-the-counter medications that you have taken since your last menstrual period?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

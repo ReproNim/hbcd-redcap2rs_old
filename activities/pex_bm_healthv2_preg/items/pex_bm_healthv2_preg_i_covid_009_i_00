@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_preg_i_covid_009_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_covid_009_i_00"
+    },
+    "question": {
+        "en": "How many times have you tested positive for Covid-19 since we last met? {pex_bm_healthv2_preg_i_covid_009} {pex_bm_healthv2_preg_i_covid_009_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

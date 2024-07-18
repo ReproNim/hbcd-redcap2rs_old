@@ -1,0 +1,82 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_003"
+    },
+    "question": {
+        "en": "What treatments did you receive (check all that apply):"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Artificial insemination"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "In-vitro fertilization"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fertility-enhancing medications"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "ICSI"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Pre-implantation genetic screening"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Donor egg"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Donor sperm"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Donor embryo"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_preg_i_meds_046_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_046_00"
+    },
+    "question": {
+        "en": "How many prescribed medications have you taken since we last met that we have not yet discussed? {pex_bm_healthv2_preg_i_meds_046} {pex_bm_healthv2_preg_i_meds_046_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

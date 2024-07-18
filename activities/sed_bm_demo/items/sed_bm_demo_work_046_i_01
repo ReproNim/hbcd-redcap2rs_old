@@ -1,0 +1,54 @@
+{
+    "id": "sed_bm_demo_work_046_i_01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "How often did you come into contact with any of the following chemicals while working at this job?"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_work_046_i_01"
+    },
+    "question": {
+        "en": "Janitorial chemicals or cleaner"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Some days"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Every day"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

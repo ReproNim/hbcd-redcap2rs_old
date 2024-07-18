@@ -1,0 +1,73 @@
+{
+    "id": "sed_bm_demo_gndrident_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Gender Identity"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_gndrident_001"
+    },
+    "question": {
+        "en": "What terms best express how you describe your gender identity? (Check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Man"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Woman"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Non-binary"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Transgender man"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Transgender woman"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "None of these describe me / I'd like to consider additional options"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

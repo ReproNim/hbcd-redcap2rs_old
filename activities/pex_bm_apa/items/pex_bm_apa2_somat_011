@@ -1,0 +1,51 @@
+{
+    "id": "pex_bm_apa2_somat_011",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_somat_011"
+    },
+    "question": {
+        "en": "Pain or problems during sexual intercourse"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not bothered at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Bothered a little"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Bothered a lot"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

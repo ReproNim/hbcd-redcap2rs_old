@@ -1,0 +1,33 @@
+{
+    "id": "pex_bm_assistv1_pre_during_i_use_i_unit_007_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv1_pre_during_i_use_i_unit_007_i_01"
+    },
+    "question": {
+        "en": "Heroin unit"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "grams"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "bags"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

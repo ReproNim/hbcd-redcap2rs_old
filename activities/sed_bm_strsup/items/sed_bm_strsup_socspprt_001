@@ -1,0 +1,66 @@
+{
+    "id": "sed_bm_strsup_socspprt_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Please respond to each item by selecting one response per row."
+    },
+    "prefLabel": {
+        "en": "sed_bm_strsup_socspprt_001"
+    },
+    "question": {
+        "en": "I have someone who will listen to me when I need to talk"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Rarely"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Usually"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

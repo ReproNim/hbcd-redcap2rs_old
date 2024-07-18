@@ -1,0 +1,45 @@
+{
+    "id": "sed_bm_demo_herit_i_oth_003_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_i_oth_003_i_01"
+    },
+    "question": {
+        "en": "Other biological parent's father"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Born in USA"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Born outside of USA"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

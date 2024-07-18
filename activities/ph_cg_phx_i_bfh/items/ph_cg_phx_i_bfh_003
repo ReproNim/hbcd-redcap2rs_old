@@ -1,0 +1,45 @@
+{
+    "id": "ph_cg_phx_i_bfh_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ph_cg_phx_i_bfh_003"
+    },
+    "question": {
+        "en": "Is your child still breastfeeding or being fed breast milk?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Still breastfeeding"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No longer breastfeeding"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Don't know"
+                },
+                "value": 777
+            },
+            {
+                "name": {
+                    "en": "Decline to answer"
+                },
+                "value": 999
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

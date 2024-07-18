@@ -1,0 +1,57 @@
+{
+    "id": "pex_bm_epds_004",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_epds_004"
+    },
+    "question": {
+        "en": "I have been anxious or worried for no good reason:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Hardly ever"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes sometimes"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Yes very often"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "pex_bm_assistv1_pre_during_i_use_i_unit_009",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv1_pre_during_i_use_i_unit_009"
+    },
+    "question": {
+        "en": "Buprenorphine (unit)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "pills"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "injectable"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

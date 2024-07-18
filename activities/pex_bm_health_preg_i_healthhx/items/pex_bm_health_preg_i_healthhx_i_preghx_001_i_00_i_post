@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_post",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_preghx_001_i_00_i_post"
+    },
+    "question": {
+        "en": "Including live births, stillbirths, miscarriages, abortions, and tubal and other ectopic pregnancies, how many times have you been pregnant?(Be sure to count your recent pregnancy){pex_bm_health_preg_i_healthhx_i_preghx_001_post}  {pex_bm_health_preg_i_healthhx_i_preghx_001_i_dk_post}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

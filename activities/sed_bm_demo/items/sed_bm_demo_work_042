@@ -1,0 +1,63 @@
+{
+    "id": "sed_bm_demo_work_042",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_work_042"
+    },
+    "question": {
+        "en": "Which of the following best describes the hours you usually work at this job or business? \n\n\nStandard Shift Definitions are:\nA regular daytime schedule:this is work anytime between 6am and 6pm.A regular evening shift:this is work anytime between 2pm and midnight.A regular night shift:this is work anytime between 9pm and 8am.A rotating shift:a work shift that changes periodically from days to evenings or nights.Another schedule includes:a split shift (consisting of two distinct work periods each day), an irregular schedule arranged by the employer, or any other schedule."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "A regular daytime schedule"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "A regular evening shift"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "A regular night shift"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "A rotating shift"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Another schedule"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

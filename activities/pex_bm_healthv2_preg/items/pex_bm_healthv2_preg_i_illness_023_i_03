@@ -1,0 +1,23 @@
+{
+    "id": "pex_bm_healthv2_preg_i_illness_023_i_03",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": ""
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_illness_023_i_03"
+    },
+    "question": {
+        "en": "Illness Label"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,57 @@
+{
+    "id": "pex_bm_epds_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_epds_003"
+    },
+    "question": {
+        "en": "I have blamed myself unnecessarily when things went wrong:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes Most of the time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yes Some of the time"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Not very often"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No never"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

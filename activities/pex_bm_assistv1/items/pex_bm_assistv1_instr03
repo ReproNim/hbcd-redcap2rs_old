@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv1_instr03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr03"
+    },
+    "question": {
+        "en": "Has a friend, relative, or anyone else EVER expressed concern about your use of this substance?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

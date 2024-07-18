@@ -1,0 +1,48 @@
+{
+    "id": "sed_bm_phx_i_discr_007",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "In the following questions, we are interested in your perceptions about the way other people have treated you.  Can you tell me if any of the following has ever happened to you:"
+    },
+    "prefLabel": {
+        "en": "sed_bm_phx_i_discr_007"
+    },
+    "question": {
+        "en": "At any time in your life, have you ever been unfairly fired from a job or been unfairly denied a promotion?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

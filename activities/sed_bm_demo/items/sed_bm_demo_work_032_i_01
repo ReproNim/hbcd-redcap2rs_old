@@ -1,0 +1,105 @@
+{
+    "id": "sed_bm_demo_work_032_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_work_032_i_01"
+    },
+    "question": {
+        "en": "In what month did you start this job?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "January"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "February"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "March"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "April"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "May"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "June"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "July"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "August"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "September"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "October"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "November"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "December"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

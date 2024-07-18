@@ -1,0 +1,88 @@
+{
+    "id": "nt_ch_sens_i_qtn_beh_001_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_beh_001_i_01"
+    },
+    "question": {
+        "en": "Why not?  You can select as many options as you want."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "slept more than usual"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "slept less than usual"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "slept usual amount but sleep schedule was different"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "feeding schedule was different"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "spent more time in a vehicle than usual"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "was carried/held more than usual"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "fussier than usual"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "baby was sick or not feeling well"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

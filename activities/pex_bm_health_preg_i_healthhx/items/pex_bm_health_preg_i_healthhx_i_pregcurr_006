@@ -1,0 +1,20 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_006"
+    },
+    "question": {
+        "en": "Current weight in kg"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

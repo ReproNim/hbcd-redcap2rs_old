@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_preg_i_meds_068_i_03",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_meds_068_i_03"
+    },
+    "question": {
+        "en": "How often did you take [pex_bm_healthv2_preg_i_meds_068_i_01]? Can say in number of times per hour, day, month, year."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:decimal"
+        ]
+    },
+    "ui": {
+        "inputType": "float"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

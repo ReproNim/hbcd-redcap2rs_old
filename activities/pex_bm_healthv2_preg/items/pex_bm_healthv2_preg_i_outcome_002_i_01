@@ -1,0 +1,118 @@
+{
+    "id": "pex_bm_healthv2_preg_i_outcome_002_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_outcome_002_i_01"
+    },
+    "question": {
+        "en": "Why was your baby born by Cesarean delivery (C-Section)? Check all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I had a previous cesarean delivery (c-section)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "My baby was not positioned head down (for example breech)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I was past my due date"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "My health care provider worried that my baby was too big"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I had a medical condition that made labor dangerous for me (such as a heart condition physical disability)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "I had a complication in my pregnancy (such as preeclampsia placental problems infection preterm labor)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "My health care provider tried to induce my labor but it didn't work"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Labor was taking too long"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "The fetal monitor showed that my baby was having problems before or during labor (fetal distress)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "I wanted to schedule my delivery"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "My doctor wanted to schedule my delivery"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "I didn't want to have my baby vaginally"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "Multiple gestation (e.g. twins triplets)"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

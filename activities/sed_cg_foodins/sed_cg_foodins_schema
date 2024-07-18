@@ -1,0 +1,64 @@
+{
+    "id": "sed_cg_foodins_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "sed_cg_foodins"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_cg_foodins_lang",
+            "items/sed_cg_foodins_dtt",
+            "items/sed_cg_foodins_timestamp_start",
+            "items/sed_cg_foodins_location",
+            "items/sed_cg_foodins_001",
+            "items/sed_cg_foodins_002",
+            "items/sed_cg_foodins_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_cg_foodins_lang",
+                "isVis": true,
+                "variableName": "sed_cg_foodins_lang"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_dtt",
+                "isVis": true,
+                "variableName": "sed_cg_foodins_dtt"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_timestamp_start",
+                "isVis": true,
+                "variableName": "sed_cg_foodins_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_location",
+                "isVis": true,
+                "variableName": "sed_cg_foodins_location"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_foodins_001"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_cg_foodins_002"
+            },
+            {
+                "isAbout": "items/sed_cg_foodins_complete",
+                "isVis": true,
+                "variableName": "sed_cg_foodins_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

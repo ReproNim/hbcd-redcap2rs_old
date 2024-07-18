@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv3_instr30",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv3_instr30"
+    },
+    "question": {
+        "en": "DURING THE PAST THREE MONTHS, has your use of this substance led to physical or mental health, social,or financial problems?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

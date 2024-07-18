@@ -1,0 +1,446 @@
+{
+    "id": "pex_bm_assistv3_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv3"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_assistv3_lang",
+            "items/pex_bm_assistv3_dtt",
+            "items/pex_bm_assistv3_timestamp_start",
+            "items/pex_bm_assistv3_location",
+            "items/pex_bm_assistv3_instr29",
+            "items/pex_bm_assistv3_3m_i_use_001",
+            "items/pex_bm_assistv3_3m_i_use_002",
+            "items/pex_bm_assistv3_3m_i_use_003",
+            "items/pex_bm_assistv3_3m_i_use_004",
+            "items/pex_bm_assistv3_3m_i_use_005",
+            "items/pex_bm_assistv3_3m_i_use_006",
+            "items/pex_bm_assistv3_3m_i_use_007",
+            "items/pex_bm_assistv3_3m_i_use_008",
+            "items/pex_bm_assistv3_3m_i_use_009",
+            "items/pex_bm_assistv3_3m_i_use_010",
+            "items/pex_bm_assistv3_3m_i_use_011",
+            "items/pex_bm_assistv3_3m_i_use_012",
+            "items/pex_bm_assistv3_3m_i_use_013",
+            "items/pex_bm_assistv3_3m_i_use_014",
+            "items/pex_bm_assistv3_3m_i_use_015",
+            "items/pex_bm_assistv3_3m_i_use_016",
+            "items/pex_bm_assistv3_3m_i_use_017",
+            "items/pex_bm_assistv3_3m_i_use_018",
+            "items/pex_bm_assistv3_instr30",
+            "items/pex_bm_assistv3_3m_i_problem_001",
+            "items/pex_bm_assistv3_3m_i_problem_002",
+            "items/pex_bm_assistv3_3m_i_problem_003",
+            "items/pex_bm_assistv3_3m_i_problem_004",
+            "items/pex_bm_assistv3_3m_i_problem_005",
+            "items/pex_bm_assistv3_3m_i_problem_006",
+            "items/pex_bm_assistv3_3m_i_problem_007",
+            "items/pex_bm_assistv3_3m_i_problem_008",
+            "items/pex_bm_assistv3_3m_i_problem_009",
+            "items/pex_bm_assistv3_3m_i_problem_010",
+            "items/pex_bm_assistv3_3m_i_problem_011",
+            "items/pex_bm_assistv3_3m_i_problem_012",
+            "items/pex_bm_assistv3_3m_i_problem_013",
+            "items/pex_bm_assistv3_3m_i_problem_014",
+            "items/pex_bm_assistv3_3m_i_problem_015",
+            "items/pex_bm_assistv3_3m_i_problem_016",
+            "items/pex_bm_assistv3_3m_i_problem_017",
+            "items/pex_bm_assistv3_3m_i_problem_018",
+            "items/pex_bm_assistv3_instr31",
+            "items/pex_bm_assistv3_3m_i_perform_001",
+            "items/pex_bm_assistv3_3m_i_perform_002",
+            "items/pex_bm_assistv3_3m_i_perform_003",
+            "items/pex_bm_assistv3_3m_i_perform_004",
+            "items/pex_bm_assistv3_3m_i_perform_005",
+            "items/pex_bm_assistv3_3m_i_perform_006",
+            "items/pex_bm_assistv3_3m_i_perform_007",
+            "items/pex_bm_assistv3_3m_i_perform_008",
+            "items/pex_bm_assistv3_3m_i_perform_009",
+            "items/pex_bm_assistv3_3m_i_perform_010",
+            "items/pex_bm_assistv3_3m_i_perform_011",
+            "items/pex_bm_assistv3_3m_i_perform_012",
+            "items/pex_bm_assistv3_3m_i_perform_013",
+            "items/pex_bm_assistv3_3m_i_perform_014",
+            "items/pex_bm_assistv3_3m_i_perform_015",
+            "items/pex_bm_assistv3_3m_i_perform_016",
+            "items/pex_bm_assistv3_3m_i_perform_017",
+            "items/pex_bm_assistv3_3m_i_perform_018",
+            "items/pex_bm_assistv3_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_assistv3_lang",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_dtt",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_timestamp_start",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_location",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_location"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_instr29",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_instr29"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_001"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_002"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_003"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_004"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_005"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_006"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_007"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_008"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_009"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_010"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_011"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_012"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_013"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_014",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_014"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_015",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_015"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_016",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_016"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_017",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_017"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_use_018",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_use_018"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_instr30",
+                "isVis": "sum( pex_bm_assistv3_3m_i_use_001 , pex_bm_assistv3_3m_i_use_002 , pex_bm_assistv3_3m_i_use_003 , pex_bm_assistv3_3m_i_use_004 , pex_bm_assistv3_3m_i_use_005 , pex_bm_assistv3_3m_i_use_006 , pex_bm_assistv3_3m_i_use_007 , pex_bm_assistv3_3m_i_use_008 , pex_bm_assistv3_3m_i_use_009 , pex_bm_assistv3_3m_i_use_010 , pex_bm_assistv3_3m_i_use_011 , pex_bm_assistv3_3m_i_use_012 , pex_bm_assistv3_3m_i_use_013 , pex_bm_assistv3_3m_i_use_014 , pex_bm_assistv3_3m_i_use_015 , pex_bm_assistv3_3m_i_use_016 , pex_bm_assistv3_3m_i_use_017 , pex_bm_assistv3_3m_i_use_018 ) > 0",
+                "variableName": "pex_bm_assistv3_instr30"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_001",
+                "isVis": "( pex_bm_assistv3_3m_i_use_001 == '1' OR pex_bm_assistv3_3m_i_use_001 == '2' OR pex_bm_assistv3_3m_i_use_001 == '3' OR pex_bm_assistv3_3m_i_use_001 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_001"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_002",
+                "isVis": "( pex_bm_assistv3_3m_i_use_002 == '1' OR pex_bm_assistv3_3m_i_use_002 == '2' OR pex_bm_assistv3_3m_i_use_002 == '3' OR pex_bm_assistv3_3m_i_use_001 == '2')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_002"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_003",
+                "isVis": "( pex_bm_assistv3_3m_i_use_003 == '1' OR pex_bm_assistv3_3m_i_use_003 == '2' OR pex_bm_assistv3_3m_i_use_003 == '3' OR pex_bm_assistv3_3m_i_use_003 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_003"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_004",
+                "isVis": "( pex_bm_assistv3_3m_i_use_004 == '1' OR pex_bm_assistv3_3m_i_use_004 == '2' OR pex_bm_assistv3_3m_i_use_004 == '3' OR pex_bm_assistv3_3m_i_use_004 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_004"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_005",
+                "isVis": "( pex_bm_assistv3_3m_i_use_005 == '1' OR pex_bm_assistv3_3m_i_use_005 == '2' OR pex_bm_assistv3_3m_i_use_005 == '3' OR pex_bm_assistv3_3m_i_use_005 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_005"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_006",
+                "isVis": "( pex_bm_assistv3_3m_i_use_006 == '1' OR pex_bm_assistv3_3m_i_use_006 == '2' OR pex_bm_assistv3_3m_i_use_006 == '3' OR pex_bm_assistv3_3m_i_use_006 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_006"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_007",
+                "isVis": "( pex_bm_assistv3_3m_i_use_007 == '1' OR pex_bm_assistv3_3m_i_use_007 == '2' OR pex_bm_assistv3_3m_i_use_007 == '3' OR pex_bm_assistv3_3m_i_use_007 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_007"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_008",
+                "isVis": "( pex_bm_assistv3_3m_i_use_008 == '1' OR pex_bm_assistv3_3m_i_use_008 == '2' OR pex_bm_assistv3_3m_i_use_008 == '3' OR pex_bm_assistv3_3m_i_use_008 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_008"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_009",
+                "isVis": "( pex_bm_assistv3_3m_i_use_009 == '1' OR pex_bm_assistv3_3m_i_use_009 == '2' OR pex_bm_assistv3_3m_i_use_009 == '3' OR pex_bm_assistv3_3m_i_use_009 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_009"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_010",
+                "isVis": "( pex_bm_assistv3_3m_i_use_010 == '1' OR pex_bm_assistv3_3m_i_use_010 == '2' OR pex_bm_assistv3_3m_i_use_010 == '3' OR pex_bm_assistv3_3m_i_use_010 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_010"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_011",
+                "isVis": "( pex_bm_assistv3_3m_i_use_011 == '1' OR pex_bm_assistv3_3m_i_use_011 == '2' OR pex_bm_assistv3_3m_i_use_011 == '3' OR pex_bm_assistv3_3m_i_use_011 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_011"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_012",
+                "isVis": "( pex_bm_assistv3_3m_i_use_012 == '1' OR pex_bm_assistv3_3m_i_use_012 == '2' OR pex_bm_assistv3_3m_i_use_012 == '3' OR pex_bm_assistv3_3m_i_use_012 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_012"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_013",
+                "isVis": "( pex_bm_assistv3_3m_i_use_013 == '1' OR pex_bm_assistv3_3m_i_use_013 == '2' OR pex_bm_assistv3_3m_i_use_013 == '3' OR pex_bm_assistv3_3m_i_use_013 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_013"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_014",
+                "isVis": "( pex_bm_assistv3_3m_i_use_014 == '1' OR pex_bm_assistv3_3m_i_use_014 == '2' OR pex_bm_assistv3_3m_i_use_014 == '3' OR pex_bm_assistv3_3m_i_use_014 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_014"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_015",
+                "isVis": "( pex_bm_assistv3_3m_i_use_015 == '1' OR pex_bm_assistv3_3m_i_use_015 == '2' OR pex_bm_assistv3_3m_i_use_015 == '3' OR pex_bm_assistv3_3m_i_use_015 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_015"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_016",
+                "isVis": "( pex_bm_assistv3_3m_i_use_016 == '1' OR pex_bm_assistv3_3m_i_use_016 == '2' OR pex_bm_assistv3_3m_i_use_016 == '3' OR pex_bm_assistv3_3m_i_use_016 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_016"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_017",
+                "isVis": "( pex_bm_assistv3_3m_i_use_017 == '1' OR pex_bm_assistv3_3m_i_use_017 == '2' OR pex_bm_assistv3_3m_i_use_017 == '3' OR pex_bm_assistv3_3m_i_use_017 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_017"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_problem_018",
+                "isVis": "( pex_bm_assistv3_3m_i_use_018 == '1' OR pex_bm_assistv3_3m_i_use_018 == '2' OR pex_bm_assistv3_3m_i_use_018 == '3' OR pex_bm_assistv3_3m_i_use_018 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_problem_018"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_instr31",
+                "isVis": "sum( pex_bm_assistv3_3m_i_use_001 , pex_bm_assistv3_3m_i_use_002 , pex_bm_assistv3_3m_i_use_003 , pex_bm_assistv3_3m_i_use_004 , pex_bm_assistv3_3m_i_use_005 , pex_bm_assistv3_3m_i_use_006 , pex_bm_assistv3_3m_i_use_007 , pex_bm_assistv3_3m_i_use_008 , pex_bm_assistv3_3m_i_use_009 , pex_bm_assistv3_3m_i_use_010 , pex_bm_assistv3_3m_i_use_011 , pex_bm_assistv3_3m_i_use_012 , pex_bm_assistv3_3m_i_use_013 , pex_bm_assistv3_3m_i_use_014 , pex_bm_assistv3_3m_i_use_015 , pex_bm_assistv3_3m_i_use_016 , pex_bm_assistv3_3m_i_use_017 , pex_bm_assistv3_3m_i_use_018 ) > 0",
+                "variableName": "pex_bm_assistv3_instr31"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_001",
+                "isVis": "( pex_bm_assistv3_3m_i_use_001 == '1' OR pex_bm_assistv3_3m_i_use_001 == '2' OR pex_bm_assistv3_3m_i_use_001 == '3' OR pex_bm_assistv3_3m_i_use_001 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_001"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_002",
+                "isVis": "( pex_bm_assistv3_3m_i_use_002 == '1' OR pex_bm_assistv3_3m_i_use_002 == '2' OR pex_bm_assistv3_3m_i_use_002 == '3' OR pex_bm_assistv3_3m_i_use_001 == '2')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_002"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_003",
+                "isVis": "( pex_bm_assistv3_3m_i_use_003 == '1' OR pex_bm_assistv3_3m_i_use_003 == '2' OR pex_bm_assistv3_3m_i_use_003 == '3' OR pex_bm_assistv3_3m_i_use_003 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_003"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_004",
+                "isVis": "( pex_bm_assistv3_3m_i_use_004 == '1' OR pex_bm_assistv3_3m_i_use_004 == '2' OR pex_bm_assistv3_3m_i_use_004 == '3' OR pex_bm_assistv3_3m_i_use_004 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_004"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_005",
+                "isVis": "( pex_bm_assistv3_3m_i_use_005 == '1' OR pex_bm_assistv3_3m_i_use_005 == '2' OR pex_bm_assistv3_3m_i_use_005 == '3' OR pex_bm_assistv3_3m_i_use_005 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_005"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_006",
+                "isVis": "( pex_bm_assistv3_3m_i_use_006 == '1' OR pex_bm_assistv3_3m_i_use_006 == '2' OR pex_bm_assistv3_3m_i_use_006 == '3' OR pex_bm_assistv3_3m_i_use_006 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_006"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_007",
+                "isVis": "( pex_bm_assistv3_3m_i_use_007 == '1' OR pex_bm_assistv3_3m_i_use_007 == '2' OR pex_bm_assistv3_3m_i_use_007 == '3' OR pex_bm_assistv3_3m_i_use_007 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_007"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_008",
+                "isVis": "( pex_bm_assistv3_3m_i_use_008 == '1' OR pex_bm_assistv3_3m_i_use_008 == '2' OR pex_bm_assistv3_3m_i_use_008 == '3' OR pex_bm_assistv3_3m_i_use_008 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_008"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_009",
+                "isVis": "( pex_bm_assistv3_3m_i_use_009 == '1' OR pex_bm_assistv3_3m_i_use_009 == '2' OR pex_bm_assistv3_3m_i_use_009 == '3' OR pex_bm_assistv3_3m_i_use_009 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_009"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_010",
+                "isVis": "( pex_bm_assistv3_3m_i_use_010 == '1' OR pex_bm_assistv3_3m_i_use_010 == '2' OR pex_bm_assistv3_3m_i_use_010 == '3' OR pex_bm_assistv3_3m_i_use_010 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_010"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_011",
+                "isVis": "( pex_bm_assistv3_3m_i_use_011 == '1' OR pex_bm_assistv3_3m_i_use_011 == '2' OR pex_bm_assistv3_3m_i_use_011 == '3' OR pex_bm_assistv3_3m_i_use_011 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_011"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_012",
+                "isVis": "( pex_bm_assistv3_3m_i_use_012 == '1' OR pex_bm_assistv3_3m_i_use_012 == '2' OR pex_bm_assistv3_3m_i_use_012 == '3' OR pex_bm_assistv3_3m_i_use_012 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_012"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_013",
+                "isVis": "( pex_bm_assistv3_3m_i_use_013 == '1' OR pex_bm_assistv3_3m_i_use_013 == '2' OR pex_bm_assistv3_3m_i_use_013 == '3' OR pex_bm_assistv3_3m_i_use_013 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_013"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_014",
+                "isVis": "( pex_bm_assistv3_3m_i_use_014 == '1' OR pex_bm_assistv3_3m_i_use_014 == '2' OR pex_bm_assistv3_3m_i_use_014 == '3' OR pex_bm_assistv3_3m_i_use_014 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_014"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_015",
+                "isVis": "( pex_bm_assistv3_3m_i_use_015 == '1' OR pex_bm_assistv3_3m_i_use_015 == '2' OR pex_bm_assistv3_3m_i_use_015 == '3' OR pex_bm_assistv3_3m_i_use_015 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_015"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_016",
+                "isVis": "( pex_bm_assistv3_3m_i_use_016 == '1' OR pex_bm_assistv3_3m_i_use_016 == '2' OR pex_bm_assistv3_3m_i_use_016 == '3' OR pex_bm_assistv3_3m_i_use_016 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_016"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_017",
+                "isVis": "( pex_bm_assistv3_3m_i_use_017 == '1' OR pex_bm_assistv3_3m_i_use_017 == '2' OR pex_bm_assistv3_3m_i_use_017 == '3' OR pex_bm_assistv3_3m_i_use_017 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_017"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_3m_i_perform_018",
+                "isVis": "( pex_bm_assistv3_3m_i_use_018 == '1' OR pex_bm_assistv3_3m_i_use_018 == '2' OR pex_bm_assistv3_3m_i_use_018 == '3' OR pex_bm_assistv3_3m_i_use_018 == '4')",
+                "valueRequired": true,
+                "variableName": "pex_bm_assistv3_3m_i_perform_018"
+            },
+            {
+                "isAbout": "items/pex_bm_assistv3_complete",
+                "isVis": true,
+                "variableName": "pex_bm_assistv3_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

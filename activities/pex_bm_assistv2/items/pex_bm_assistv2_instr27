@@ -1,0 +1,22 @@
+{
+    "id": "pex_bm_assistv2_instr27",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Stimulants"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv2_instr27"
+    },
+    "question": {
+        "en": "When you were using stimulants SINCE WE LAST MET UNTIL THE END OF PREGNANCY, please select the specific substance you used below."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

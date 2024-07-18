@@ -1,0 +1,58 @@
+{
+    "id": "sed_bm_demo_herit_002_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_herit_002_i_01"
+    },
+    "question": {
+        "en": "American Indian or Alaska Native"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "American Indian"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Alaska Native"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Central or South American Indian"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "None of these fully describe me / Other"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

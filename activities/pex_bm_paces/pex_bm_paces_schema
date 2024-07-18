@@ -1,0 +1,117 @@
+{
+    "id": "pex_bm_paces_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_paces"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_paces_lang",
+            "items/pex_bm_paces_dtt",
+            "items/pex_bm_paces_timestamp_start",
+            "items/pex_bm_paces_location",
+            "items/pex_bm_paces_001",
+            "items/pex_bm_paces_002",
+            "items/pex_bm_paces_003",
+            "items/pex_bm_paces_004",
+            "items/pex_bm_paces_005",
+            "items/pex_bm_paces_006",
+            "items/pex_bm_paces_007",
+            "items/pex_bm_paces_008",
+            "items/pex_bm_paces_009",
+            "items/pex_bm_paces_010",
+            "items/pex_bm_paces_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_paces_lang",
+                "isVis": true,
+                "variableName": "pex_bm_paces_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_dtt",
+                "isVis": true,
+                "variableName": "pex_bm_paces_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_timestamp_start",
+                "isVis": true,
+                "variableName": "pex_bm_paces_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_location",
+                "isVis": true,
+                "variableName": "pex_bm_paces_location"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_001"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_002"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_003"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_004"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_005"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_006"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_007"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_008"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_009"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_paces_010"
+            },
+            {
+                "isAbout": "items/pex_bm_paces_complete",
+                "isVis": true,
+                "variableName": "pex_bm_paces_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

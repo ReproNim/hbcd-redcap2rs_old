@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_assistv3_instr29",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_assistv3_instr29"
+    },
+    "question": {
+        "en": "IN THE PAST THREE MONTHS, how often have you used any of the following substances for any reason?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

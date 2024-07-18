@@ -1,0 +1,76 @@
+{
+    "id": "pex_bm_healthv2_inf_008_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_008_i_01"
+    },
+    "question": {
+        "en": "In which part of the body is the birth defect? Check all that apply"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Brain or spinal cord"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Kidneys bladder or genitals (including hypospadias)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Heart (including septal defects)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Lungs"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Bones arms or legs (including club foot)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Face (including cleft lip or palate)"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

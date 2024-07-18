@@ -1,0 +1,52 @@
+{
+    "id": "sed_bm_demo_gndrident_001_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_gndrident_001_i_01"
+    },
+    "question": {
+        "en": "Are any of these a closer description to your gender identity?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Genderqueer"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Genderfluid"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Gender variant"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Questioning or unsure of my gender identity"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "None of these describe me"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

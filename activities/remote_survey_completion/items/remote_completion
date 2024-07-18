@@ -1,0 +1,19 @@
+{
+    "id": "remote_completion",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "remote_completion"
+    },
+    "question": {
+        "en": "Thank you for completing these questionnaires! Your answers are recorded and saved. If you have any questions or concerns, please feel free to reach out to your HBCD Study Coordinator for more information."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

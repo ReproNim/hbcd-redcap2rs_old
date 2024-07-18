@@ -1,0 +1,57 @@
+{
+    "id": "pex_bm_epds_006",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_epds_006"
+    },
+    "question": {
+        "en": "Things have been getting to me:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes most of the time I haven't been able to cope at all"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Yes sometimes I haven't been coping as well as usual"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No most of the time I have coped quite well"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No I have been coping as well as ever"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

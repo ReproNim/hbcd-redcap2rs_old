@@ -1,0 +1,57 @@
+{
+    "id": "ncl_cg_spm2_i_inf_soc_004",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_cg_spm2_i_inf_soc_004"
+    },
+    "question": {
+        "en": "This child looks into my eyes for more than a quick glance when I speak to him or her."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Occasionally"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Frequently"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

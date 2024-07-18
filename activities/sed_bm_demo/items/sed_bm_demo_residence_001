@@ -1,0 +1,72 @@
+{
+    "id": "sed_bm_demo_residence_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Residence"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_residence_001"
+    },
+    "question": {
+        "en": "How would you describe your primary residence? (Your primary residence is the place outside of work where you sleep or spend the most time)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Personal private residence"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Residence of relative or friend"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Treatment facility"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Shelter"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "No primary residence"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

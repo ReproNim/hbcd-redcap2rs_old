@@ -1,0 +1,51 @@
+{
+    "id": "sed_bm_demo_mil_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_mil_002"
+    },
+    "question": {
+        "en": "Has the other biological parent ever served in active duty in the US armed forces?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes (current)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Yes (past)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,54 @@
+{
+    "id": "pex_bm_healthv2_preg_i_outcome_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Delivery and Birth Outcomes"
+    },
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_outcome_001"
+    },
+    "question": {
+        "en": "What your labor spontaneous or induced?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Spontaneous"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Induced"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Neither (I did not experience labor)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

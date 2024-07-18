@@ -1,0 +1,66 @@
+{
+    "id": "pex_bm_str_i_ptsd_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "IN THE PAST SEVEN (7) DAYS:"
+    },
+    "prefLabel": {
+        "en": "pex_bm_str_i_ptsd_001"
+    },
+    "question": {
+        "en": "Having \"flashbacks,\" that is, you suddenly acted or felt as if a stressful experience from the past was happening all over again (for example, you reexperienced parts of a stressful experience by seeing, hearing, smelling, or physically feeling parts of the experience)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not at all"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "A little bit"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderately"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Quite a bit"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Extremely"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

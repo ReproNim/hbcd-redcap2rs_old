@@ -1,0 +1,20 @@
+{
+    "id": "pex_bm_apa2_depr_flag01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_depr_flag01"
+    },
+    "question": {
+        "en": "APA - Flag 2: Endorsed depressive symptoms over threshold."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

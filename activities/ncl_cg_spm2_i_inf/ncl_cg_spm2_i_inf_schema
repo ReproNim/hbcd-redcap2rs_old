@@ -1,0 +1,655 @@
+{
+    "id": "ncl_cg_spm2_i_inf_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "ncl_cg_spm2_i_inf"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/ncl_cg_spm2_i_inf_lang",
+            "items/ncl_cg_spm2_i_inf_dtt",
+            "items/ncl_cg_spm2_i_inf_timestamp_start",
+            "items/ncl_cg_spm2_i_inf_location",
+            "items/ncl_cg_spm2_i_inf_instr01",
+            "items/ncl_cg_spm2_i_inf_soc_001",
+            "items/ncl_cg_spm2_i_inf_soc_002",
+            "items/ncl_cg_spm2_i_inf_soc_003",
+            "items/ncl_cg_spm2_i_inf_soc_004",
+            "items/ncl_cg_spm2_i_inf_soc_005",
+            "items/ncl_cg_spm2_i_inf_soc_006",
+            "items/ncl_cg_spm2_i_inf_soc_007",
+            "items/ncl_cg_spm2_i_inf_soc_008",
+            "items/ncl_cg_spm2_i_inf_soc_009",
+            "items/ncl_cg_spm2_i_inf_soc_010",
+            "items/ncl_cg_spm2_i_inf_instr02",
+            "items/ncl_cg_spm2_i_inf_vsn_001",
+            "items/ncl_cg_spm2_i_inf_vsn_002",
+            "items/ncl_cg_spm2_i_inf_vsn_003",
+            "items/ncl_cg_spm2_i_inf_vsn_004",
+            "items/ncl_cg_spm2_i_inf_vsn_005",
+            "items/ncl_cg_spm2_i_inf_vsn_006",
+            "items/ncl_cg_spm2_i_inf_vsn_007",
+            "items/ncl_cg_spm2_i_inf_vsn_008",
+            "items/ncl_cg_spm2_i_inf_vsn_009",
+            "items/ncl_cg_spm2_i_inf_vsn_010",
+            "items/ncl_cg_spm2_i_inf_instr03",
+            "items/ncl_cg_spm2_i_inf_hear_001",
+            "items/ncl_cg_spm2_i_inf_hear_002",
+            "items/ncl_cg_spm2_i_inf_hear_003",
+            "items/ncl_cg_spm2_i_inf_hear_004",
+            "items/ncl_cg_spm2_i_inf_hear_005",
+            "items/ncl_cg_spm2_i_inf_hear_006",
+            "items/ncl_cg_spm2_i_inf_hear_007",
+            "items/ncl_cg_spm2_i_inf_hear_008",
+            "items/ncl_cg_spm2_i_inf_hear_009",
+            "items/ncl_cg_spm2_i_inf_hear_010",
+            "items/ncl_cg_spm2_i_inf_instr04",
+            "items/ncl_cg_spm2_i_inf_touch_001",
+            "items/ncl_cg_spm2_i_inf_touch_002",
+            "items/ncl_cg_spm2_i_inf_touch_003",
+            "items/ncl_cg_spm2_i_inf_touch_004",
+            "items/ncl_cg_spm2_i_inf_touch_005",
+            "items/ncl_cg_spm2_i_inf_touch_006",
+            "items/ncl_cg_spm2_i_inf_touch_007",
+            "items/ncl_cg_spm2_i_inf_touch_008",
+            "items/ncl_cg_spm2_i_inf_touch_009",
+            "items/ncl_cg_spm2_i_inf_touch_010",
+            "items/ncl_cg_spm2_i_inf_instr05",
+            "items/ncl_cg_spm2_i_inf_tstsml_001",
+            "items/ncl_cg_spm2_i_inf_tstsml_002",
+            "items/ncl_cg_spm2_i_inf_tstsml_003",
+            "items/ncl_cg_spm2_i_inf_tstsml_004",
+            "items/ncl_cg_spm2_i_inf_tstsml_005",
+            "items/ncl_cg_spm2_i_inf_tstsml_006",
+            "items/ncl_cg_spm2_i_inf_tstsml_007",
+            "items/ncl_cg_spm2_i_inf_tstsml_008",
+            "items/ncl_cg_spm2_i_inf_tstsml_009",
+            "items/ncl_cg_spm2_i_inf_tstsml_010",
+            "items/ncl_cg_spm2_i_inf_instr06",
+            "items/ncl_cg_spm2_i_inf_bodyaware_001",
+            "items/ncl_cg_spm2_i_inf_bodyaware_002",
+            "items/ncl_cg_spm2_i_inf_bodyaware_003",
+            "items/ncl_cg_spm2_i_inf_bodyaware_004",
+            "items/ncl_cg_spm2_i_inf_bodyaware_005",
+            "items/ncl_cg_spm2_i_inf_bodyaware_006",
+            "items/ncl_cg_spm2_i_inf_bodyaware_007",
+            "items/ncl_cg_spm2_i_inf_bodyaware_008",
+            "items/ncl_cg_spm2_i_inf_bodyaware_009",
+            "items/ncl_cg_spm2_i_inf_bodyaware_010",
+            "items/ncl_cg_spm2_i_inf_instr07",
+            "items/ncl_cg_spm2_i_inf_balance_001",
+            "items/ncl_cg_spm2_i_inf_balance_002",
+            "items/ncl_cg_spm2_i_inf_balance_003",
+            "items/ncl_cg_spm2_i_inf_balance_004",
+            "items/ncl_cg_spm2_i_inf_balance_005",
+            "items/ncl_cg_spm2_i_inf_balance_006",
+            "items/ncl_cg_spm2_i_inf_balance_007",
+            "items/ncl_cg_spm2_i_inf_balance_008",
+            "items/ncl_cg_spm2_i_inf_balance_009",
+            "items/ncl_cg_spm2_i_inf_balance_010",
+            "items/ncl_cg_spm2_i_inf_instr08",
+            "items/ncl_cg_spm2_i_inf_plan_001",
+            "items/ncl_cg_spm2_i_inf_plan_002",
+            "items/ncl_cg_spm2_i_inf_plan_003",
+            "items/ncl_cg_spm2_i_inf_plan_004",
+            "items/ncl_cg_spm2_i_inf_plan_005",
+            "items/ncl_cg_spm2_i_inf_plan_006",
+            "items/ncl_cg_spm2_i_inf_plan_007",
+            "items/ncl_cg_spm2_i_inf_plan_008",
+            "items/ncl_cg_spm2_i_inf_plan_009",
+            "items/ncl_cg_spm2_i_inf_plan_010",
+            "items/ncl_cg_spm2_i_inf_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_lang",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_lang"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_dtt",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_dtt"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_timestamp_start",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_timestamp_start"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_location",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_location"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr01",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr01"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_soc_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_soc_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr02",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr02"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_vsn_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_vsn_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr03",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr03"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_hear_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_hear_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr04",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr04"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_touch_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_touch_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr05",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr05"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_tstsml_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_tstsml_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr06",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr06"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_bodyaware_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_bodyaware_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr07",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr07"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_balance_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_balance_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_instr08",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_instr08"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_001"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_002"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_003"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_004"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_005"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_006"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_007"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_008"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_009"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_plan_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "ncl_cg_spm2_i_inf_plan_010"
+            },
+            {
+                "isAbout": "items/ncl_cg_spm2_i_inf_complete",
+                "isVis": true,
+                "variableName": "ncl_cg_spm2_i_inf_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

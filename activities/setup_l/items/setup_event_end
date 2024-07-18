@@ -1,0 +1,19 @@
+{
+    "id": "setup_event_end",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_event_end"
+    },
+    "question": {
+        "en": "Visit window end date"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

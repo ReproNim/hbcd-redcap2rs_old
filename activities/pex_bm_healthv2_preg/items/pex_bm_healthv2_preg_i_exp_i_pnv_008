@@ -1,0 +1,45 @@
+{
+    "id": "pex_bm_healthv2_preg_i_exp_i_pnv_008",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_preg_i_exp_i_pnv_008"
+    },
+    "question": {
+        "en": "When we last met you stated that you had not used or were no longer using a prenatal vitamin or a folic acid containing vitamin? Following our last visit did you restart or start taking a prenatal vitamin or folic acid containing vitamin?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "No did not take or restart"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Yes began taking"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

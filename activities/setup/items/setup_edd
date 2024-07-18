@@ -1,0 +1,19 @@
+{
+    "id": "setup_edd",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_edd"
+    },
+    "question": {
+        "en": "Estimated date of delivery (EDD)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

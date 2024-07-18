@@ -1,0 +1,72 @@
+{
+    "id": "sed_bm_demo_work_i_oth_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "We would like to ask information on the job that the other biological parent held around the time of conception."
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_work_i_oth_001"
+    },
+    "question": {
+        "en": "Was the other biological parent working at the start of your most recent pregnancy, approximately prior to [setup_lmp] ?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Working"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Looking for work"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Retired"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Stay at home parent"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Student"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

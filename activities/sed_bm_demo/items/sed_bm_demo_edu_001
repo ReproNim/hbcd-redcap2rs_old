@@ -1,0 +1,168 @@
+{
+    "id": "sed_bm_demo_edu_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Educational Attainment"
+    },
+    "prefLabel": {
+        "en": "sed_bm_demo_edu_001"
+    },
+    "question": {
+        "en": "What is the highest grade or level of school you have completed or the highest degree you have received?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never attended / Kindergarten only"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "1st grade"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2nd grade"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "3rd grade"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "4th grade"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "5th grade"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "6th grade"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "7th grade"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "8th grade"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "9th grade"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "10th grade"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "11th grade"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "12th grade no diploma"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "High school graduate"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "GED or equivalent"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Some college no degree"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Occupational Vocational or Technical program"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Associate degree: Academic program"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "Bachelor's degree (ex: BA AB BS BBA)"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "Master's degree (ex: MA MS MEng MEd MBA)"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "Professional school degree (ex: MD DDS DVM JD)"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "Doctoral degree (ex: PhD EdD)"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "mh_cg_ibqr_instr01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_ibqr_instr01"
+    },
+    "question": {
+        "en": "As you read each description of the baby's behavior below, please indicate how often the baby did thisduring the LAST WEEK (the past seven days)by selecting one of the answer alternatives.The\"Does Not Apply\"column is used when you did not see the baby in the situation described during the last week. For example, if the situation mentions the baby having to wait for food or liquids and there was no time during the last week when the baby had to wait, select\"Does Not Apply\".\"Does Not Apply\"is different from\"Never\".\"Never\"is used when you saw the baby in the situation but the baby never engaged in the behavior listed during the last week. For example, if the baby did have to wait for food or liquids at least once but never cried loudly while waiting, select\"Never\".Please be sure select an answer for every item."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

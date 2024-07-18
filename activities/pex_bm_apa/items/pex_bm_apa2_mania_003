@@ -1,0 +1,63 @@
+{
+    "id": "pex_bm_apa2_mania_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_mania_003"
+    },
+    "question": {
+        "en": "Question 3"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I do not need less sleep than usual"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "I occasionally need less sleep"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "I often need less sleep than usual"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "I frequently need less sleep than usual"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "I can go all day and night without any sleep and still not feel tired"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

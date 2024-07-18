@@ -1,0 +1,211 @@
+{
+    "id": "pex_bm_health_preg_i_chroncond_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_chroncond"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_health_preg_i_chroncond_lang",
+            "items/pex_bm_health_preg_i_chroncond_001",
+            "items/pex_bm_health_preg_i_chroncond_002",
+            "items/pex_bm_health_preg_i_chroncond_003",
+            "items/pex_bm_health_preg_i_chroncond_004",
+            "items/pex_bm_health_preg_i_chroncond_005",
+            "items/pex_bm_health_preg_i_chroncond_006",
+            "items/pex_bm_health_preg_i_chroncond_007",
+            "items/pex_bm_health_preg_i_chroncond_008",
+            "items/pex_bm_health_preg_i_chroncond_009",
+            "items/pex_bm_health_preg_i_chroncond_010",
+            "items/pex_bm_health_preg_i_chroncond_011",
+            "items/pex_bm_health_preg_i_chroncond_012",
+            "items/pex_bm_health_preg_i_chroncond_013",
+            "items/pex_bm_health_preg_i_chroncond_013_i_01",
+            "items/pex_bm_health_preg_i_chroncond_013_i_02",
+            "items/pex_bm_health_preg_i_chroncond_013_i_03",
+            "items/pex_bm_health_preg_i_chroncond_013_i_04",
+            "items/pex_bm_health_preg_i_chroncond_013_i_05",
+            "items/pex_bm_health_preg_i_chroncond_013_i_06",
+            "items/pex_bm_health_preg_i_chroncond_013_i_07",
+            "items/pex_bm_health_preg_i_chroncond_013_i_08",
+            "items/pex_bm_health_preg_i_chroncond_013_i_09",
+            "items/pex_bm_health_preg_i_chroncond_013_i_10",
+            "items/pex_bm_health_preg_i_chroncond_013_i_11",
+            "items/pex_bm_health_preg_i_chroncond_013_i_12",
+            "items/pex_bm_health_preg_i_chroncond_013_i_13",
+            "items/pex_bm_health_preg_i_chroncond_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_lang",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_lang"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_001"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_002",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_002"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_003",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_003"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_004",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_004"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_005",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_005"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_006",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_006"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_007",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_007"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_008",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_008"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_009",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___8 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_009"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_010",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___9 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_010"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_011",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___10 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_011"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_012",
+                "isVis": "pex_bm_health_preg_i_chroncond_001___11 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_012"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_01",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___1 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_01"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_02",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___2 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_02"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_03",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___3 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_03"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_04",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___4 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_04"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_05",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___5 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_05"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_06",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___6 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_06"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_07",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___7 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_07"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_08",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___8 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_08"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_09",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___9 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_09"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_10",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___10 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_10"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_11",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___11 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_11"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_12",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___12 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_12"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_013_i_13",
+                "isVis": "pex_bm_health_preg_i_chroncond_013___13 == '1'",
+                "valueRequired": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_013_i_13"
+            },
+            {
+                "isAbout": "items/pex_bm_health_preg_i_chroncond_complete",
+                "isVis": true,
+                "variableName": "pex_bm_health_preg_i_chroncond_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

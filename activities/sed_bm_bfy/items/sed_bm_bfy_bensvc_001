@@ -1,0 +1,103 @@
+{
+    "id": "sed_bm_bfy_bensvc_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Services and Support"
+    },
+    "prefLabel": {
+        "en": "sed_bm_bfy_bensvc_001"
+    },
+    "question": {
+        "en": "Have you received any of these services in the past 12 months..."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Food stamps SNAP / EBT"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Free or reduced childcare"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Early Head Start"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Head Start"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Women Infants and Children (WIC)"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "State Unemployment"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Cash assistance"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Free or reduced school lunch"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Housing assistance"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "LIHEAP/heat/AC assistance"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

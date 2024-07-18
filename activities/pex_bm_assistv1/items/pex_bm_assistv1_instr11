@@ -1,0 +1,22 @@
+{
+    "id": "pex_bm_assistv1_instr11",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "DURING PREGNANCY"
+    },
+    "prefLabel": {
+        "en": "pex_bm_assistv1_instr11"
+    },
+    "question": {
+        "en": "DURING YOUR PREGNANCY, which of the following substances have you ever used for any reason?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

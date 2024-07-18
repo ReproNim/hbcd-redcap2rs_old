@@ -1,0 +1,303 @@
+{
+    "id": "sed_bm_demo_work_008_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_work_008_i_02"
+    },
+    "question": {
+        "en": "In what year did you start your most recent or current job?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "1985"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "1986"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "1987"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "1988"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "1989"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "1990"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "1991"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "1992"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "1993"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "1994"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "1995"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "1996"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "1997"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "1998"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "1999"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "2000"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "2001"
+                },
+                "value": 17
+            },
+            {
+                "name": {
+                    "en": "2002"
+                },
+                "value": 18
+            },
+            {
+                "name": {
+                    "en": "2003"
+                },
+                "value": 19
+            },
+            {
+                "name": {
+                    "en": "2004"
+                },
+                "value": 20
+            },
+            {
+                "name": {
+                    "en": "2005"
+                },
+                "value": 21
+            },
+            {
+                "name": {
+                    "en": "2006"
+                },
+                "value": 22
+            },
+            {
+                "name": {
+                    "en": "2007"
+                },
+                "value": 23
+            },
+            {
+                "name": {
+                    "en": "2008"
+                },
+                "value": 24
+            },
+            {
+                "name": {
+                    "en": "2009"
+                },
+                "value": 25
+            },
+            {
+                "name": {
+                    "en": "2010"
+                },
+                "value": 26
+            },
+            {
+                "name": {
+                    "en": "2011"
+                },
+                "value": 27
+            },
+            {
+                "name": {
+                    "en": "2012"
+                },
+                "value": 28
+            },
+            {
+                "name": {
+                    "en": "2013"
+                },
+                "value": 29
+            },
+            {
+                "name": {
+                    "en": "2014"
+                },
+                "value": 30
+            },
+            {
+                "name": {
+                    "en": "2015"
+                },
+                "value": 31
+            },
+            {
+                "name": {
+                    "en": "2016"
+                },
+                "value": 32
+            },
+            {
+                "name": {
+                    "en": "2017"
+                },
+                "value": 33
+            },
+            {
+                "name": {
+                    "en": "2018"
+                },
+                "value": 34
+            },
+            {
+                "name": {
+                    "en": "2019"
+                },
+                "value": 35
+            },
+            {
+                "name": {
+                    "en": "2020"
+                },
+                "value": 36
+            },
+            {
+                "name": {
+                    "en": "2021"
+                },
+                "value": 37
+            },
+            {
+                "name": {
+                    "en": "2022"
+                },
+                "value": 38
+            },
+            {
+                "name": {
+                    "en": "2023"
+                },
+                "value": 39
+            },
+            {
+                "name": {
+                    "en": "2024"
+                },
+                "value": 40
+            },
+            {
+                "name": {
+                    "en": "2025"
+                },
+                "value": 41
+            },
+            {
+                "name": {
+                    "en": "2026"
+                },
+                "value": 42
+            },
+            {
+                "name": {
+                    "en": "2027"
+                },
+                "value": 43
+            },
+            {
+                "name": {
+                    "en": "2028"
+                },
+                "value": 44
+            },
+            {
+                "name": {
+                    "en": "2029"
+                },
+                "value": 45
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,32 @@
+{
+    "id": "remote_survey_completion_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "remote_survey_completion"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/remote_completion",
+            "items/remote_survey_completion_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/remote_completion",
+                "isVis": "( pex_bm_assistv3_3m_i_use_018 == '1' OR pex_bm_assistv3_3m_i_use_018 == '2' OR pex_bm_assistv3_3m_i_use_018 == '3' OR pex_bm_assistv3_3m_i_use_018 == '4')",
+                "variableName": "remote_completion"
+            },
+            {
+                "isAbout": "items/remote_survey_completion_complete",
+                "isVis": true,
+                "variableName": "remote_survey_completion_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

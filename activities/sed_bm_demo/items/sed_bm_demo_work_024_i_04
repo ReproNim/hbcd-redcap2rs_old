@@ -1,0 +1,87 @@
+{
+    "id": "sed_bm_demo_work_024_i_04",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_work_024_i_04"
+    },
+    "question": {
+        "en": "In what year did you end this job?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "I am still working at this job"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "2022"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "2023"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "2024"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "2025"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "2026"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "2027"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "2028"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "2029"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "select"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

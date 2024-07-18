@@ -1,0 +1,109 @@
+{
+    "id": "pex_bm_health_preg_i_chroncond_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Chronic Conditions"
+    },
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_chroncond_001"
+    },
+    "question": {
+        "en": "Have you ever been told that you have any of the following?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hypertension or High Blood Pressure"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Hyperlipidemia or high cholesterol"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Type I Diabetes"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Type II Diabetes"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Asthma"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Seizures"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Migraines"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "ADHD (attention deficit hyperactivity disorder) or ADD (attention deficit disorder)"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "Other neurologic disorder (e.g. Multiple Sclerosis)"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "Autoimmune condition (for example rheumatoid arthritis lupus Crohn's disease)"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "HIV"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "None of the above"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

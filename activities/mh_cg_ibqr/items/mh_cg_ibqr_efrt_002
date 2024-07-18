@@ -1,0 +1,81 @@
+{
+    "id": "mh_cg_ibqr_efrt_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "mh_cg_ibqr_efrt_002"
+    },
+    "question": {
+        "en": "How often during the last week did the baby play with one toy or object for 5-10 minutes?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Never"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Very Rarely"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Less Than Half the Time"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "About Half the Time"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "More than Half the Time"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Almost Always"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Always"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Does Not Apply"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

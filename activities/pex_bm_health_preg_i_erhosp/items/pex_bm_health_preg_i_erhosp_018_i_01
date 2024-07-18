@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_erhosp_018_i_01",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_erhosp_018_i_01"
+    },
+    "question": {
+        "en": "Reason for fourth hospital admission {pex_bm_health_preg_i_erhosp_018}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

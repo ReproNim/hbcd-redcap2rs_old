@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_i_00"
+    },
+    "question": {
+        "en": "Age of egg donor {pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004} {pex_bm_health_preg_i_healthhx_i_pregcurr_i_art_004_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

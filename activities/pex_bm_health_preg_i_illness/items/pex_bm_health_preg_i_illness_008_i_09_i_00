@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_illness_008_i_09_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_008_i_09_i_00"
+    },
+    "question": {
+        "en": "Start date of [pex_bm_health_preg_i_illness_008_i_07] {pex_bm_health_preg_i_illness_008_i_09} {pex_bm_health_preg_i_illness_008_i_09_i_dk} Stop date of [pex_bm_health_preg_i_illness_008_i_07] {pex_bm_health_preg_i_illness_008_i_10} {pex_bm_health_preg_i_illness_008_i_10_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

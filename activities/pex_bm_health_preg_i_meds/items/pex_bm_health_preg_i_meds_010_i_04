@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_health_preg_i_meds_010_i_04",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_meds_010_i_04"
+    },
+    "question": {
+        "en": "What day did you start taking [pex_bm_health_preg_i_meds_010_i_01]?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

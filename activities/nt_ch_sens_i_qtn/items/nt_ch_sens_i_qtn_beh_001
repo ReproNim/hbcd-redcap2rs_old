@@ -1,0 +1,48 @@
+{
+    "id": "nt_ch_sens_i_qtn_beh_001",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Infant's Behavior"
+    },
+    "prefLabel": {
+        "en": "nt_ch_sens_i_qtn_beh_001"
+    },
+    "question": {
+        "en": "Were the 24 hours fairly typical behavior for your infant?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Yes"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "No"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

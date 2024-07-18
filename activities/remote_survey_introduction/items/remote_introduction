@@ -1,0 +1,19 @@
+{
+    "id": "remote_introduction",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "remote_introduction"
+    },
+    "question": {
+        "en": "Thank you for participating in the Healthy Brain and Child Development (HBCD) Study! \nYou will be asked to answer a series of questions about yourself, your family, and your experiences.\n\nYou will only answer each survey question once, but you can change your answers at any time up to the time you submit a completed questionnaire. You may be asked about something from the past or what you've observed. If you cannot remember or are not sure of an answer, please make your best guess. There are no right or wrong answers, but it is important that you answer honestly. Your answers will be kept confidential.\n\nIf you need to take any breaks, you may do so between questionnaires. If you want to take a break, be sure to finish and submit the questionnaire that you're working on before exiting the page to make sure your answers are saved. When you click the survey link again, it will take you to the next questionnaire following the last one you submitted.\n\nIf you have any questions or concerns, please feel free to reach out to your HBCD Study Coordinator for more information.\n\nThank you for your participation!"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

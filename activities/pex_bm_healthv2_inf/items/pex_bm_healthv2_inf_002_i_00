@@ -1,0 +1,19 @@
+{
+    "id": "pex_bm_healthv2_inf_002_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_healthv2_inf_002_i_00"
+    },
+    "question": {
+        "en": "How long was your baby at birth? \n{pex_bm_healthv2_inf_002} inches  {pex_bm_healthv2_inf_002_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

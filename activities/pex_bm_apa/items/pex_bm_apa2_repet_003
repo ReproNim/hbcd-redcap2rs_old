@@ -1,0 +1,63 @@
+{
+    "id": "pex_bm_apa2_repet_003",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_apa2_repet_003"
+    },
+    "question": {
+        "en": "How hard is it for you to control these thoughts or behaviors?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Complete control"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Much control (usually able to control thoughts or behaviors)"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Moderate control (sometimes able to control thoughts or behaviors)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Little control (infrequently able to control thoughts or behaviors)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "No control (unable to control thoughts or behaviors)"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "pex_bm_health_preg_i_illness_004_i_13_i_02",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "pex_bm_health_preg_i_illness_004_i_13_i_02"
+    },
+    "question": {
+        "en": "Unit of duration"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Hours"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Days"
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

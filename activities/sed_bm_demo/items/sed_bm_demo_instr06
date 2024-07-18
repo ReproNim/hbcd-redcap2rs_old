@@ -1,0 +1,19 @@
+{
+    "id": "sed_bm_demo_instr06",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "sed_bm_demo_instr06"
+    },
+    "question": {
+        "en": "The following two questions are regarding the parents of the other biological parent of the child you are carrying (ie, your child's other biological grandparents). For each person listed below, please make a selection as to their place of birth."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

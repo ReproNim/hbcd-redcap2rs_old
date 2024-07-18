@@ -1,0 +1,123 @@
+{
+    "id": "pex_bm_str_i_ptsd_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "pex_bm_str_i_ptsd"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/pex_bm_str_i_ptsd",
+            "items/pex_bm_str_i_ptsd_dtt",
+            "items/pex_bm_str_i_ptsd_timestamp_start",
+            "items/pex_bm_str_i_ptsd_location",
+            "items/pex_bm_str_i_ptsd_instr01",
+            "items/pex_bm_str_i_ptsd_001",
+            "items/pex_bm_str_i_ptsd_002",
+            "items/pex_bm_str_i_ptsd_003",
+            "items/pex_bm_str_i_ptsd_004",
+            "items/pex_bm_str_i_ptsd_005",
+            "items/pex_bm_str_i_ptsd_006",
+            "items/pex_bm_str_i_ptsd_007",
+            "items/pex_bm_str_i_ptsd_008",
+            "items/pex_bm_str_i_ptsd_009",
+            "items/pex_bm_str_i_ptsd_010",
+            "items/pex_bm_str_i_ptsd_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd",
+                "isVis": true,
+                "variableName": "pex_bm_str_i_ptsd"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_dtt",
+                "isVis": true,
+                "variableName": "pex_bm_str_i_ptsd_dtt"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_timestamp_start",
+                "isVis": true,
+                "variableName": "pex_bm_str_i_ptsd_timestamp_start"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_location",
+                "isVis": true,
+                "variableName": "pex_bm_str_i_ptsd_location"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_instr01",
+                "isVis": true,
+                "variableName": "pex_bm_str_i_ptsd_instr01"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_001"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_002"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_003"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_004"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_005"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_006",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_006"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_007"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_008"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_009"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "pex_bm_str_i_ptsd_010"
+            },
+            {
+                "isAbout": "items/pex_bm_str_i_ptsd_complete",
+                "isVis": true,
+                "variableName": "pex_bm_str_i_ptsd_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

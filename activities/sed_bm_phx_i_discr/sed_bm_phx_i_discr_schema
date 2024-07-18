@@ -1,0 +1,131 @@
+{
+    "id": "sed_bm_phx_i_discr_schema",
+    "category": "reproschema:Activity",
+    "prefLabel": {
+        "en": "sed_bm_phx_i_discr"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/sed_bm_phx_i_discr_lang",
+            "items/sed_bm_phx_i_discr_dtt",
+            "items/sed_bm_phx_i_discr_timestamp_start",
+            "items/sed_bm_phx_i_discr_location",
+            "items/sed_bm_phx_i_discr_001",
+            "items/sed_bm_phx_i_discr_002",
+            "items/sed_bm_phx_i_discr_003",
+            "items/sed_bm_phx_i_discr_004",
+            "items/sed_bm_phx_i_discr_005",
+            "items/sed_bm_phx_i_discr_007",
+            "items/sed_bm_phx_i_discr_008",
+            "items/sed_bm_phx_i_discr_009",
+            "items/sed_bm_phx_i_discr_010",
+            "items/sed_bm_phx_i_discr_011",
+            "items/sed_bm_phx_i_discr_012",
+            "items/sed_bm_phx_i_discr_006",
+            "items/sed_bm_phx_i_discr_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_lang",
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_lang"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_dtt",
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_dtt"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_timestamp_start",
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_timestamp_start"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_location",
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_location"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_001"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_002",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_002"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_003",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_003"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_004",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_004"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_005",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_005"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_007",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_007"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_008",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_008"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_009",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_009"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_010",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_010"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_011",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_011"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_012",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_012"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_006",
+                "isVis": "sed_bm_phx_i_discr_001 == '1' || sed_bm_phx_i_discr_001 == '2' || sed_bm_phx_i_discr_001 == '3' || sed_bm_phx_i_discr_001 == '4' || sed_bm_phx_i_discr_002 == '1' || sed_bm_phx_i_discr_002 == '2' || sed_bm_phx_i_discr_002 == '3' || sed_bm_phx_i_discr_002 == '4' || sed_bm_phx_i_discr_003 == '1' || sed_bm_phx_i_discr_003 == '2' || sed_bm_phx_i_discr_003 == '3' || sed_bm_phx_i_discr_003 == '4' || sed_bm_phx_i_discr_004 == '1' || sed_bm_phx_i_discr_004 == '3' || sed_bm_phx_i_discr_004 == '2' || sed_bm_phx_i_discr_004 == '4' || sed_bm_phx_i_discr_005 == '1' || sed_bm_phx_i_discr_005 == '2' || sed_bm_phx_i_discr_005 == '3' || sed_bm_phx_i_discr_005 == '4' OR sed_bm_phx_i_discr_007 == '1' OR sed_bm_phx_i_discr_008 == '1' OR sed_bm_phx_i_discr_009 == '1' OR sed_bm_phx_i_discr_010 == '1' OR sed_bm_phx_i_discr_011 == '1' OR sed_bm_phx_i_discr_012 == '1'",
+                "valueRequired": true,
+                "variableName": "sed_bm_phx_i_discr_006"
+            },
+            {
+                "isAbout": "items/sed_bm_phx_i_discr_complete",
+                "isVis": true,
+                "variableName": "sed_bm_phx_i_discr_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

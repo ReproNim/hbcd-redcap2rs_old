@@ -1,0 +1,58 @@
+{
+    "id": "setup_l_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "setup_l"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/admin_caregiver_001",
+            "items/admin_caregiver_002",
+            "items/setup_onsite_started",
+            "items/setup_event_start",
+            "items/setup_event_end",
+            "items/setup_l_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/admin_caregiver_001",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "admin_caregiver_001"
+            },
+            {
+                "isAbout": "items/admin_caregiver_002",
+                "isVis": "admin_caregiver_001 == '1'",
+                "valueRequired": true,
+                "variableName": "admin_caregiver_002"
+            },
+            {
+                "isAbout": "items/setup_onsite_started",
+                "isVis": true,
+                "variableName": "setup_onsite_started"
+            },
+            {
+                "isAbout": "items/setup_event_start",
+                "isVis": true,
+                "variableName": "setup_event_start"
+            },
+            {
+                "isAbout": "items/setup_event_end",
+                "isVis": true,
+                "variableName": "setup_event_end"
+            },
+            {
+                "isAbout": "items/setup_l_complete",
+                "isVis": true,
+                "variableName": "setup_l_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid101",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
