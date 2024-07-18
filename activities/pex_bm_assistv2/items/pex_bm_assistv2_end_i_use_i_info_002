@@ -8,7 +8,7 @@
         "en": "pex_bm_assistv2_end_i_use_i_info_002"
     },
     "question": {
-        "en": "When you were using alcohol SINCE WE LAST MET UNTIL THE END OF PREGNANCY, please select the specific substances you used below.For each substance that you endorse, please describe the typical amount that you use per occasion.Type of usageAmount/unitWine{pex_bm_assistv2_end_i_use_002_i_01}{pex_bm_assistv2_end_i_use_i_amount_002_i_01}ounces{pex_bm_assistv2_end_i_use_i_amount_002_i_01_dk}Beer, hard cider, or hard seltzer{pex_bm_assistv2_end_i_use_002_i_02}{pex_bm_assistv2_end_i_use_i_amount_002_i_02}ounces{pex_bm_assistv2_end_i_use_i_amount_002_i_02_dk}Spirits/liquor{pex_bm_assistv2_end_i_use_002_i_03}{pex_bm_assistv2_end_i_use_i_amount_002_i_03}ounces{pex_bm_assistv2_end_i_use_i_amount_002_i_03_dk}"
+        "en": "When you were using alcohol SINCE WE LAST MET UNTIL THE END OF PREGNANCY, please select the specific substances you used below.For each substance that you endorse, please describe the typical amount that you use per occasion.Type of usageAmount/unitWine{pex_bm_assistv2_end_i_use_002_i_01}{pex_bm_assistv2_end_i_use_i_amount_002_i_01}ounces{pex_bm_assistv2_end_i_use_i_amount_002_i_01_dk}Beer, hard cider or hard seltzer{pex_bm_assistv2_end_i_use_002_i_02}{pex_bm_assistv2_end_i_use_i_amount_002_i_02}ounces{pex_bm_assistv2_end_i_use_i_amount_002_i_02_dk}Spirits/liquor{pex_bm_assistv2_end_i_use_002_i_03}{pex_bm_assistv2_end_i_use_i_amount_002_i_03}ounces{pex_bm_assistv2_end_i_use_i_amount_002_i_03_dk}"
     },
     "responseOptions": {
         "valueType": [

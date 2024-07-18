@@ -1,0 +1,23 @@
+{
+    "id": "ncl_ch_mlds_arr01_hr_wk",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Calculations"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_mlds_arr01_hr_wk"
+    },
+    "question": {
+        "en": "Hours per week, arrangement 1"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

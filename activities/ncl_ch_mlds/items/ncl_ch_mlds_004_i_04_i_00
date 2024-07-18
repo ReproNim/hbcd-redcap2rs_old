@@ -1,0 +1,19 @@
+{
+    "id": "ncl_ch_mlds_004_i_04_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_ch_mlds_004_i_04_i_00"
+    },
+    "question": {
+        "en": "About what percent of the time does your child hear a language OTHER THAN ENGLISH OR SPANISH spoken in this non-parental childcare arrangement? {ncl_ch_mlds_004_i_04}\n{ncl_ch_mlds_004_i_04_i_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

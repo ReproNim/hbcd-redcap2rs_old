@@ -1,0 +1,45 @@
+{
+    "id": "nc_cg_vabs_schema",
+    "category": "reproschema:Activity",
+    "preamble": {
+        "en": "Form Status"
+    },
+    "prefLabel": {
+        "en": "nc_cg_vabs"
+    },
+    "schemaVersion": "1.0.0",
+    "ui": {
+        "order": [
+            "items/nc_cg_vabs_redirect",
+            "items/nc_cg_vabs_banner_post",
+            "items/nc_cg_vabs_completion_status",
+            "items/nc_cg_vabs_complete"
+        ],
+        "addProperties": [
+            {
+                "isAbout": "items/nc_cg_vabs_redirect",
+                "isVis": "nc_cg_vabs_completion_status ! == '1'",
+                "variableName": "nc_cg_vabs_redirect"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_banner_post",
+                "isVis": "nc_cg_vabs_completion_status == '1'",
+                "variableName": "nc_cg_vabs_banner_post"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_completion_status",
+                "isVis": true,
+                "valueRequired": true,
+                "variableName": "nc_cg_vabs_completion_status"
+            },
+            {
+                "isAbout": "items/nc_cg_vabs_complete",
+                "isVis": true,
+                "variableName": "nc_cg_vabs_complete"
+            }
+        ],
+        "shuffle": false
+    },
+    "version": "revid124",
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

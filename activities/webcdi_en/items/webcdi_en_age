@@ -1,0 +1,20 @@
+{
+    "id": "webcdi_en_age",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "webcdi_en_age"
+    },
+    "question": {
+        "en": "Age (in month) at time of WebCDI (English) administration"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "webcdi_en_url",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "webcdi_en_url"
+    },
+    "question": {
+        "en": "URL to redirect to WebCDI (English) for given participant/event"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

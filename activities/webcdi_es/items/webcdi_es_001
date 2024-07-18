@@ -1,0 +1,39 @@
+{
+    "id": "webcdi_es_001",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "webcdi_es_001"
+    },
+    "question": {
+        "en": "What language do you usually use with your child?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

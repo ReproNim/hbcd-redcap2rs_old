@@ -1,0 +1,19 @@
+{
+    "id": "ncl_ch_mlds_004_i_06",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_ch_mlds_004_i_06"
+    },
+    "question": {
+        "en": "When did you begin using this non-parental childcare arrangement?"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:date"
+        ]
+    },
+    "ui": {
+        "inputType": "date"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

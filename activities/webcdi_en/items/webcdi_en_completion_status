@@ -1,0 +1,24 @@
+{
+    "id": "webcdi_en_completion_status",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "webcdi_en_completion_status"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": ""
+                },
+                "value": 1
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

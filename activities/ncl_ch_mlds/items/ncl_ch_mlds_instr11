@@ -1,0 +1,19 @@
+{
+    "id": "ncl_ch_mlds_instr11",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_ch_mlds_instr11"
+    },
+    "question": {
+        "en": "AlertLanguage percentages do not equal 100. Please correct."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

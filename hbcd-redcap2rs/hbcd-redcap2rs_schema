@@ -81,7 +81,11 @@
             "../activities/sed_cg_employ/sed_cg_employ_schema",
             "../activities/sed_bm_demo/sed_bm_demo_schema",
             "../activities/sed_bm_demo_child/sed_bm_demo_child_schema",
-            "../activities/admin_part_fb/admin_part_fb_schema"
+            "../activities/admin_part_fb/admin_part_fb_schema",
+            "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
+            "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+            "../activities/webcdi_en/webcdi_en_schema",
+            "../activities/webcdi_es/webcdi_es_schema"
         ],
         "addProperties": [
             {
@@ -659,10 +663,42 @@
                     "en": "Admin Part Fb"
                 },
                 "variableName": "admin_part_fb_schema"
+            },
+            {
+                "isAbout": "../activities/ncl_ch_mlds/ncl_ch_mlds_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ncl Ch Mlds"
+                },
+                "variableName": "ncl_ch_mlds_schema"
+            },
+            {
+                "isAbout": "../activities/nc_cg_vabs/nc_cg_vabs_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Nc Cg Vabs"
+                },
+                "variableName": "nc_cg_vabs_schema"
+            },
+            {
+                "isAbout": "../activities/webcdi_en/webcdi_en_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Webcdi En"
+                },
+                "variableName": "webcdi_en_schema"
+            },
+            {
+                "isAbout": "../activities/webcdi_es/webcdi_es_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Webcdi Es"
+                },
+                "variableName": "webcdi_es_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid123",
+    "version": "revid124",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

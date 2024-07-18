@@ -1,0 +1,36 @@
+{
+    "id": "ncl_ch_mlds_019",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "Language for child assessments"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_mlds_019"
+    },
+    "question": {
+        "en": "In what language would you prefer that your child's assessments be administered?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": 2
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

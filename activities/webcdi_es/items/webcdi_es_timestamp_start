@@ -1,0 +1,19 @@
+{
+    "id": "webcdi_es_timestamp_start",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "webcdi_es_timestamp_start"
+    },
+    "question": {
+        "en": "WebCDI (Spanish) Start time (server time zone)"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:dateTime"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

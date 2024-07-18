@@ -1,0 +1,22 @@
+{
+    "id": "webcdi_en_instr",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "WebCDI Survey"
+    },
+    "prefLabel": {
+        "en": "webcdi_en_instr"
+    },
+    "question": {
+        "en": "Pleaseclick hereto be redirected to the CDI survey. The CDI asks about your child's language and communication in English. This survey will take about 10 minutes to complete."
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

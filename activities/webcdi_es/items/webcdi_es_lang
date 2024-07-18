@@ -1,0 +1,36 @@
+{
+    "id": "webcdi_es_lang",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "WebCDI Instructions"
+    },
+    "prefLabel": {
+        "en": "webcdi_es_lang"
+    },
+    "question": {
+        "en": "Language"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": "en"
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": " es"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

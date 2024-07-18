@@ -1,0 +1,55 @@
+{
+    "id": "ncl_ch_mlds_008_i_01",
+    "category": "reproschema:Item",
+    "preamble": {
+        "en": "SIXTH non-parental childcare arrangement"
+    },
+    "prefLabel": {
+        "en": "ncl_ch_mlds_008_i_01"
+    },
+    "question": {
+        "en": "What language(s) are spoken in this non-parental childcare arrangement? (can check all that apply)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "English"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Spanish"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Other (see more options)"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Don't know</font>"
+                },
+                "value": 999
+            },
+            {
+                "name": {
+                    "en": "<font color=\"gray\">Decline to answer</font>"
+                },
+                "value": 777
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

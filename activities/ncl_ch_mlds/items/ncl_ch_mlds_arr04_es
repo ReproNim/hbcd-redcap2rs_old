@@ -1,0 +1,20 @@
+{
+    "id": "ncl_ch_mlds_arr04_es",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_ch_mlds_arr04_es"
+    },
+    "question": {
+        "en": "Frequency Spanish at arrangement 4"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "number",
+        "readonlyValue": true
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "ncl_ch_mlds_007_i_08_i_00",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ncl_ch_mlds_007_i_08_i_00"
+    },
+    "question": {
+        "en": "On average, how much time each week is your child cared for in this arrangement?\nHours per day: {ncl_ch_mlds_007_i_08_i_01}\nDays per week: {ncl_ch_mlds_007_i_08_i_02}\n{ncl_ch_mlds_007_i_08_dk}"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

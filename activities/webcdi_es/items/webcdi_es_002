@@ -1,0 +1,39 @@
+{
+    "id": "webcdi_es_002",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "webcdi_es_002"
+    },
+    "question": {
+        "en": "How confident do you feel answering questions about words your child uses in Spanish?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Not confident"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Somewhat confident"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Very confident"
+                },
+                "value": 3
+            }
+        ],
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -5,7 +5,7 @@
         "en": "pex_bm_assistv2_end_i_use_i_amount_002_i_02"
     },
     "question": {
-        "en": "Beer, cider, seltzer (ounces)"
+        "en": "Beer, hard cider or hard seltzer (ounces)"
     },
     "responseOptions": {
         "choices": [

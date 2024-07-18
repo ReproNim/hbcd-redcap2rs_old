@@ -1,0 +1,39 @@
+{
+    "id": "setup_sex",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "setup_sex"
+    },
+    "question": {
+        "en": "Sex assigned at birth"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "Male"
+                },
+                "value": "M"
+            },
+            {
+                "name": {
+                    "en": "Female"
+                },
+                "value": " F"
+            },
+            {
+                "name": {
+                    "en": "Other"
+                },
+                "value": " O"
+            }
+        ],
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "webcdi_es_banner_post",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "webcdi_es_banner_post"
+    },
+    "question": {
+        "en": "Thank you for completing the WebCDI survey. Please click \"Submit\" to start the next survey!"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
