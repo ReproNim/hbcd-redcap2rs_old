@@ -1,9 +1,6 @@
 {
     "id": "pex_bm_health_preg_i_illness_i_covid_001",
     "category": "reproschema:Item",
-    "preamble": {
-        "en": "Illnesses During Pregnancy"
-    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_illness_i_covid_001"
     },

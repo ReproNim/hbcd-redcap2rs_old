@@ -8,7 +8,7 @@
         "en": "pex_bm_assistv1_instr14"
     },
     "question": {
-        "en": "When you were using alcohol during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select the specific substances you used below.For each substance that you endorse, please describe the typical amount that you use per occasion.Type of usageAmount/unitWine{pex_bm_assist_pre_during_i_use_002_i_01}{pex_bm_assist_pre_during_i_use_i_amount_002_i_01}ounces{pex_bm_assist_pre_during_i_use_i_amount_002_i_01_dk}Beer{pex_bm_assist_pre_during_i_use_002_i_02}{pex_bm_assist_pre_during_i_use_i_amount_002_i_02}ounces{pex_bm_assist_pre_during_i_use_i_amount_002_i_02_dk}Spirits/liquor{pex_bm_assist_pre_during_i_use_002_i_03}{pex_bm_assist_pre_during_i_use_i_amount_002_i_03}ounces{pex_bm_assist_pre_during_i_use_i_amount_002_i_03_dk}"
+        "en": "When you were using alcohol during the THREE MONTHS BEFORE or DURING YOUR PREGNANCY, please select the specific substances you used below.For each substance that you endorse, please describe the typical amount that you use per occasion.Type of usageAmount/unitWine{pex_bm_assistv1_pre_during_i_use_002_i_01}{pex_bm_assistv1_pre_during_i_use_i_amount_002_i_01}ounces{pex_bm_assistv1_pre_during_i_use_i_amount_002_i_01_dk}Beer{pex_bm_assistv1_pre_during_i_use_002_i_02}{pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02}ounces{pex_bm_assistv1_pre_during_i_use_i_amount_002_i_02_dk}Spirits/liquor{pex_bm_assistv1_pre_during_i_use_002_i_03}{pex_bm_assistv1_pre_during_i_use_i_amount_002_i_03}ounces{pex_bm_assistv1_pre_during_i_use_i_amount_002_i_03_dk}"
     },
     "responseOptions": {
         "valueType": [
