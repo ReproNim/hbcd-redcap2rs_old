@@ -1,0 +1,16 @@
+# Reproschema Protocol Configuration
+
+# Protocol Name:
+# Use underscores for spaces and avoid special characters.
+# This is the unique identifier for your protocol.
+protocol_name: "hbcd-redcap2rs"  # Example: "My_Protocol"
+
+# Protocol Display Name:
+# This name will be displayed in the application.
+protocol_display_name: "HBCD Protocol"
+
+# Protocol Description:
+# Provide a brief description of your protocol.
+protocol_description: "HBCD Protocol converted from REDCap to ReproSchema"  # Example: "This protocol is for ..."
+
+redcap_version: "unknown"
