@@ -5,7 +5,7 @@
         "en": "pex_bm_healthv2_preg_i_meds_043_i_00"
     },
     "question": {
-        "en": "What day did you stop taking [v01_arm_1][pex_bm_healthv2_preg_i_meds_023_i_01]?{pex_bm_healthv2_preg_i_meds_043_i_01} {pex_bm_healthv2_preg_i_meds_043_i_dk}"
+        "en": "What day did you stop taking [v01_arm_1][pex_bm_health_preg_i_meds_023_i_01]?{pex_bm_healthv2_preg_i_meds_043_i_01} {pex_bm_healthv2_preg_i_meds_043_i_dk}"
     },
     "responseOptions": {
         "valueType": [

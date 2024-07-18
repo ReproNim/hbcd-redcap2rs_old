@@ -8,7 +8,7 @@
         "en": "pex_bm_healthv2_preg_i_meds_025"
     },
     "question": {
-        "en": "For [v01_arm_1][pex_bm_healthv1_preg_i_meds_003_i_01], have you continued to take this medication until today?"
+        "en": "For [v01_arm_1][pex_bm_health_preg_i_meds_003_i_01], have you continued to take this medication until today?"
     },
     "responseOptions": {
         "choices": [
