@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006_i_01"
     },
     "question": {
-        "en": "What day did you start taking these vitamins? (If you starting taking them prior to your last menstrual period ([pex_bm_health_preg_i_healthhx_001]), please enter the date of your last menstrual period.)"
+        "en": "What day did you start taking these vitamins? (If you starting taking them prior to your last menstrual period ([screening_arm_1][setup_lmp]), please enter the date of your last menstrual period.)"
     },
     "responseOptions": {
         "valueType": [

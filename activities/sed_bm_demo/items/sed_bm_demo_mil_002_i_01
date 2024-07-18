@@ -5,7 +5,7 @@
         "en": "sed_bm_demo_mil_002_i_01"
     },
     "question": {
-        "en": "Was the other biological parent in active duty in the US armed forces at the start of your pregnancy, approximately before [pex_bm_health_preg_i_healthhx_001]?"
+        "en": "Was the other biological parent in active duty in the US armed forces at the start of your pregnancy, approximately before [screening_arm_1][setup_lmp]?"
     },
     "responseOptions": {
         "choices": [

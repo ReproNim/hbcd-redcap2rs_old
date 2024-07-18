@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_healthhx_i_exp_i_pnv_006"
     },
     "question": {
-        "en": "Were you taking prenatal vitamins or a folic acid containing vitamin when you had your last menstrual period ([pex_bm_health_preg_i_healthhx_001]) or since?"
+        "en": "Were you taking prenatal vitamins or a folic acid containing vitamin when you had your last menstrual period ([screening_arm_1][setup_lmp]) or since?"
     },
     "responseOptions": {
         "choices": [

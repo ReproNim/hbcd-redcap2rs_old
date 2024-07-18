@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_illness_i_covid_002"
     },
     "question": {
-        "en": "Since your last menstrual period on [pex_bm_health_preg_i_healthhx_001], how many times have you tested positive for SARS-CoV-2, the virus that causes COVID-19?"
+        "en": "Since your last menstrual period on [screening_arm_1][setup_lmp], how many times have you tested positive for SARS-CoV-2, the virus that causes COVID-19?"
     },
     "responseOptions": {
         "choices": [

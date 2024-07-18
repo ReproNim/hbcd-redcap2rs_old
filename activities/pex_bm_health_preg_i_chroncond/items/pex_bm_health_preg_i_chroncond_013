@@ -8,7 +8,7 @@
         "en": "pex_bm_health_preg_i_chroncond_013"
     },
     "question": {
-        "en": "At any time since your last menstrual period ([pex_bm_health_preg_i_healthhx_001]), have you been told that you have any of the following?"
+        "en": "At any time since your last menstrual period ([screening_arm_1][setup_lmp]), have you been told that you have any of the following?"
     },
     "responseOptions": {
         "choices": [

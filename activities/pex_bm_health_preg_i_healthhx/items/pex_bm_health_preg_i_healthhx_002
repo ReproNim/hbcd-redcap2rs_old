@@ -1,6 +1,9 @@
 {
     "id": "pex_bm_health_preg_i_healthhx_002",
     "category": "reproschema:Item",
+    "preamble": {
+        "en": "Health History"
+    },
     "prefLabel": {
         "en": "pex_bm_health_preg_i_healthhx_002"
     },

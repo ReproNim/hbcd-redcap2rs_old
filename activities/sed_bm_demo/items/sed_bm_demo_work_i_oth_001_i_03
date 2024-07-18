@@ -5,7 +5,7 @@
         "en": "sed_bm_demo_work_i_oth_001_i_03"
     },
     "question": {
-        "en": "What type of work was the other biological parent doing at the start of your most recent pregnancy, approximately before [setup_lmp]?\u00a0\n\nIf the occupation is not in the list below, select \"Other\""
+        "en": "What type of work was the other biological parent doing at the start of your most recent pregnancy, approximately before [screening_arm_1][setup_lmp]?\u00a0\n\nIf the occupation is not in the list below, select \"Other\""
     },
     "responseOptions": {
         "choices": [

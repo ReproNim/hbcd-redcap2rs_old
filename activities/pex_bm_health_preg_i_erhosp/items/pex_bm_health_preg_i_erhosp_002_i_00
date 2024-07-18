@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_erhosp_002_i_00"
     },
     "question": {
-        "en": "How many times have you been to the emergency room since your last menstrual period on [pex_bm_health_preg_i_healthhx_001]? {pex_bm_health_preg_i_erhosp_002} {pex_bm_health_preg_i_erhosp_002_i_dk}"
+        "en": "How many times have you been to the emergency room since your last menstrual period on [screening_arm_1][setup_lmp]? {pex_bm_health_preg_i_erhosp_002} {pex_bm_health_preg_i_erhosp_002_i_dk}"
     },
     "responseOptions": {
         "valueType": [

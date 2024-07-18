@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_healthhx_006_i_pre"
     },
     "question": {
-        "en": "Just before you got pregnant with your current pregnancy (before your last menstrual period on [pex_bm_health_preg_i_healthhx_001]), were you covered by any of the following types of health insurance or health insurance coverage plans?"
+        "en": "Just before you got pregnant with your current pregnancy (before your last menstrual period on [screening_arm_1][setup_lmp]), were you covered by any of the following types of health insurance or health insurance coverage plans?"
     },
     "responseOptions": {
         "choices": [

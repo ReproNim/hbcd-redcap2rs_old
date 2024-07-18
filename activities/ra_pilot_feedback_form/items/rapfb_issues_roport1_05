@@ -1,0 +1,19 @@
+{
+    "id": "rapfb_issues_roport1_05",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "rapfb_issues_roport1_05"
+    },
+    "question": {
+        "en": "Issues with Personal and Family Psychiatric History"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

@@ -5,7 +5,7 @@
         "en": "pex_bm_health_preg_i_meds_014_00"
     },
     "question": {
-        "en": "How many over-the-counter medications have you taken since your last menstrual period ([pex_bm_health_preg_i_healthhx_001])? {pex_bm_health_preg_i_meds_014} {pex_bm_health_preg_i_meds_014_dk}"
+        "en": "How many over-the-counter medications have you taken since your last menstrual period ([screening_arm_1][setup_lmp])? {pex_bm_health_preg_i_meds_014} {pex_bm_health_preg_i_meds_014_dk}"
     },
     "responseOptions": {
         "valueType": [

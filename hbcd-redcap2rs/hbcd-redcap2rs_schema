@@ -45,7 +45,8 @@
             "../activities/nt_ch_sens_i_qtn/nt_ch_sens_i_qtn_schema",
             "../activities/pex_bm_psych/pex_bm_psych_schema",
             "../activities/admin_part_fb/admin_part_fb_schema",
-            "../activities/admin_alert/admin_alert_schema"
+            "../activities/admin_alert/admin_alert_schema",
+            "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema"
         ],
         "addProperties": [
             {
@@ -335,10 +336,18 @@
                     "en": "Admin Alert"
                 },
                 "variableName": "admin_alert_schema"
+            },
+            {
+                "isAbout": "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Ra Pilot Feedback Form"
+                },
+                "variableName": "ra_pilot_feedback_form_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid104",
+    "version": "revid105",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

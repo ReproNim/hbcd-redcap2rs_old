@@ -1,0 +1,19 @@
+{
+    "id": "ra_feedback_desc",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "ra_feedback_desc"
+    },
+    "question": {
+        "en": "Please use this form to document any feedback regarding the pilot protocol elements.Input information related issues such as: typos, branching logic, redundancy or omissions, concerns about the wording or meaning of items, pilot's observations, checklists, etc.DO NOTinclude any PII/PHI"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "static"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

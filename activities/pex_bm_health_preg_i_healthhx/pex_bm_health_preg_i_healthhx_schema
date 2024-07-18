@@ -33,7 +33,6 @@
             "items/pex_bm_health_preg_i_healthhx_dtt",
             "items/pex_bm_health_preg_i_healthhx_timestamp_start",
             "items/pex_bm_health_preg_i_healthhx_location",
-            "items/pex_bm_health_preg_i_healthhx_001",
             "items/pex_bm_health_preg_i_healthhx_002",
             "items/pex_bm_health_preg_i_healthhx_003",
             "items/pex_bm_health_preg_i_healthhx_004",
@@ -113,11 +112,6 @@
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_location",
                 "isVis": true,
                 "variableName": "pex_bm_health_preg_i_healthhx_location"
-            },
-            {
-                "isAbout": "items/pex_bm_health_preg_i_healthhx_001",
-                "isVis": true,
-                "variableName": "pex_bm_health_preg_i_healthhx_001"
             },
             {
                 "isAbout": "items/pex_bm_health_preg_i_healthhx_002",
@@ -485,6 +479,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid104",
+    "version": "revid105",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

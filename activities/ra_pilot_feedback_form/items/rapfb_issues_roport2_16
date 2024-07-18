@@ -1,0 +1,19 @@
+{
+    "id": "rapfb_issues_roport2_16",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "rapfb_issues_roport2_16"
+    },
+    "question": {
+        "en": "Issues with Structural MRI-T1/T2"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

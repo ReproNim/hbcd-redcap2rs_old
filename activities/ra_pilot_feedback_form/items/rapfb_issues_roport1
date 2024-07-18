@@ -1,0 +1,124 @@
+{
+    "id": "rapfb_issues_roport1",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "rapfb_issues_roport1"
+    },
+    "question": {
+        "en": "Please check anywhere you have issues to report"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "name": {
+                    "en": "HBCD Demographics Interview/PhenX Geocode/Address"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "BFY Economic Stress"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "BFY Benefits/Services"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Health V1"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Personal and Family Psychiatric History"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "APA-1/APA-2"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "DSM5 Severity Acute Stress or PTSD"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Edinburgh Postnatal Depression Scale"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "ASSIST1"
+                },
+                "value": 9
+            },
+            {
+                "name": {
+                    "en": "TLFB"
+                },
+                "value": 10
+            },
+            {
+                "name": {
+                    "en": "PEPLE"
+                },
+                "value": 11
+            },
+            {
+                "name": {
+                    "en": "eHITS"
+                },
+                "value": 12
+            },
+            {
+                "name": {
+                    "en": "PhenX Discrimination"
+                },
+                "value": 13
+            },
+            {
+                "name": {
+                    "en": "Clinical Alerts"
+                },
+                "value": 14
+            },
+            {
+                "name": {
+                    "en": "Maternal urine"
+                },
+                "value": 15
+            },
+            {
+                "name": {
+                    "en": "Maternal blood"
+                },
+                "value": 16
+            },
+            {
+                "name": {
+                    "en": "Maternal saliva"
+                },
+                "value": 17
+            }
+        ],
+        "multipleChoice": true,
+        "valueType": [
+            "xsd:integer"
+        ]
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}

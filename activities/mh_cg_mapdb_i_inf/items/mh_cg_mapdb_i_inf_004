@@ -47,12 +47,6 @@
             },
             {
                 "name": {
-                    "en": "<font color=\"gray\">Don't know</font>"
-                },
-                "value": 999
-            },
-            {
-                "name": {
                     "en": "<font color=\"gray\">Decline to answer</font>"
                 },
                 "value": 777
