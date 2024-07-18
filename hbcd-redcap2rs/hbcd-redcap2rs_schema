@@ -13,7 +13,6 @@
             "../activities/setup/setup_schema",
             "../activities/setup_l/setup_l_schema",
             "../activities/visit_start/visit_start_schema",
-            "../activities/sed_bm_demo/sed_bm_demo_schema",
             "../activities/remote_survey_introduction/remote_survey_introduction_schema",
             "../activities/pex_bm_apa/pex_bm_apa_schema",
             "../activities/pex_bm_str_i_ptsd/pex_bm_str_i_ptsd_schema",
@@ -46,7 +45,8 @@
             "../activities/pex_bm_psych/pex_bm_psych_schema",
             "../activities/admin_part_fb/admin_part_fb_schema",
             "../activities/admin_alert/admin_alert_schema",
-            "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema"
+            "../activities/ra_pilot_feedback_form/ra_pilot_feedback_form_schema",
+            "../activities/sed_bm_demo/sed_bm_demo_schema"
         ],
         "addProperties": [
             {
@@ -72,14 +72,6 @@
                     "en": "Visit Start"
                 },
                 "variableName": "visit_start_schema"
-            },
-            {
-                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
-                "isVis": true,
-                "prefLabel": {
-                    "en": "Sed Bm Demo"
-                },
-                "variableName": "sed_bm_demo_schema"
             },
             {
                 "isAbout": "../activities/remote_survey_introduction/remote_survey_introduction_schema",
@@ -344,10 +336,18 @@
                     "en": "Ra Pilot Feedback Form"
                 },
                 "variableName": "ra_pilot_feedback_form_schema"
+            },
+            {
+                "isAbout": "../activities/sed_bm_demo/sed_bm_demo_schema",
+                "isVis": true,
+                "prefLabel": {
+                    "en": "Sed Bm Demo"
+                },
+                "variableName": "sed_bm_demo_schema"
             }
         ],
         "shuffle": false
     },
-    "version": "revid113",
+    "version": "revid114",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

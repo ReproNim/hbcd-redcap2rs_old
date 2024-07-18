@@ -80,6 +80,12 @@
             },
             {
                 "name": {
+                    "en": "None"
+                },
+                "value": 12
+            },
+            {
+                "name": {
                     "en": "<font color=\"gray\">Don't know</font>"
                 },
                 "value": 999
