@@ -49,21 +49,25 @@
             {
                 "isAbout": "items/sed_cg_employ_lang",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_cg_employ_lang"
             },
             {
                 "isAbout": "items/sed_cg_employ_dtt",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_cg_employ_dtt"
             },
             {
                 "isAbout": "items/sed_cg_employ_timestamp_start",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_cg_employ_timestamp_start"
             },
             {
                 "isAbout": "items/sed_cg_employ_location",
                 "isVis": true,
+                "valueRequired": true,
                 "variableName": "sed_cg_employ_location"
             },
             {
@@ -265,6 +269,6 @@
         ],
         "shuffle": false
     },
-    "version": "revid118",
+    "version": "revid122",
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
 }

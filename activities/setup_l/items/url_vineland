@@ -1,0 +1,19 @@
+{
+    "id": "url_vineland",
+    "category": "reproschema:Item",
+    "prefLabel": {
+        "en": "url_vineland"
+    },
+    "question": {
+        "en": "Vineland URL"
+    },
+    "responseOptions": {
+        "valueType": [
+            "xsd:string"
+        ]
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/main/releases/1.0.0/reproschema"
+}
