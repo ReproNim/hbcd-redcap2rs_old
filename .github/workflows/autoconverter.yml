@@ -1,0 +1,56 @@
+name: Reproschema Conversion with Storj Input via S3
+
+on:
+  workflow_dispatch:
+    inputs:
+      s3_path:
+        description: 'S3 path to input directory (e.g., s3://your-bucket/your-input-dir)'
+        required: true
+        default: ''
+
+jobs:
+  convert_and_update:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.9, 3.10, 3.11, 3.12]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        pip install .
+
+    - name: Configure AWS CLI for Storj
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.STORJ_AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.STORJ_AWS_SECRET_ACCESS_KEY }}
+      run: |
+        aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+        aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+        aws configure set default.region us-east-1
+        aws configure set default.s3.endpoint_url https://gateway.storjshare.io
+        # Verify configuration
+        aws sts get-caller-identity || exit 1
+
+    - name: Download input from Storj via S3
+      run: |
+        aws s3 cp --recursive "${{ github.event.inputs.s3_path }}" ./input_dir || exit 1
+
+    - name: Run conversion script in dry-run mode
+      run: |
+        convert-reproschema --dry-run  # Executes the script defined in pyproject.toml with dry-run
+
+    - name: Push changes (disabled for testing)
+      run: |
+        # Uncomment this once dry-run testing is complete
+        # git push --follow-tags

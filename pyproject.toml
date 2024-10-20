@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reproschema-converter"
+version = "0.1.0"
+description = "Reproschema Conversion with Storj Input via S3"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+license = "MIT"
+dependencies = [
+    "gitpython>=3.1",
+    "pyyaml>=5.4",
+    "reproschema>=0.1",
+    "boto3>=1.18",
+    "awscli>=1.19"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9 || ^3.10 || ^3.11 || ^3.12"
+
+[project.urls]
+homepage = "https://github.com/ReproNim/hbcd-redcap2rs"
+
+[tool.poetry.scripts]
+convert-reproschema = "convert_reproschema:main"
