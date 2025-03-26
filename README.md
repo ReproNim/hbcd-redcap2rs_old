@@ -1,4 +1,8 @@
-# Converting HBCD redcap to reproschema
+# Converting HBCD redcap to reproschema (Archived)
+
+**This repo is now archived, please go to [https://github.com/ReproNim/hbcd-redcap2rs](https://github.com/ReproNim/hbcd-redcap2rs) for the most updated information**
+
+---
 
 This repository contains the version-controlled implementation of the HEALthy Brain and Child Development Study (HBCD) ReproSchema, converted from REDCap data dictionaries, using the [`redcap2reproschema`](https://github.com/ReproNim/reproschema-py#redcap2reproschema-usage) tool
 
